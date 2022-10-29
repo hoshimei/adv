@@ -18,6 +18,11 @@
     "adv",
     "parser"
   ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/hoshimei/adv.git"
+  },
+  "homepage": "https://github.com/hoshimei/adv",
   "author": "Outvi V <oss+npm@outv.im>",
   "license": "AGPL-3.0-only"
 }
