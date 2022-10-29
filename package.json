@@ -1,0 +1,23 @@
+{
+  "name": "@hoshimei/adv",
+  "version": "0.1.0",
+  "description": "Aipura adv reader.",
+  "scripts": {
+    "bundle": "bash scripts/build.sh",
+    "build": "tsc",
+    "test:dev": "vitest",
+    "test:ui": "vitest --ui",
+    "test": "vitest run"
+  },
+  "devDependencies": {
+    "typescript": "^4.8.4",
+    "vitest": "^0.24.3"
+  },
+  "keywords": [
+    "idoly-pride",
+    "adv",
+    "parser"
+  ],
+  "author": "Outvi V <oss+npm@outv.im>",
+  "license": "AGPL-3.0-only"
+}
