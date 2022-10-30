@@ -83,7 +83,7 @@ export type Message = {
   _t: 'Message'
   text: string
   name: string
-  thumbnail: string
+  thumbnail?: string
 }
 
 export type Voice = MediaCommon & {
