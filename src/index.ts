@@ -20,6 +20,8 @@ export function parseRawCommand(c: RawCommand): Line {
       return p.readTitle(c)
     case 'message':
       return p.readMessage(c)
+    case 'voice':
+      return p.readVoice(c)
     default:
       return {
         _t: 'Unknown',

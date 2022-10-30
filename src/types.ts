@@ -1,10 +1,11 @@
 export type CommandName =
+  | 'ActorGroup'
   | 'BackgroundGroup'
   | 'BackgroundSetting'
-  | 'ActorGroup'
-  | 'Title'
   | 'Bgm'
   | 'Message'
+  | 'Title'
+  | 'Voice'
   | 'Unknown'
 
 export type NonCommandName = never
@@ -16,13 +17,14 @@ export interface LineBase {
 }
 
 export type Line = LineBase &
-  (
+  // Also update `type CommandName`!
+  (| ActorGroup
     | BackgroundGroup
     | BackgroundSetting
-    | ActorGroup
-    | Title
     | Bgm
     | Message
+    | Voice
+    | Title
     | Unknown
   )
 
@@ -80,6 +82,15 @@ export type Message = {
   text: string
   name: string
   thumbnail: string
+}
+
+export type Voice = {
+  _t: 'Voice'
+  voice: string
+  actorId: string
+  channel: number
+  startTime: number
+  duration: number
 }
 
 export type Unknown = {
