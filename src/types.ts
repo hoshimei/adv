@@ -43,6 +43,8 @@ export type Title = {
 export type Bgm = {
   _t: 'Bgm'
   bgm: string
+  startTime: number
+  duration: number
 }
 
 export type Message = {

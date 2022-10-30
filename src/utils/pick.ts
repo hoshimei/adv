@@ -1,3 +1,4 @@
+import { T } from 'vitest/dist/global-732f9b14'
 import type { ArgValueType, ArgValueTypeMap, RawCommand } from '../types'
 
 function checkType(
@@ -33,4 +34,19 @@ export function pickMany<T extends keyof ArgValueTypeMap>(
     }
   }
   return v as ArgValueTypeMap[T][]
+}
+
+export function pickObject<T extends keyof ArgValueTypeMap>(
+  c: Record<string, any>,
+  key: string,
+  assertType: Exclude<T, 'command'>
+): ArgValueTypeMap[T] {
+  const v = c[key]
+  if (v === undefined) {
+    throw Error(`Invalid key in object: "${key}"`)
+  }
+  if (!checkType(v, assertType)) {
+    throw Error(`Invalid type on key "${key}"`)
+  }
+  return v as ArgValueTypeMap[T]
 }
