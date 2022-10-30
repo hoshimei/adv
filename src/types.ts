@@ -59,7 +59,14 @@ export type Unknown = {
 
 // ------
 
-export type ArgValueType = string | number | Record<string, any> | RawCommand
+export type ArgValueTypeMap = {
+  string: string
+  number: number
+  object: Record<string, any>
+  command: RawCommand
+}
+
+export type ArgValueType = ArgValueTypeMap[keyof ArgValueTypeMap]
 
 export type Arg = {
   key: string
