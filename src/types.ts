@@ -74,7 +74,7 @@ export type Title = {
   title: string
 }
 
-export type Bgm = {
+export type Bgm = MediaCommon & {
   _t: 'Bgm'
   bgm: string
 }
