@@ -9,26 +9,31 @@ export function parse(text: string): RawCommand[] {
 }
 
 export function parseRawCommand(c: RawCommand): Line {
-  switch (c.command) {
-    case 'backgroundgroup':
-      return p.readBackgroundGroup(c)
-    case 'backgroundsetting':
-      return p.readBackgroundSetting(c)
-    case 'bgm':
-      return p.readBgm(c)
-    case 'title':
-      return p.readTitle(c)
-    case 'message':
-      return p.readMessage(c)
-    case 'se':
-      return p.readSe(c)
-    case 'voice':
-      return p.readVoice(c)
-    default:
-      return {
-        _t: 'Unknown',
-        raw: JSON.stringify(c),
-      }
+  try {
+    switch (c.command) {
+      case 'backgroundgroup':
+        return p.readBackgroundGroup(c)
+      case 'backgroundsetting':
+        return p.readBackgroundSetting(c)
+      case 'bgm':
+        return p.readBgm(c)
+      case 'title':
+        return p.readTitle(c)
+      case 'message':
+        return p.readMessage(c)
+      case 'se':
+        return p.readSe(c)
+      case 'voice':
+        return p.readVoice(c)
+      default:
+        return {
+          _t: 'Unknown',
+          raw: JSON.stringify(c),
+        }
+    }
+  } catch (e) {
+    console.error(`Error when parsing ${JSON.stringify(c)}: ${String(e)}`)
+    throw e
   }
 }
 
