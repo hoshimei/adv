@@ -15,7 +15,7 @@ export default function parseCommand(t: string): RawCommand {
     }
   }
   const argsStr = t.slice(commandSplit + 1, -1)
-  const matchItems = [...argsStr.matchAll(/(?<key>[a-z]+)=/g)]
+  const matchItems = [...argsStr.matchAll(/(?<key>[a-zA-Z]+)=/g)]
   const args: Arg[] = []
 
   let cruisePos = 0
