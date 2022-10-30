@@ -13,5 +13,5 @@
     "alwaysStrict": true,
     "skipLibCheck": true
   },
-  "exclude": ["tests"]
+  "exclude": ["tests", "*.spec.ts", "dist/"]
 }
