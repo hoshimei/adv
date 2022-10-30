@@ -37,7 +37,7 @@ export function parseRawCommand(c: RawCommand): Line {
   }
 }
 
-function read(text: string): Line[] {
+export function read(text: string): Line[] {
   const rawCommands = parse(text.replace(/\n\n/g, '\n').trim())
   return rawCommands.map(parseRawCommand)
 }
