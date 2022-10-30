@@ -12,6 +12,8 @@ export function parseRawCommand(c: RawCommand): Line {
   switch (c.command) {
     case 'backgroundgroup':
       return p.readBackgroundGroup(c)
+    case 'backgroundsetting':
+      return p.readBackgroundSetting(c)
     case 'bgm':
       return p.readBgm(c)
     case 'title':

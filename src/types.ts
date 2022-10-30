@@ -1,5 +1,6 @@
 export type CommandName =
   | 'BackgroundGroup'
+  | 'BackgroundSetting'
   | 'ActorGroup'
   | 'Title'
   | 'Bgm'
@@ -15,11 +16,38 @@ export interface LineBase {
 }
 
 export type Line = LineBase &
-  (BackgroundGroup | ActorGroup | Title | Bgm | Message | Unknown)
+  (
+    | BackgroundGroup
+    | BackgroundSetting
+    | ActorGroup
+    | Title
+    | Bgm
+    | Message
+    | Unknown
+  )
+
+type Xy = {
+  x: number
+  y: number
+}
+
+type Xyz = Xy & {
+  z: number
+}
+
+// ------
 
 export type BackgroundGroup = {
   _t: 'BackgroundGroup'
   backgrounds: string[]
+}
+
+export type BackgroundSetting = {
+  _t: 'BackgroundSetting'
+  id: string
+  position?: Xy
+  scale?: Xy
+  startTime: number
 }
 
 export type ActorGroup = {
