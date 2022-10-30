@@ -13722,3 +13722,2164 @@ exports[`parse the full env 1`] = `
   },
 ]
 `;
+
+exports[`read the full env 1`] = `
+[
+  {
+    "_t": "BackgroundGroup",
+    "backgrounds": [
+      "env_adv_2d_livestage-00-noon",
+      "env_adv_2d_stagesleeves-00-noon",
+      "env_adv_2d_cemetery-00-noon",
+    ],
+  },
+  {
+    "_t": "Unknown",
+    "raw": "{\\"command\\":\\"actorgroup\\",\\"args\\":[{\\"key\\":\\"actors\\",\\"value\\":{\\"command\\":\\"actor\\",\\"args\\":[{\\"key\\":\\"id\\",\\"value\\":\\"rio\\"},{\\"key\\":\\"body\\",\\"value\\":\\"mdl_chr_rio-kiok-00_body\\"},{\\"key\\":\\"face\\",\\"value\\":\\"mdl_chr_rio-base-00_face\\"},{\\"key\\":\\"hair\\",\\"value\\":\\"mdl_chr_rio-kiok-00_hair\\"}]}},{\\"key\\":\\"actors\\",\\"value\\":{\\"command\\":\\"actor\\",\\"args\\":[{\\"key\\":\\"id\\",\\"value\\":\\"aoi\\"},{\\"key\\":\\"body\\",\\"value\\":\\"mdl_chr_aoi-idol-00_body\\"},{\\"key\\":\\"face\\",\\"value\\":\\"mdl_chr_aoi-base-00_face\\"},{\\"key\\":\\"hair\\",\\"value\\":\\"mdl_chr_aoi-idol-00_hair\\"}]}},{\\"key\\":\\"actors\\",\\"value\\":{\\"command\\":\\"actor\\",\\"args\\":[{\\"key\\":\\"id\\",\\"value\\":\\"ai\\"},{\\"key\\":\\"body\\",\\"value\\":\\"mdl_chr_ai-idol-00_body\\"},{\\"key\\":\\"face\\",\\"value\\":\\"mdl_chr_ai-base-00_face\\"},{\\"key\\":\\"hair\\",\\"value\\":\\"mdl_chr_ai-idol-00_hair\\"}]}},{\\"key\\":\\"actors\\",\\"value\\":{\\"command\\":\\"actor\\",\\"args\\":[{\\"key\\":\\"id\\",\\"value\\":\\"kkr\\"},{\\"key\\":\\"body\\",\\"value\\":\\"mdl_chr_kkr-idol-00_body\\"},{\\"key\\":\\"face\\",\\"value\\":\\"mdl_chr_kkr-base-00_face\\"},{\\"key\\":\\"hair\\",\\"value\\":\\"mdl_chr_kkr-idol-00_hair\\"}]}},{\\"key\\":\\"actors\\",\\"value\\":{\\"command\\":\\"actor\\",\\"args\\":[{\\"key\\":\\"id\\",\\"value\\":\\"ktn\\"},{\\"key\\":\\"body\\",\\"value\\":\\"mdl_chr_ktn-kiok-00_body\\"},{\\"key\\":\\"face\\",\\"value\\":\\"mdl_chr_ktn-base-00_face\\"},{\\"key\\":\\"hair\\",\\"value\\":\\"mdl_chr_ktn-kiok-00_hair\\"}]}}]}",
+  },
+  {
+    "_t": "Title",
+    "title": "運命繋ぐ流星の軌跡 5話 星の海の記憶",
+  },
+  {
+    "_t": "Bgm",
+    "bgm": "sud_bgm_adv_liz-01",
+    "duration": 74.4333333333,
+    "startTime": 0,
+  },
+  {
+    "_t": "Bgm",
+    "bgm": "sud_bgm_adv_moon-01",
+    "duration": 69.5612698396,
+    "startTime": 77.7,
+  },
+  {
+    "_t": "Unknown",
+    "raw": "{\\"command\\":\\"fade\\",\\"args\\":[{\\"key\\":\\"from\\",\\"value\\":1},{\\"key\\":\\"to\\",\\"value\\":0},{\\"key\\":\\"clip\\",\\"value\\":{\\"_startTime\\":0,\\"_duration\\":0.8,\\"_easeInDuration\\":0,\\"_easeOutDuration\\":0,\\"_blendInDuration\\":-1,\\"_blendOutDuration\\":-1,\\"_mixInEaseType\\":1,\\"_mixOutEaseType\\":1,\\"_timeScale\\":1}}]}",
+  },
+  {
+    "_t": "Unknown",
+    "raw": "{\\"command\\":\\"camerasetting\\",\\"args\\":[{\\"key\\":\\"setting\\",\\"value\\":{\\"focalLength\\":200,\\"transform\\":{\\"position\\":{\\"x\\":0,\\"y\\":1.340000033378601,\\"z\\":3},\\"rotation\\":{\\"x\\":0,\\"y\\":180,\\"z\\":0},\\"scale\\":{\\"x\\":1,\\"y\\":1,\\"z\\":1}},\\"dofSetting\\":{\\"active\\":true,\\"focalPoint\\":4,\\"fNumber\\":4,\\"maxBlurSpread\\":3}}},{\\"key\\":\\"clip\\",\\"value\\":{\\"_startTime\\":0,\\"_duration\\":0,\\"_easeInDuration\\":0,\\"_easeOutDuration\\":0,\\"_blendInDuration\\":-1,\\"_blendOutDuration\\":-1,\\"_mixInEaseType\\":1,\\"_mixOutEaseType\\":1,\\"_timeScale\\":1}}]}",
+  },
+  {
+    "_t": "BackgroundSetting",
+    "id": "livestage-00-noon",
+    "position": {
+      "x": 0,
+      "y": 0,
+    },
+    "scale": {
+      "x": 2,
+      "y": 2,
+    },
+    "startTime": 0,
+  },
+  {
+    "_t": "Unknown",
+    "raw": "{\\"command\\":\\"actorlayoutgroup\\",\\"args\\":[{\\"key\\":\\"layouts\\",\\"value\\":{\\"command\\":\\"actorlayout\\",\\"args\\":[{\\"key\\":\\"id\\",\\"value\\":\\"kkr\\"}]}},{\\"key\\":\\"clip\\",\\"value\\":{\\"_startTime\\":0,\\"_duration\\":0,\\"_easeInDuration\\":0,\\"_easeOutDuration\\":0,\\"_blendInDuration\\":-1,\\"_blendOutDuration\\":-1,\\"_mixInEaseType\\":1,\\"_mixOutEaseType\\":1,\\"_timeScale\\":1}}]}",
+  },
+  {
+    "_t": "Unknown",
+    "raw": "{\\"command\\":\\"actormotion\\",\\"args\\":[{\\"key\\":\\"id\\",\\"value\\":\\"kkr\\"},{\\"key\\":\\"motion\\",\\"value\\":\\"mot_adv_chr_cmn_rep-005_in\\"},{\\"key\\":\\"clip\\",\\"value\\":{\\"_startTime\\":0,\\"_duration\\":1.2333333492,\\"_easeInDuration\\":0,\\"_easeOutDuration\\":0,\\"_blendInDuration\\":-1,\\"_blendOutDuration\\":-1,\\"_mixInEaseType\\":1,\\"_mixOutEaseType\\":1,\\"_timeScale\\":1}}]}",
+  },
+  {
+    "_t": "Unknown",
+    "raw": "{\\"command\\":\\"actormotion\\",\\"args\\":[{\\"key\\":\\"id\\",\\"value\\":\\"kkr\\"},{\\"key\\":\\"motion\\",\\"value\\":\\"mot_adv_chr_cmn_talk-015_in\\"},{\\"key\\":\\"transition\\",\\"value\\":0.5},{\\"key\\":\\"clip\\",\\"value\\":{\\"_startTime\\":3.09,\\"_duration\\":1.8000000715,\\"_easeInDuration\\":0,\\"_easeOutDuration\\":0,\\"_blendInDuration\\":-1,\\"_blendOutDuration\\":-1,\\"_mixInEaseType\\":1,\\"_mixOutEaseType\\":1,\\"_timeScale\\":1}}]}",
+  },
+  {
+    "_t": "Unknown",
+    "raw": "{\\"command\\":\\"actorfacialmotion\\",\\"args\\":[{\\"key\\":\\"id\\",\\"value\\":\\"kkr\\"},{\\"key\\":\\"motion\\",\\"value\\":\\"mot_all_chr_cmn_facial-001_in\\"},{\\"key\\":\\"clip\\",\\"value\\":{\\"_startTime\\":3.09,\\"_duration\\":0.0333333351,\\"_easeInDuration\\":0,\\"_easeOutDuration\\":0,\\"_blendInDuration\\":-1,\\"_blendOutDuration\\":-1,\\"_mixInEaseType\\":1,\\"_mixOutEaseType\\":1,\\"_timeScale\\":1}}]}",
+  },
+  {
+    "_t": "Unknown",
+    "raw": "{\\"command\\":\\"actormotion\\",\\"args\\":[{\\"key\\":\\"id\\",\\"value\\":\\"kkr\\"},{\\"key\\":\\"motion\\",\\"value\\":\\"mot_adv_chr_cmn_glad-005_in\\"},{\\"key\\":\\"transition\\",\\"value\\":0.5},{\\"key\\":\\"clip\\",\\"value\\":{\\"_startTime\\":5.12,\\"_duration\\":1.7333334684,\\"_easeInDuration\\":0,\\"_easeOutDuration\\":0,\\"_blendInDuration\\":-1,\\"_blendOutDuration\\":-1,\\"_mixInEaseType\\":1,\\"_mixOutEaseType\\":1,\\"_timeScale\\":1}}]}",
+  },
+  {
+    "_t": "Unknown",
+    "raw": "{\\"command\\":\\"actormotion\\",\\"args\\":[{\\"key\\":\\"id\\",\\"value\\":\\"kkr\\"},{\\"key\\":\\"motion\\",\\"value\\":\\"mot_adv_chr_cmn_rep-004_in\\"},{\\"key\\":\\"transition\\",\\"value\\":0.5},{\\"key\\":\\"clip\\",\\"value\\":{\\"_startTime\\":7.6,\\"_duration\\":1.5333334208,\\"_easeInDuration\\":0,\\"_easeOutDuration\\":0,\\"_blendInDuration\\":-1,\\"_blendOutDuration\\":-1,\\"_mixInEaseType\\":1,\\"_mixOutEaseType\\":1,\\"_timeScale\\":1}}]}",
+  },
+  {
+    "_t": "Se",
+    "duration": 4.021437645,
+    "se": "sud_se_adv_cheers-in-01",
+    "startTime": 8.4,
+  },
+  {
+    "_t": "Unknown",
+    "raw": "{\\"command\\":\\"actorsweat\\",\\"args\\":[{\\"key\\":\\"id\\",\\"value\\":\\"kkr\\"},{\\"key\\":\\"weight\\",\\"value\\":0.8}]}",
+  },
+  {
+    "_t": "Unknown",
+    "raw": "{\\"command\\":\\"actorsweat\\",\\"args\\":[{\\"key\\":\\"id\\",\\"value\\":\\"aoi\\"},{\\"key\\":\\"weight\\",\\"value\\":0.8},{\\"key\\":\\"clip\\",\\"value\\":{\\"_startTime\\":0,\\"_duration\\":0,\\"_easeInDuration\\":0,\\"_easeOutDuration\\":0,\\"_blendInDuration\\":-1,\\"_blendOutDuration\\":-1,\\"_mixInEaseType\\":1,\\"_mixOutEaseType\\":1,\\"_timeScale\\":1}}]}",
+  },
+  {
+    "_t": "Unknown",
+    "raw": "{\\"command\\":\\"actorsweat\\",\\"args\\":[{\\"key\\":\\"id\\",\\"value\\":\\"ai\\"},{\\"key\\":\\"weight\\",\\"value\\":0.8},{\\"key\\":\\"clip\\",\\"value\\":{\\"_startTime\\":0,\\"_duration\\":0,\\"_easeInDuration\\":0,\\"_easeOutDuration\\":0,\\"_blendInDuration\\":-1,\\"_blendOutDuration\\":-1,\\"_mixInEaseType\\":1,\\"_mixOutEaseType\\":1,\\"_timeScale\\":1}}]}",
+  },
+  {
+    "_t": "Message",
+    "name": "赤崎こころ",
+    "text": "星見市のみなさん、新生LizNoirの",
+    "thumbnail": "img_chr_adv_kkr-00",
+  },
+  {
+    "_t": "Message",
+    "name": "赤崎こころ",
+    "text": "ライブ楽しんでますかーっ！　元気ですかーっ！",
+    "thumbnail": "img_chr_adv_kkr-00",
+  },
+  {
+    "_t": "Voice",
+    "actorId": "kkr",
+    "channel": 1,
+    "duration": 8.8274145126,
+    "startTime": 0.8,
+    "voice": "sud_vo_adv_event_2210_01_05-kkr001",
+  },
+  {
+    "_t": "Unknown",
+    "raw": "{\\"command\\":\\"camerasetting\\",\\"args\\":[{\\"key\\":\\"setting\\",\\"value\\":{\\"focalLength\\":90,\\"nearClipPlane\\":0.10000000149011612,\\"farClipPlane\\":5000,\\"transform\\":{\\"position\\":{\\"x\\":0,\\"y\\":1.227474331855774,\\"z\\":3},\\"rotation\\":{\\"x\\":0,\\"y\\":180,\\"z\\":0},\\"scale\\":{\\"x\\":1,\\"y\\":1,\\"z\\":1}}}},{\\"key\\":\\"clip\\",\\"value\\":{\\"_startTime\\":10.1333333333,\\"_duration\\":0,\\"_easeInDuration\\":0,\\"_easeOutDuration\\":0,\\"_blendInDuration\\":-1,\\"_blendOutDuration\\":-1,\\"_mixInEaseType\\":1,\\"_mixOutEaseType\\":1,\\"_timeScale\\":1}}]}",
+  },
+  {
+    "_t": "BackgroundSetting",
+    "id": "livestage-00-noon",
+    "startTime": 10.1333333333,
+  },
+  {
+    "_t": "Unknown",
+    "raw": "{\\"command\\":\\"actorlayoutgroup\\",\\"args\\":[{\\"key\\":\\"layouts\\",\\"value\\":{\\"command\\":\\"actorlayout\\",\\"args\\":[{\\"key\\":\\"id\\",\\"value\\":\\"ai\\"},{\\"key\\":\\"transform\\",\\"value\\":{\\"position\\":{\\"x\\":0.5,\\"y\\":0,\\"z\\":-1.2000000476837158},\\"rotation\\":{\\"x\\":0,\\"y\\":350.95355224609375,\\"z\\":0},\\"scale\\":{\\"x\\":1,\\"y\\":1,\\"z\\":1}}}]}},{\\"key\\":\\"layouts\\",\\"value\\":{\\"command\\":\\"actorlayout\\",\\"args\\":[{\\"key\\":\\"id\\",\\"value\\":\\"kkr\\"},{\\"key\\":\\"transform\\",\\"value\\":{\\"position\\":{\\"x\\":0.020190492272377014,\\"y\\":0,\\"z\\":-0.8999999761581421},\\"rotation\\":{\\"x\\":0,\\"y\\":-1.2357815504074097,\\"z\\":0},\\"scale\\":{\\"x\\":1,\\"y\\":1,\\"z\\":1}}}]}},{\\"key\\":\\"layouts\\",\\"value\\":{\\"command\\":\\"actorlayout\\",\\"args\\":[{\\"key\\":\\"id\\",\\"value\\":\\"aoi\\"},{\\"key\\":\\"transform\\",\\"value\\":{\\"position\\":{\\"x\\":-0.5,\\"y\\":0,\\"z\\":-1.2000000476837158},\\"rotation\\":{\\"x\\":0,\\"y\\":6.640061855316162,\\"z\\":0},\\"scale\\":{\\"x\\":1,\\"y\\":1,\\"z\\":1}}}]}},{\\"key\\":\\"clip\\",\\"value\\":{\\"_startTime\\":10.1333333333,\\"_duration\\":0,\\"_easeInDuration\\":0,\\"_easeOutDuration\\":0,\\"_blendInDuration\\":-1,\\"_blendOutDuration\\":-1,\\"_mixInEaseType\\":1,\\"_mixOutEaseType\\":1,\\"_timeScale\\":1}}]}",
+  },
+  {
+    "_t": "Unknown",
+    "raw": "{\\"command\\":\\"actormotion\\",\\"args\\":[{\\"key\\":\\"id\\",\\"value\\":\\"kkr\\"},{\\"key\\":\\"motion\\",\\"value\\":\\"mot_adv_chr_cmn_talk-019_in\\"},{\\"key\\":\\"clip\\",\\"value\\":{\\"_startTime\\":10.1333333333,\\"_duration\\":2.2333333492,\\"_easeInDuration\\":0,\\"_easeOutDuration\\":0,\\"_blendInDuration\\":-1,\\"_blendOutDuration\\":-1,\\"_mixInEaseType\\":1,\\"_mixOutEaseType\\":1,\\"_timeScale\\":1}}]}",
+  },
+  {
+    "_t": "Unknown",
+    "raw": "{\\"command\\":\\"actorfacialmotion\\",\\"args\\":[{\\"key\\":\\"id\\",\\"value\\":\\"kkr\\"},{\\"key\\":\\"motion\\",\\"value\\":\\"mot_all_chr_cmn_facial-008_in\\"},{\\"key\\":\\"transition\\",\\"value\\":0},{\\"key\\":\\"clip\\",\\"value\\":{\\"_startTime\\":10.1333333333,\\"_duration\\":0.0333333351,\\"_easeInDuration\\":0,\\"_easeOutDuration\\":0,\\"_blendInDuration\\":-1,\\"_blendOutDuration\\":-1,\\"_mixInEaseType\\":1,\\"_mixOutEaseType\\":1,\\"_timeScale\\":1}}]}",
+  },
+  {
+    "_t": "Unknown",
+    "raw": "{\\"command\\":\\"actormotion\\",\\"args\\":[{\\"key\\":\\"id\\",\\"value\\":\\"kkr\\"},{\\"key\\":\\"motion\\",\\"value\\":\\"mot_adv_chr_cmn_pos-007_in\\"},{\\"key\\":\\"transition\\",\\"value\\":0.5},{\\"key\\":\\"clip\\",\\"value\\":{\\"_startTime\\":12.5,\\"_duration\\":1.4000000954,\\"_easeInDuration\\":0,\\"_easeOutDuration\\":0,\\"_blendInDuration\\":-1,\\"_blendOutDuration\\":-1,\\"_mixInEaseType\\":1,\\"_mixOutEaseType\\":1,\\"_timeScale\\":1}}]}",
+  },
+  {
+    "_t": "Unknown",
+    "raw": "{\\"command\\":\\"actormotion\\",\\"args\\":[{\\"key\\":\\"id\\",\\"value\\":\\"kkr\\"},{\\"key\\":\\"motion\\",\\"value\\":\\"mot_adv_chr_cmn_talk-010_in\\"},{\\"key\\":\\"transition\\",\\"value\\":0.5},{\\"key\\":\\"clip\\",\\"value\\":{\\"_startTime\\":14.1666666667,\\"_duration\\":1.5333334208,\\"_easeInDuration\\":0,\\"_easeOutDuration\\":0,\\"_blendInDuration\\":-1,\\"_blendOutDuration\\":-1,\\"_mixInEaseType\\":1,\\"_mixOutEaseType\\":1,\\"_timeScale\\":1}}]}",
+  },
+  {
+    "_t": "Unknown",
+    "raw": "{\\"command\\":\\"actorfacialmotion\\",\\"args\\":[{\\"key\\":\\"id\\",\\"value\\":\\"kkr\\"},{\\"key\\":\\"motion\\",\\"value\\":\\"mot_all_chr_cmn_facial-001_in\\"},{\\"key\\":\\"clip\\",\\"value\\":{\\"_startTime\\":14.1666666667,\\"_duration\\":0.0333333351,\\"_easeInDuration\\":0,\\"_easeOutDuration\\":0,\\"_blendInDuration\\":-1,\\"_blendOutDuration\\":-1,\\"_mixInEaseType\\":1,\\"_mixOutEaseType\\":1,\\"_timeScale\\":1}}]}",
+  },
+  {
+    "_t": "Unknown",
+    "raw": "{\\"command\\":\\"actormotion\\",\\"args\\":[{\\"key\\":\\"id\\",\\"value\\":\\"kkr\\"},{\\"key\\":\\"motion\\",\\"value\\":\\"mot_adv_chr_cmn_pos-002_in\\"},{\\"key\\":\\"transition\\",\\"value\\":0.5},{\\"key\\":\\"clip\\",\\"value\\":{\\"_startTime\\":16.1666666667,\\"_duration\\":1.6666667461,\\"_easeInDuration\\":0,\\"_easeOutDuration\\":0,\\"_blendInDuration\\":-1,\\"_blendOutDuration\\":-1,\\"_mixInEaseType\\":1,\\"_mixOutEaseType\\":1,\\"_timeScale\\":1}}]}",
+  },
+  {
+    "_t": "Unknown",
+    "raw": "{\\"command\\":\\"actormotion\\",\\"args\\":[{\\"key\\":\\"id\\",\\"value\\":\\"ai\\"},{\\"key\\":\\"motion\\",\\"value\\":\\"mot_adv_chr_cmn_talk-015_pose\\"},{\\"key\\":\\"clip\\",\\"value\\":{\\"_startTime\\":10.1333333333,\\"_duration\\":0.0333333351,\\"_easeInDuration\\":0,\\"_easeOutDuration\\":0,\\"_blendInDuration\\":-1,\\"_blendOutDuration\\":-1,\\"_mixInEaseType\\":1,\\"_mixOutEaseType\\":1,\\"_timeScale\\":1}}]}",
+  },
+  {
+    "_t": "Unknown",
+    "raw": "{\\"command\\":\\"actorfacialmotion\\",\\"args\\":[{\\"key\\":\\"id\\",\\"value\\":\\"ai\\"},{\\"key\\":\\"motion\\",\\"value\\":\\"mot_all_chr_cmn_facial-001_in\\"},{\\"key\\":\\"transition\\",\\"value\\":0},{\\"key\\":\\"clip\\",\\"value\\":{\\"_startTime\\":10.1333333333,\\"_duration\\":0.0333333351,\\"_easeInDuration\\":0,\\"_easeOutDuration\\":0,\\"_blendInDuration\\":-1,\\"_blendOutDuration\\":-1,\\"_mixInEaseType\\":1,\\"_mixOutEaseType\\":1,\\"_timeScale\\":1}}]}",
+  },
+  {
+    "_t": "Unknown",
+    "raw": "{\\"command\\":\\"actormotion\\",\\"args\\":[{\\"key\\":\\"id\\",\\"value\\":\\"aoi\\"},{\\"key\\":\\"motion\\",\\"value\\":\\"mot_adv_chr_cmn_talk-003_pose\\"},{\\"key\\":\\"clip\\",\\"value\\":{\\"_startTime\\":10.1333333333,\\"_duration\\":0.0333333351,\\"_easeInDuration\\":0,\\"_easeOutDuration\\":0,\\"_blendInDuration\\":-1,\\"_blendOutDuration\\":-1,\\"_mixInEaseType\\":1,\\"_mixOutEaseType\\":1,\\"_timeScale\\":1}}]}",
+  },
+  {
+    "_t": "Unknown",
+    "raw": "{\\"command\\":\\"actorfacialmotion\\",\\"args\\":[{\\"key\\":\\"id\\",\\"value\\":\\"aoi\\"},{\\"key\\":\\"motion\\",\\"value\\":\\"mot_all_chr_cmn_facial-001_in\\"},{\\"key\\":\\"transition\\",\\"value\\":0},{\\"key\\":\\"clip\\",\\"value\\":{\\"_startTime\\":10.1333333333,\\"_duration\\":0.0333333351,\\"_easeInDuration\\":0,\\"_easeOutDuration\\":0,\\"_blendInDuration\\":-1,\\"_blendOutDuration\\":-1,\\"_mixInEaseType\\":1,\\"_mixOutEaseType\\":1,\\"_timeScale\\":1}}]}",
+  },
+  {
+    "_t": "Message",
+    "name": "赤崎こころ",
+    "text": "みんな、もうこころの魅力に夢中ですね！",
+    "thumbnail": "img_chr_adv_kkr-00",
+  },
+  {
+    "_t": "Message",
+    "name": "赤崎こころ",
+    "text": "では、ダメ押しに莉央さんのモノマネを――",
+    "thumbnail": "img_chr_adv_kkr-00",
+  },
+  {
+    "_t": "Voice",
+    "actorId": "kkr",
+    "channel": 1,
+    "duration": 7.27612257,
+    "startTime": 10.1333333333,
+    "voice": "sud_vo_adv_event_2210_01_05-kkr002",
+  },
+  {
+    "_t": "Unknown",
+    "raw": "{\\"command\\":\\"camerasetting\\",\\"args\\":[{\\"key\\":\\"setting\\",\\"value\\":{\\"focalLength\\":200,\\"transform\\":{\\"position\\":{\\"x\\":0,\\"y\\":1.340000033378601,\\"z\\":3},\\"rotation\\":{\\"x\\":0,\\"y\\":180,\\"z\\":0},\\"scale\\":{\\"x\\":1,\\"y\\":1,\\"z\\":1}},\\"dofSetting\\":{\\"active\\":true,\\"focalPoint\\":4,\\"fNumber\\":4,\\"maxBlurSpread\\":3}}},{\\"key\\":\\"clip\\",\\"value\\":{\\"_startTime\\":17.9,\\"_duration\\":0,\\"_easeInDuration\\":0,\\"_easeOutDuration\\":0,\\"_blendInDuration\\":-1,\\"_blendOutDuration\\":-1,\\"_mixInEaseType\\":1,\\"_mixOutEaseType\\":1,\\"_timeScale\\":1}}]}",
+  },
+  {
+    "_t": "BackgroundSetting",
+    "id": "livestage-00-noon",
+    "position": {
+      "x": 0,
+      "y": 0,
+    },
+    "scale": {
+      "x": 2,
+      "y": 2,
+    },
+    "startTime": 17.9,
+  },
+  {
+    "_t": "Unknown",
+    "raw": "{\\"command\\":\\"actorlayoutgroup\\",\\"args\\":[{\\"key\\":\\"layouts\\",\\"value\\":{\\"command\\":\\"actorlayout\\",\\"args\\":[{\\"key\\":\\"id\\",\\"value\\":\\"kkr\\"}]}},{\\"key\\":\\"clip\\",\\"value\\":{\\"_startTime\\":17.9,\\"_duration\\":0,\\"_easeInDuration\\":0,\\"_easeOutDuration\\":0,\\"_blendInDuration\\":-1,\\"_blendOutDuration\\":-1,\\"_mixInEaseType\\":1,\\"_mixOutEaseType\\":1,\\"_timeScale\\":1}}]}",
+  },
+  {
+    "_t": "Unknown",
+    "raw": "{\\"command\\":\\"actormotion\\",\\"args\\":[{\\"key\\":\\"id\\",\\"value\\":\\"kkr\\"},{\\"key\\":\\"motion\\",\\"value\\":\\"mot_adv_chr_cmn_pos-022_in\\"},{\\"key\\":\\"clip\\",\\"value\\":{\\"_startTime\\":17.9,\\"_duration\\":1.8000000715,\\"_easeInDuration\\":0,\\"_easeOutDuration\\":0,\\"_blendInDuration\\":-1,\\"_blendOutDuration\\":-1,\\"_mixInEaseType\\":1,\\"_mixOutEaseType\\":1,\\"_timeScale\\":1}}]}",
+  },
+  {
+    "_t": "Message",
+    "name": "赤崎こころ",
+    "text": "LizNoirに笑顔はいらな……",
+    "thumbnail": "img_chr_adv_kkr-00",
+  },
+  {
+    "_t": "Voice",
+    "actorId": "kkr",
+    "channel": 1,
+    "duration": 2.6653287411,
+    "startTime": 17.9,
+    "voice": "sud_vo_adv_event_2210_01_05-kkr003",
+  },
+  {
+    "_t": "Unknown",
+    "raw": "{\\"command\\":\\"camerasetting\\",\\"args\\":[{\\"key\\":\\"setting\\",\\"value\\":{\\"focalLength\\":130,\\"transform\\":{\\"position\\":{\\"x\\":0,\\"y\\":1.3600000143051147,\\"z\\":3},\\"rotation\\":{\\"x\\":0,\\"y\\":180,\\"z\\":0},\\"scale\\":{\\"x\\":1,\\"y\\":1,\\"z\\":1}},\\"dofSetting\\":{\\"active\\":false,\\"focalPoint\\":1.7999999523162842,\\"fNumber\\":2.799999952316284,\\"maxBlurSpread\\":3}}},{\\"key\\":\\"clip\\",\\"value\\":{\\"_startTime\\":20.6333333333,\\"_duration\\":0,\\"_easeInDuration\\":0,\\"_easeOutDuration\\":0,\\"_blendInDuration\\":-1,\\"_blendOutDuration\\":-1,\\"_mixInEaseType\\":1,\\"_mixOutEaseType\\":1,\\"_timeScale\\":1}}]}",
+  },
+  {
+    "_t": "BackgroundSetting",
+    "id": "livestage-00-noon",
+    "position": {
+      "x": 300,
+      "y": 0,
+    },
+    "scale": {
+      "x": 1.5,
+      "y": 1.5,
+    },
+    "startTime": 20.6333333333,
+  },
+  {
+    "_t": "Unknown",
+    "raw": "{\\"command\\":\\"actorlayoutgroup\\",\\"args\\":[{\\"key\\":\\"layouts\\",\\"value\\":{\\"command\\":\\"actorlayout\\",\\"args\\":[{\\"key\\":\\"id\\",\\"value\\":\\"ai\\"},{\\"key\\":\\"transform\\",\\"value\\":{\\"position\\":{\\"x\\":0,\\"y\\":0,\\"z\\":0},\\"rotation\\":{\\"x\\":0,\\"y\\":-15,\\"z\\":0},\\"scale\\":{\\"x\\":1,\\"y\\":1,\\"z\\":1}}}]}},{\\"key\\":\\"clip\\",\\"value\\":{\\"_startTime\\":20.6333333333,\\"_duration\\":0,\\"_easeInDuration\\":0,\\"_easeOutDuration\\":0,\\"_blendInDuration\\":-1,\\"_blendOutDuration\\":-1,\\"_mixInEaseType\\":1,\\"_mixOutEaseType\\":1,\\"_timeScale\\":1}}]}",
+  },
+  {
+    "_t": "Unknown",
+    "raw": "{\\"command\\":\\"actormotion\\",\\"args\\":[{\\"key\\":\\"id\\",\\"value\\":\\"ai\\"},{\\"key\\":\\"motion\\",\\"value\\":\\"mot_adv_chr_cmn_angry-016_in\\"},{\\"key\\":\\"clip\\",\\"value\\":{\\"_startTime\\":20.6333333333,\\"_duration\\":1.4000000954,\\"_easeInDuration\\":0,\\"_easeOutDuration\\":0,\\"_blendInDuration\\":-1,\\"_blendOutDuration\\":-1,\\"_mixInEaseType\\":1,\\"_mixOutEaseType\\":1,\\"_timeScale\\":1}}]}",
+  },
+  {
+    "_t": "Unknown",
+    "raw": "{\\"command\\":\\"actormotion\\",\\"args\\":[{\\"key\\":\\"id\\",\\"value\\":\\"ai\\"},{\\"key\\":\\"motion\\",\\"value\\":\\"mot_adv_chr_cmn_talk-010_in\\"},{\\"key\\":\\"transition\\",\\"value\\":0.5},{\\"key\\":\\"clip\\",\\"value\\":{\\"_startTime\\":22.0333334287,\\"_duration\\":1.5333334208,\\"_easeInDuration\\":0,\\"_easeOutDuration\\":0,\\"_blendInDuration\\":-1,\\"_blendOutDuration\\":-1,\\"_mixInEaseType\\":1,\\"_mixOutEaseType\\":1,\\"_timeScale\\":1}}]}",
+  },
+  {
+    "_t": "Unknown",
+    "raw": "{\\"command\\":\\"actorfacialmotion\\",\\"args\\":[{\\"key\\":\\"id\\",\\"value\\":\\"ai\\"},{\\"key\\":\\"motion\\",\\"value\\":\\"mot_all_chr_cmn_facial-003_in\\"},{\\"key\\":\\"clip\\",\\"value\\":{\\"_startTime\\":22.0333334287,\\"_duration\\":0.0333333351,\\"_easeInDuration\\":0,\\"_easeOutDuration\\":0,\\"_blendInDuration\\":-1,\\"_blendOutDuration\\":-1,\\"_mixInEaseType\\":1,\\"_mixOutEaseType\\":1,\\"_timeScale\\":1}}]}",
+  },
+  {
+    "_t": "Unknown",
+    "raw": "{\\"command\\":\\"actormotion\\",\\"args\\":[{\\"key\\":\\"id\\",\\"value\\":\\"ai\\"},{\\"key\\":\\"motion\\",\\"value\\":\\"mot_adv_chr_cmn_talk-022_in\\"},{\\"key\\":\\"transition\\",\\"value\\":0.5},{\\"key\\":\\"clip\\",\\"value\\":{\\"_startTime\\":23.8,\\"_duration\\":1.9333333969,\\"_easeInDuration\\":0,\\"_easeOutDuration\\":0,\\"_blendInDuration\\":-1,\\"_blendOutDuration\\":-1,\\"_mixInEaseType\\":1,\\"_mixOutEaseType\\":1,\\"_timeScale\\":1}}]}",
+  },
+  {
+    "_t": "Unknown",
+    "raw": "{\\"command\\":\\"actorfacialmotion\\",\\"args\\":[{\\"key\\":\\"id\\",\\"value\\":\\"ai\\"},{\\"key\\":\\"motion\\",\\"value\\":\\"mot_all_chr_cmn_facial-003_in\\"},{\\"key\\":\\"clip\\",\\"value\\":{\\"_startTime\\":23.8,\\"_duration\\":0.0333333351,\\"_easeInDuration\\":0,\\"_easeOutDuration\\":0,\\"_blendInDuration\\":-1,\\"_blendOutDuration\\":-1,\\"_mixInEaseType\\":1,\\"_mixOutEaseType\\":1,\\"_timeScale\\":1}}]}",
+  },
+  {
+    "_t": "Unknown",
+    "raw": "{\\"command\\":\\"actorlooktargettween\\",\\"args\\":[{\\"key\\":\\"id\\",\\"value\\":\\"ai\\"},{\\"key\\":\\"to\\",\\"value\\":{\\"type\\":1,\\"actorId\\":\\"\\",\\"bones\\":10,\\"azimuth\\":0,\\"elevation\\":0,\\"weight\\":1,\\"eyesWeight\\":0.30000001192092896,\\"headWeight\\":0.6000000238418579,\\"bodyWeight\\":0.10000000149011612}},{\\"key\\":\\"clip\\",\\"value\\":{\\"_startTime\\":23.8,\\"_duration\\":0.6,\\"_easeInDuration\\":0,\\"_easeOutDuration\\":0,\\"_blendInDuration\\":-1,\\"_blendOutDuration\\":-1,\\"_mixInEaseType\\":1,\\"_mixOutEaseType\\":1,\\"_timeScale\\":1}}]}",
+  },
+  {
+    "_t": "Se",
+    "duration": 2.0487499237,
+    "se": "sud_se_adv_laugh-01",
+    "startTime": 25.6,
+  },
+  {
+    "_t": "Message",
+    "name": "小美山愛",
+    "text": "ちょっ、こころ、脱線しないの！",
+    "thumbnail": "img_chr_adv_ai-00",
+  },
+  {
+    "_t": "Message",
+    "name": "小美山愛",
+    "text": "もー、すみませーん",
+    "thumbnail": "img_chr_adv_ai-00",
+  },
+  {
+    "_t": "Voice",
+    "actorId": "ai",
+    "channel": 1,
+    "duration": 5.1513381004,
+    "startTime": 20.6333333333,
+    "voice": "sud_vo_adv_event_2210_01_05-ai001",
+  },
+  {
+    "_t": "Unknown",
+    "raw": "{\\"command\\":\\"camerasetting\\",\\"args\\":[{\\"key\\":\\"setting\\",\\"value\\":{\\"focalLength\\":200,\\"transform\\":{\\"position\\":{\\"x\\":0,\\"y\\":1.3840880393981934,\\"z\\":2.8664581775665283},\\"rotation\\":{\\"x\\":0,\\"y\\":180,\\"z\\":0},\\"scale\\":{\\"x\\":1,\\"y\\":1,\\"z\\":1}},\\"dofSetting\\":{\\"active\\":true,\\"focalPoint\\":4,\\"fNumber\\":4,\\"maxBlurSpread\\":3}}},{\\"key\\":\\"clip\\",\\"value\\":{\\"_startTime\\":27.2,\\"_duration\\":0,\\"_easeInDuration\\":0,\\"_easeOutDuration\\":0,\\"_blendInDuration\\":-1,\\"_blendOutDuration\\":-1,\\"_mixInEaseType\\":1,\\"_mixOutEaseType\\":1,\\"_timeScale\\":1}}]}",
+  },
+  {
+    "_t": "BackgroundSetting",
+    "id": "livestage-00-noon",
+    "position": {
+      "x": -500,
+      "y": 0,
+    },
+    "scale": {
+      "x": 2,
+      "y": 2,
+    },
+    "startTime": 27.2,
+  },
+  {
+    "_t": "Unknown",
+    "raw": "{\\"command\\":\\"actorlayoutgroup\\",\\"args\\":[{\\"key\\":\\"layouts\\",\\"value\\":{\\"command\\":\\"actorlayout\\",\\"args\\":[{\\"key\\":\\"id\\",\\"value\\":\\"aoi\\"},{\\"key\\":\\"transform\\",\\"value\\":{\\"position\\":{\\"x\\":0,\\"y\\":0,\\"z\\":0},\\"rotation\\":{\\"x\\":0,\\"y\\":0,\\"z\\":0},\\"scale\\":{\\"x\\":1,\\"y\\":1,\\"z\\":1}}}]}},{\\"key\\":\\"clip\\",\\"value\\":{\\"_startTime\\":27.2,\\"_duration\\":0,\\"_easeInDuration\\":0,\\"_easeOutDuration\\":0,\\"_blendInDuration\\":-1,\\"_blendOutDuration\\":-1,\\"_mixInEaseType\\":1,\\"_mixOutEaseType\\":1,\\"_timeScale\\":1}}]}",
+  },
+  {
+    "_t": "Unknown",
+    "raw": "{\\"command\\":\\"actormotion\\",\\"args\\":[{\\"key\\":\\"id\\",\\"value\\":\\"aoi\\"},{\\"key\\":\\"motion\\",\\"value\\":\\"mot_adv_chr_cmn_talk-015_in\\"},{\\"key\\":\\"clip\\",\\"value\\":{\\"_startTime\\":27.2,\\"_duration\\":1.8000000715,\\"_easeInDuration\\":0,\\"_easeOutDuration\\":0,\\"_blendInDuration\\":-1,\\"_blendOutDuration\\":-1,\\"_mixInEaseType\\":1,\\"_mixOutEaseType\\":1,\\"_timeScale\\":1}}]}",
+  },
+  {
+    "_t": "Unknown",
+    "raw": "{\\"command\\":\\"actorfacialmotion\\",\\"args\\":[{\\"key\\":\\"id\\",\\"value\\":\\"aoi\\"},{\\"key\\":\\"motion\\",\\"value\\":\\"mot_all_chr_cmn_facial-001_in\\"},{\\"key\\":\\"transition\\",\\"value\\":0},{\\"key\\":\\"clip\\",\\"value\\":{\\"_startTime\\":27.2,\\"_duration\\":0.0333333351,\\"_easeInDuration\\":0,\\"_easeOutDuration\\":0,\\"_blendInDuration\\":-1,\\"_blendOutDuration\\":-1,\\"_mixInEaseType\\":1,\\"_mixOutEaseType\\":1,\\"_timeScale\\":1}}]}",
+  },
+  {
+    "_t": "Unknown",
+    "raw": "{\\"command\\":\\"actormotion\\",\\"args\\":[{\\"key\\":\\"id\\",\\"value\\":\\"aoi\\"},{\\"key\\":\\"motion\\",\\"value\\":\\"mot_adv_chr_cmn_talk-017_in\\"},{\\"key\\":\\"transition\\",\\"value\\":0.5},{\\"key\\":\\"clip\\",\\"value\\":{\\"_startTime\\":30.3,\\"_duration\\":2,\\"_easeInDuration\\":0,\\"_easeOutDuration\\":0,\\"_blendInDuration\\":-1,\\"_blendOutDuration\\":-1,\\"_mixInEaseType\\":1,\\"_mixOutEaseType\\":1,\\"_timeScale\\":1}}]}",
+  },
+  {
+    "_t": "Unknown",
+    "raw": "{\\"command\\":\\"actorfacialmotion\\",\\"args\\":[{\\"key\\":\\"id\\",\\"value\\":\\"aoi\\"},{\\"key\\":\\"motion\\",\\"value\\":\\"mot_all_chr_cmn_facial-032_in\\"},{\\"key\\":\\"clip\\",\\"value\\":{\\"_startTime\\":30.3,\\"_duration\\":0.0333333351,\\"_easeInDuration\\":0,\\"_easeOutDuration\\":0,\\"_blendInDuration\\":-1,\\"_blendOutDuration\\":-1,\\"_mixInEaseType\\":1,\\"_mixOutEaseType\\":1,\\"_timeScale\\":1}}]}",
+  },
+  {
+    "_t": "Unknown",
+    "raw": "{\\"command\\":\\"actorlooktargettween\\",\\"args\\":[{\\"key\\":\\"id\\",\\"value\\":\\"aoi\\"},{\\"key\\":\\"to\\",\\"value\\":{\\"type\\":0,\\"actorId\\":\\"\\",\\"bones\\":10,\\"azimuth\\":-30,\\"elevation\\":0,\\"weight\\":1,\\"eyesWeight\\":0.30000001192092896,\\"headWeight\\":0.6000000238418579,\\"bodyWeight\\":0.10000000149011612}},{\\"key\\":\\"clip\\",\\"value\\":{\\"_startTime\\":32.75,\\"_duration\\":0.6,\\"_easeInDuration\\":0,\\"_easeOutDuration\\":0,\\"_blendInDuration\\":-1,\\"_blendOutDuration\\":-1,\\"_mixInEaseType\\":1,\\"_mixOutEaseType\\":1,\\"_timeScale\\":1}}]}",
+  },
+  {
+    "_t": "Message",
+    "name": "井川葵",
+    "text": "みんな、リーダーの莉央からお願いがあるんだ",
+    "thumbnail": "img_chr_adv_aoi-00",
+  },
+  {
+    "_t": "Message",
+    "name": "井川葵",
+    "text": "聞いてほしい。……莉央",
+    "thumbnail": "img_chr_adv_aoi-00",
+  },
+  {
+    "_t": "Voice",
+    "actorId": "aoi",
+    "channel": 1,
+    "duration": 6.0767345428,
+    "startTime": 27.2,
+    "voice": "sud_vo_adv_event_2210_01_05-aoi001",
+  },
+  {
+    "_t": "Unknown",
+    "raw": "{\\"command\\":\\"cameratween\\",\\"args\\":[{\\"key\\":\\"from\\",\\"value\\":{\\"focalLength\\":150,\\"transform\\":{\\"position\\":{\\"x\\":-1.2191451787948608,\\"y\\":0.8546419143676758,\\"z\\":1.957194209098816},\\"rotation\\":{\\"x\\":7.3455915451049805,\\"y\\":166.1634063720703,\\"z\\":1.059738039543845e-7},\\"scale\\":{\\"x\\":1,\\"y\\":1,\\"z\\":1}},\\"dofSetting\\":{\\"active\\":false,\\"focalPoint\\":4,\\"fNumber\\":4,\\"maxBlurSpread\\":3}}},{\\"key\\":\\"to\\",\\"value\\":{\\"focalLength\\":150,\\"transform\\":{\\"position\\":{\\"x\\":-0.632359504699707,\\"y\\":0.7848773002624512,\\"z\\":2.7581262588500977},\\"rotation\\":{\\"x\\":7.3455915451049805,\\"y\\":166.1634063720703,\\"z\\":1.059738039543845e-7},\\"scale\\":{\\"x\\":1,\\"y\\":1,\\"z\\":1}},\\"dofSetting\\":{\\"active\\":false,\\"focalPoint\\":4,\\"fNumber\\":4,\\"maxBlurSpread\\":3}}},{\\"key\\":\\"ease\\",\\"value\\":\\"OutSine\\"},{\\"key\\":\\"clip\\",\\"value\\":{\\"_startTime\\":33.8,\\"_duration\\":2.1333333333,\\"_easeInDuration\\":0,\\"_easeOutDuration\\":0,\\"_blendInDuration\\":-1,\\"_blendOutDuration\\":-1,\\"_mixInEaseType\\":1,\\"_mixOutEaseType\\":1,\\"_timeScale\\":1}}]}",
+  },
+  {
+    "_t": "Unknown",
+    "raw": "{\\"command\\":\\"backgroundtween\\",\\"args\\":[{\\"key\\":\\"id\\",\\"value\\":\\"livestage-00-noon\\"},{\\"key\\":\\"from\\",\\"value\\":{\\"position\\":{\\"x\\":200,\\"y\\":500},\\"scale\\":{\\"x\\":2,\\"y\\":2},\\"angle\\":0}},{\\"key\\":\\"to\\",\\"value\\":{\\"position\\":{\\"x\\":600,\\"y\\":500},\\"scale\\":{\\"x\\":2,\\"y\\":2},\\"angle\\":0}},{\\"key\\":\\"ease\\",\\"value\\":\\"OutSine\\"},{\\"key\\":\\"clip\\",\\"value\\":{\\"_startTime\\":33.8,\\"_duration\\":2.1333333333,\\"_easeInDuration\\":0,\\"_easeOutDuration\\":0,\\"_blendInDuration\\":-1,\\"_blendOutDuration\\":-1,\\"_mixInEaseType\\":1,\\"_mixOutEaseType\\":1,\\"_timeScale\\":1}}]}",
+  },
+  {
+    "_t": "Unknown",
+    "raw": "{\\"command\\":\\"actorlayoutgroup\\",\\"args\\":[{\\"key\\":\\"layouts\\",\\"value\\":{\\"command\\":\\"actorlayout\\",\\"args\\":[{\\"key\\":\\"id\\",\\"value\\":\\"rio\\"},{\\"key\\":\\"transform\\",\\"value\\":{\\"position\\":{\\"x\\":0,\\"y\\":0,\\"z\\":0},\\"rotation\\":{\\"x\\":0,\\"y\\":24,\\"z\\":0},\\"scale\\":{\\"x\\":1,\\"y\\":1,\\"z\\":1}}}]}},{\\"key\\":\\"clip\\",\\"value\\":{\\"_startTime\\":33.8,\\"_duration\\":0,\\"_easeInDuration\\":0,\\"_easeOutDuration\\":0,\\"_blendInDuration\\":-1,\\"_blendOutDuration\\":-1,\\"_mixInEaseType\\":1,\\"_mixOutEaseType\\":1,\\"_timeScale\\":1}}]}",
+  },
+  {
+    "_t": "Unknown",
+    "raw": "{\\"command\\":\\"actormotion\\",\\"args\\":[{\\"key\\":\\"id\\",\\"value\\":\\"rio\\"},{\\"key\\":\\"motion\\",\\"value\\":\\"mot_adv_chr_cmn_enter-007_in\\"},{\\"key\\":\\"clip\\",\\"value\\":{\\"_startTime\\":33.8,\\"_duration\\":1.6333333333,\\"_easeInDuration\\":0,\\"_easeOutDuration\\":0,\\"_blendInDuration\\":-1,\\"_blendOutDuration\\":-1,\\"_mixInEaseType\\":1,\\"_mixOutEaseType\\":1,\\"_timeScale\\":1}}]}",
+  },
+  {
+    "_t": "Unknown",
+    "raw": "{\\"command\\":\\"actorfacialmotion\\",\\"args\\":[{\\"key\\":\\"id\\",\\"value\\":\\"rio\\"},{\\"key\\":\\"motion\\",\\"value\\":\\"mot_all_chr_cmn_facial-001_in\\"},{\\"key\\":\\"transition\\",\\"value\\":0},{\\"key\\":\\"clip\\",\\"value\\":{\\"_startTime\\":33.8,\\"_duration\\":0.0333333351,\\"_easeInDuration\\":0,\\"_easeOutDuration\\":0,\\"_blendInDuration\\":-1,\\"_blendOutDuration\\":-1,\\"_mixInEaseType\\":1,\\"_mixOutEaseType\\":1,\\"_timeScale\\":1}}]}",
+  },
+  {
+    "_t": "Se",
+    "duration": 2.3,
+    "se": "sud_se_adv_walk-in-single-02",
+    "startTime": 33.8,
+  },
+  {
+    "_t": "Unknown",
+    "raw": "{\\"command\\":\\"actorlayoutgroup\\",\\"args\\":[{\\"key\\":\\"layouts\\",\\"value\\":{\\"command\\":\\"actorlayout\\",\\"args\\":[{\\"key\\":\\"id\\",\\"value\\":\\"rio\\"},{\\"key\\":\\"transform\\",\\"value\\":{\\"position\\":{\\"x\\":0,\\"y\\":0,\\"z\\":0},\\"rotation\\":{\\"x\\":0,\\"y\\":8.771065711975098,\\"z\\":0},\\"scale\\":{\\"x\\":1,\\"y\\":1,\\"z\\":1}}}]}},{\\"key\\":\\"clip\\",\\"value\\":{\\"_startTime\\":36.2,\\"_duration\\":0,\\"_easeInDuration\\":0,\\"_easeOutDuration\\":0,\\"_blendInDuration\\":-1,\\"_blendOutDuration\\":-1,\\"_mixInEaseType\\":1,\\"_mixOutEaseType\\":1,\\"_timeScale\\":1}}]}",
+  },
+  {
+    "_t": "Unknown",
+    "raw": "{\\"command\\":\\"cameratween\\",\\"args\\":[{\\"key\\":\\"from\\",\\"value\\":{\\"focalLength\\":150,\\"transform\\":{\\"position\\":{\\"x\\":-0.7066758871078491,\\"y\\":0.4779161214828491,\\"z\\":2.876563549041748},\\"rotation\\":{\\"x\\":-7.399466037750244,\\"y\\":166.1634063720703,\\"z\\":1.4659947156906128},\\"scale\\":{\\"x\\":1,\\"y\\":1,\\"z\\":1}},\\"dofSetting\\":{\\"active\\":false,\\"focalPoint\\":4,\\"fNumber\\":4,\\"maxBlurSpread\\":3}}},{\\"key\\":\\"to\\",\\"value\\":{\\"focalLength\\":150,\\"transform\\":{\\"position\\":{\\"x\\":-0.709564745426178,\\"y\\":0.9593565464019775,\\"z\\":2.94024395942688},\\"rotation\\":{\\"x\\":-7.399466037750244,\\"y\\":166.1634063720703,\\"z\\":1.4659947156906128},\\"scale\\":{\\"x\\":1,\\"y\\":1,\\"z\\":1}},\\"dofSetting\\":{\\"active\\":false,\\"focalPoint\\":4,\\"fNumber\\":4,\\"maxBlurSpread\\":3}}},{\\"key\\":\\"ease\\",\\"value\\":\\"OutSine\\"},{\\"key\\":\\"clip\\",\\"value\\":{\\"_startTime\\":36.2,\\"_duration\\":2.33,\\"_easeInDuration\\":0,\\"_easeOutDuration\\":0,\\"_blendInDuration\\":-1,\\"_blendOutDuration\\":-1,\\"_mixInEaseType\\":1,\\"_mixOutEaseType\\":1,\\"_timeScale\\":1}}]}",
+  },
+  {
+    "_t": "Unknown",
+    "raw": "{\\"command\\":\\"backgroundtween\\",\\"args\\":[{\\"key\\":\\"id\\",\\"value\\":\\"livestage-00-noon\\"},{\\"key\\":\\"from\\",\\"value\\":{\\"position\\":{\\"x\\":-300,\\"y\\":100},\\"scale\\":{\\"x\\":1.5,\\"y\\":1.5},\\"angle\\":0}},{\\"key\\":\\"to\\",\\"value\\":{\\"position\\":{\\"x\\":-300,\\"y\\":-250},\\"scale\\":{\\"x\\":1.5,\\"y\\":1.5},\\"angle\\":0}},{\\"key\\":\\"ease\\",\\"value\\":\\"OutSine\\"},{\\"key\\":\\"clip\\",\\"value\\":{\\"_startTime\\":36.2,\\"_duration\\":2.33,\\"_easeInDuration\\":0,\\"_easeOutDuration\\":0,\\"_blendInDuration\\":-1,\\"_blendOutDuration\\":-1,\\"_mixInEaseType\\":1,\\"_mixOutEaseType\\":1,\\"_timeScale\\":1}}]}",
+  },
+  {
+    "_t": "Unknown",
+    "raw": "{\\"command\\":\\"actormotion\\",\\"args\\":[{\\"key\\":\\"id\\",\\"value\\":\\"rio\\"},{\\"key\\":\\"motion\\",\\"value\\":\\"mot_adv_chr_cmn_talk-015_in\\"},{\\"key\\":\\"clip\\",\\"value\\":{\\"_startTime\\":36.2,\\"_duration\\":1.8000000715,\\"_easeInDuration\\":0,\\"_easeOutDuration\\":0,\\"_blendInDuration\\":-1,\\"_blendOutDuration\\":-1,\\"_mixInEaseType\\":1,\\"_mixOutEaseType\\":1,\\"_timeScale\\":1}}]}",
+  },
+  {
+    "_t": "Unknown",
+    "raw": "{\\"command\\":\\"actorfacialmotion\\",\\"args\\":[{\\"key\\":\\"id\\",\\"value\\":\\"rio\\"},{\\"key\\":\\"motion\\",\\"value\\":\\"mot_all_chr_cmn_facial-001_in\\"},{\\"key\\":\\"transition\\",\\"value\\":0},{\\"key\\":\\"clip\\",\\"value\\":{\\"_startTime\\":36.2,\\"_duration\\":0.0333333351,\\"_easeInDuration\\":0,\\"_easeOutDuration\\":0,\\"_blendInDuration\\":-1,\\"_blendOutDuration\\":-1,\\"_mixInEaseType\\":1,\\"_mixOutEaseType\\":1,\\"_timeScale\\":1}}]}",
+  },
+  {
+    "_t": "Unknown",
+    "raw": "{\\"command\\":\\"camerasetting\\",\\"args\\":[{\\"key\\":\\"setting\\",\\"value\\":{\\"focalLength\\":130,\\"transform\\":{\\"position\\":{\\"x\\":-0.05821514129638672,\\"y\\":1.350000023841858,\\"z\\":1.600000023841858},\\"rotation\\":{\\"x\\":0,\\"y\\":189,\\"z\\":0},\\"scale\\":{\\"x\\":1,\\"y\\":1,\\"z\\":1}},\\"dofSetting\\":{\\"active\\":false,\\"focalPoint\\":4,\\"fNumber\\":4,\\"maxBlurSpread\\":3}}},{\\"key\\":\\"clip\\",\\"value\\":{\\"_startTime\\":38.8,\\"_duration\\":0,\\"_easeInDuration\\":0,\\"_easeOutDuration\\":0,\\"_blendInDuration\\":-1,\\"_blendOutDuration\\":-1,\\"_mixInEaseType\\":1,\\"_mixOutEaseType\\":1,\\"_timeScale\\":1}}]}",
+  },
+  {
+    "_t": "BackgroundSetting",
+    "id": "livestage-00-noon",
+    "position": {
+      "x": -300,
+      "y": 0,
+    },
+    "scale": {
+      "x": 1.5,
+      "y": 1.5,
+    },
+    "startTime": 38.8,
+  },
+  {
+    "_t": "Unknown",
+    "raw": "{\\"command\\":\\"actorlayoutgroup\\",\\"args\\":[{\\"key\\":\\"layouts\\",\\"value\\":{\\"command\\":\\"actorlayout\\",\\"args\\":[{\\"key\\":\\"id\\",\\"value\\":\\"aoi\\"},{\\"key\\":\\"transform\\",\\"value\\":{\\"position\\":{\\"x\\":-0.3499999940395355,\\"y\\":0,\\"z\\":-1.7999999523162842},\\"rotation\\":{\\"x\\":0,\\"y\\":-22,\\"z\\":0},\\"scale\\":{\\"x\\":1,\\"y\\":1,\\"z\\":1}}}]}},{\\"key\\":\\"layouts\\",\\"value\\":{\\"command\\":\\"actorlayout\\",\\"args\\":[{\\"key\\":\\"id\\",\\"value\\":\\"rio\\"},{\\"key\\":\\"transform\\",\\"value\\":{\\"position\\":{\\"x\\":-0.699999988079071,\\"y\\":0,\\"z\\":-1.2000000476837158},\\"rotation\\":{\\"x\\":0,\\"y\\":14.611371994018555,\\"z\\":0},\\"scale\\":{\\"x\\":1,\\"y\\":1,\\"z\\":1}}}]}},{\\"key\\":\\"clip\\",\\"value\\":{\\"_startTime\\":38.8,\\"_duration\\":0,\\"_easeInDuration\\":0,\\"_easeOutDuration\\":0,\\"_blendInDuration\\":-1,\\"_blendOutDuration\\":-1,\\"_mixInEaseType\\":1,\\"_mixOutEaseType\\":1,\\"_timeScale\\":1}}]}",
+  },
+  {
+    "_t": "Unknown",
+    "raw": "{\\"command\\":\\"actorlooktarget\\",\\"args\\":[{\\"key\\":\\"id\\",\\"value\\":\\"aoi\\"},{\\"key\\":\\"clip\\",\\"value\\":{\\"_startTime\\":38.8,\\"_duration\\":0,\\"_easeInDuration\\":0,\\"_easeOutDuration\\":0,\\"_blendInDuration\\":-1,\\"_blendOutDuration\\":-1,\\"_mixInEaseType\\":1,\\"_mixOutEaseType\\":1,\\"_timeScale\\":1}}]}",
+  },
+  {
+    "_t": "Unknown",
+    "raw": "{\\"command\\":\\"actormotion\\",\\"args\\":[{\\"key\\":\\"id\\",\\"value\\":\\"rio\\"},{\\"key\\":\\"motion\\",\\"value\\":\\"mot_adv_chr_cmn_talk-012_in\\"},{\\"key\\":\\"transition\\",\\"value\\":0.5},{\\"key\\":\\"clip\\",\\"value\\":{\\"_startTime\\":38.8,\\"_duration\\":1.76666677,\\"_easeInDuration\\":0,\\"_easeOutDuration\\":0,\\"_blendInDuration\\":-1,\\"_blendOutDuration\\":-1,\\"_mixInEaseType\\":1,\\"_mixOutEaseType\\":1,\\"_timeScale\\":1}}]}",
+  },
+  {
+    "_t": "Unknown",
+    "raw": "{\\"command\\":\\"actorfacialmotion\\",\\"args\\":[{\\"key\\":\\"id\\",\\"value\\":\\"rio\\"},{\\"key\\":\\"motion\\",\\"value\\":\\"mot_all_chr_cmn_facial-001_in\\"},{\\"key\\":\\"clip\\",\\"value\\":{\\"_startTime\\":38.8,\\"_duration\\":0.0333333351,\\"_easeInDuration\\":0,\\"_easeOutDuration\\":0,\\"_blendInDuration\\":-1,\\"_blendOutDuration\\":-1,\\"_mixInEaseType\\":1,\\"_mixOutEaseType\\":1,\\"_timeScale\\":1}}]}",
+  },
+  {
+    "_t": "Unknown",
+    "raw": "{\\"command\\":\\"actorlooktargettween\\",\\"args\\":[{\\"key\\":\\"id\\",\\"value\\":\\"rio\\"},{\\"key\\":\\"to\\",\\"value\\":{\\"type\\":0,\\"actorId\\":\\"\\",\\"bones\\":10,\\"azimuth\\":30,\\"elevation\\":0,\\"weight\\":1,\\"eyesWeight\\":0.30000001192092896,\\"headWeight\\":0.6000000238418579,\\"bodyWeight\\":0.10000000149011612}},{\\"key\\":\\"clip\\",\\"value\\":{\\"_startTime\\":38.8,\\"_duration\\":0.6,\\"_easeInDuration\\":0,\\"_easeOutDuration\\":0,\\"_blendInDuration\\":-1,\\"_blendOutDuration\\":-1,\\"_mixInEaseType\\":1,\\"_mixOutEaseType\\":1,\\"_timeScale\\":1}}]}",
+  },
+  {
+    "_t": "Unknown",
+    "raw": "{\\"command\\":\\"actorfacialmotion\\",\\"args\\":[{\\"key\\":\\"id\\",\\"value\\":\\"aoi\\"},{\\"key\\":\\"motion\\",\\"value\\":\\"mot_all_chr_cmn_facial-050_in\\"},{\\"key\\":\\"clip\\",\\"value\\":{\\"_startTime\\":40.7,\\"_duration\\":0.0333333351,\\"_easeInDuration\\":0,\\"_easeOutDuration\\":0,\\"_blendInDuration\\":-1,\\"_blendOutDuration\\":-1,\\"_mixInEaseType\\":1,\\"_mixOutEaseType\\":1,\\"_timeScale\\":1}}]}",
+  },
+  {
+    "_t": "Unknown",
+    "raw": "{\\"command\\":\\"actoradditivemotion\\",\\"args\\":[{\\"key\\":\\"id\\",\\"value\\":\\"aoi\\"},{\\"key\\":\\"motion\\",\\"value\\":\\"mot_all_chr_cmn_yes-002-add_in\\"},{\\"key\\":\\"clip\\",\\"value\\":{\\"_startTime\\":40.7,\\"_duration\\":1.4666666984558105,\\"_easeInDuration\\":0,\\"_easeOutDuration\\":0,\\"_blendInDuration\\":-1,\\"_blendOutDuration\\":-1,\\"_mixInEaseType\\":1,\\"_mixOutEaseType\\":1,\\"_timeScale\\":1}}]}",
+  },
+  {
+    "_t": "Unknown",
+    "raw": "{\\"command\\":\\"actorfacialmotion\\",\\"args\\":[{\\"key\\":\\"id\\",\\"value\\":\\"aoi\\"},{\\"key\\":\\"motion\\",\\"value\\":\\"mot_all_chr_cmn_facial-001_in\\"},{\\"key\\":\\"clip\\",\\"value\\":{\\"_startTime\\":41.5,\\"_duration\\":0.03333333507180214,\\"_easeInDuration\\":0,\\"_easeOutDuration\\":0,\\"_blendInDuration\\":-1,\\"_blendOutDuration\\":-1,\\"_mixInEaseType\\":1,\\"_mixOutEaseType\\":1,\\"_timeScale\\":1}}]}",
+  },
+  {
+    "_t": "Message",
+    "name": "神崎莉央",
+    "text": "ありがとう、葵",
+    "thumbnail": "img_chr_adv_rio-00",
+  },
+  {
+    "_t": "Voice",
+    "actorId": "rio",
+    "channel": 1,
+    "duration": 1.5264852047,
+    "startTime": 38.8,
+    "voice": "sud_vo_adv_event_2210_01_05-rio001",
+  },
+  {
+    "_t": "Unknown",
+    "raw": "{\\"command\\":\\"camerasetting\\",\\"args\\":[{\\"key\\":\\"setting\\",\\"value\\":{\\"focalLength\\":200,\\"transform\\":{\\"position\\":{\\"x\\":0,\\"y\\":1.409999966621399,\\"z\\":3},\\"rotation\\":{\\"x\\":0,\\"y\\":180,\\"z\\":0},\\"scale\\":{\\"x\\":1,\\"y\\":1,\\"z\\":1}},\\"dofSetting\\":{\\"active\\":true,\\"focalPoint\\":4,\\"fNumber\\":4,\\"maxBlurSpread\\":3}}},{\\"key\\":\\"clip\\",\\"value\\":{\\"_startTime\\":42.2333333333,\\"_duration\\":0,\\"_easeInDuration\\":0,\\"_easeOutDuration\\":0,\\"_blendInDuration\\":-1,\\"_blendOutDuration\\":-1,\\"_mixInEaseType\\":1,\\"_mixOutEaseType\\":1,\\"_timeScale\\":1}}]}",
+  },
+  {
+    "_t": "BackgroundSetting",
+    "id": "livestage-00-noon",
+    "position": {
+      "x": 0,
+      "y": 0,
+    },
+    "scale": {
+      "x": 2,
+      "y": 2,
+    },
+    "startTime": 42.2333333333,
+  },
+  {
+    "_t": "Unknown",
+    "raw": "{\\"command\\":\\"actorlayoutgroup\\",\\"args\\":[{\\"key\\":\\"layouts\\",\\"value\\":{\\"command\\":\\"actorlayout\\",\\"args\\":[{\\"key\\":\\"id\\",\\"value\\":\\"rio\\"}]}},{\\"key\\":\\"clip\\",\\"value\\":{\\"_startTime\\":42.2333333333,\\"_duration\\":0,\\"_easeInDuration\\":0,\\"_easeOutDuration\\":0,\\"_blendInDuration\\":-1,\\"_blendOutDuration\\":-1,\\"_mixInEaseType\\":1,\\"_mixOutEaseType\\":1,\\"_timeScale\\":1}}]}",
+  },
+  {
+    "_t": "Unknown",
+    "raw": "{\\"command\\":\\"actorlooktargettween\\",\\"args\\":[{\\"key\\":\\"id\\",\\"value\\":\\"rio\\"},{\\"key\\":\\"from\\",\\"value\\":{\\"type\\":0,\\"actorId\\":\\"\\",\\"bones\\":10,\\"azimuth\\":30,\\"elevation\\":0,\\"weight\\":1,\\"eyesWeight\\":0.30000001192092896,\\"headWeight\\":0.6000000238418579,\\"bodyWeight\\":0.10000000149011612}},{\\"key\\":\\"to\\",\\"value\\":{\\"type\\":0,\\"actorId\\":\\"\\",\\"bones\\":10,\\"azimuth\\":0,\\"elevation\\":0,\\"weight\\":0,\\"eyesWeight\\":0.30000001192092896,\\"headWeight\\":0.6000000238418579,\\"bodyWeight\\":0.10000000149011612}},{\\"key\\":\\"clip\\",\\"value\\":{\\"_startTime\\":42.2333333333,\\"_duration\\":0.6,\\"_easeInDuration\\":0,\\"_easeOutDuration\\":0,\\"_blendInDuration\\":-1,\\"_blendOutDuration\\":-1,\\"_mixInEaseType\\":1,\\"_mixOutEaseType\\":1,\\"_timeScale\\":1}}]}",
+  },
+  {
+    "_t": "Unknown",
+    "raw": "{\\"command\\":\\"actormotion\\",\\"args\\":[{\\"key\\":\\"id\\",\\"value\\":\\"rio\\"},{\\"key\\":\\"motion\\",\\"value\\":\\"mot_adv_chr_cmn_talk-017_in\\"},{\\"key\\":\\"clip\\",\\"value\\":{\\"_startTime\\":42.2333333333,\\"_duration\\":2,\\"_easeInDuration\\":0,\\"_easeOutDuration\\":0,\\"_blendInDuration\\":-1,\\"_blendOutDuration\\":-1,\\"_mixInEaseType\\":1,\\"_mixOutEaseType\\":1,\\"_timeScale\\":1}}]}",
+  },
+  {
+    "_t": "Unknown",
+    "raw": "{\\"command\\":\\"actorfacialmotion\\",\\"args\\":[{\\"key\\":\\"id\\",\\"value\\":\\"rio\\"},{\\"key\\":\\"motion\\",\\"value\\":\\"mot_all_chr_cmn_facial-001_in\\"},{\\"key\\":\\"transition\\",\\"value\\":0},{\\"key\\":\\"clip\\",\\"value\\":{\\"_startTime\\":42.2333333333,\\"_duration\\":0.0333333351,\\"_easeInDuration\\":0,\\"_easeOutDuration\\":0,\\"_blendInDuration\\":-1,\\"_blendOutDuration\\":-1,\\"_mixInEaseType\\":1,\\"_mixOutEaseType\\":1,\\"_timeScale\\":1}}]}",
+  },
+  {
+    "_t": "Unknown",
+    "raw": "{\\"command\\":\\"actormotion\\",\\"args\\":[{\\"key\\":\\"id\\",\\"value\\":\\"rio\\"},{\\"key\\":\\"motion\\",\\"value\\":\\"mot_adv_chr_cmn_pos-010_in\\"},{\\"key\\":\\"transition\\",\\"value\\":0.5},{\\"key\\":\\"clip\\",\\"value\\":{\\"_startTime\\":45.3,\\"_duration\\":2.2333333492,\\"_easeInDuration\\":0,\\"_easeOutDuration\\":0,\\"_blendInDuration\\":-1,\\"_blendOutDuration\\":-1,\\"_mixInEaseType\\":1,\\"_mixOutEaseType\\":1,\\"_timeScale\\":1}}]}",
+  },
+  {
+    "_t": "Se",
+    "duration": 4.021437645,
+    "se": "sud_se_adv_cheers-in-01",
+    "startTime": 47.3333333333,
+  },
+  {
+    "_t": "Unknown",
+    "raw": "{\\"command\\":\\"actorsweat\\",\\"args\\":[{\\"key\\":\\"id\\",\\"value\\":\\"aoi\\"},{\\"key\\":\\"weight\\",\\"value\\":0},{\\"key\\":\\"clip\\",\\"value\\":{\\"_startTime\\":42.2333333333,\\"_duration\\":0,\\"_easeInDuration\\":0,\\"_easeOutDuration\\":0,\\"_blendInDuration\\":-1,\\"_blendOutDuration\\":-1,\\"_mixInEaseType\\":1,\\"_mixOutEaseType\\":1,\\"_timeScale\\":1}}]}",
+  },
+  {
+    "_t": "Message",
+    "name": "神崎莉央",
+    "text": "……みなさん、今から一つ",
+    "thumbnail": "img_chr_adv_rio-00",
+  },
+  {
+    "_t": "Message",
+    "name": "神崎莉央",
+    "text": "私のお願いを聞いてほしいんです",
+    "thumbnail": "img_chr_adv_rio-00",
+  },
+  {
+    "_t": "Voice",
+    "actorId": "rio",
+    "channel": 1,
+    "duration": 5.0678687096,
+    "startTime": 42.2333333333,
+    "voice": "sud_vo_adv_event_2210_01_05-rio002",
+  },
+  {
+    "_t": "Unknown",
+    "raw": "{\\"command\\":\\"camerasetting\\",\\"args\\":[{\\"key\\":\\"setting\\",\\"value\\":{\\"focalLength\\":130,\\"transform\\":{\\"position\\":{\\"x\\":0,\\"y\\":1.3450000286102295,\\"z\\":3},\\"rotation\\":{\\"x\\":0,\\"y\\":180,\\"z\\":0},\\"scale\\":{\\"x\\":1,\\"y\\":1,\\"z\\":1}},\\"dofSetting\\":{\\"active\\":false,\\"focalPoint\\":1.7999999523162842,\\"fNumber\\":2.799999952316284,\\"maxBlurSpread\\":3}}},{\\"key\\":\\"clip\\",\\"value\\":{\\"_startTime\\":48.6,\\"_duration\\":0,\\"_easeInDuration\\":0,\\"_easeOutDuration\\":0,\\"_blendInDuration\\":-1,\\"_blendOutDuration\\":-1,\\"_mixInEaseType\\":1,\\"_mixOutEaseType\\":1,\\"_timeScale\\":1}}]}",
+  },
+  {
+    "_t": "BackgroundSetting",
+    "id": "livestage-00-noon",
+    "position": {
+      "x": 0,
+      "y": 0,
+    },
+    "scale": {
+      "x": 1.5,
+      "y": 1.5,
+    },
+    "startTime": 48.6,
+  },
+  {
+    "_t": "Unknown",
+    "raw": "{\\"command\\":\\"actorlayoutgroup\\",\\"args\\":[{\\"key\\":\\"layouts\\",\\"value\\":{\\"command\\":\\"actorlayout\\",\\"args\\":[{\\"key\\":\\"id\\",\\"value\\":\\"rio\\"},{\\"key\\":\\"transform\\",\\"value\\":{\\"position\\":{\\"x\\":0,\\"y\\":0,\\"z\\":0},\\"rotation\\":{\\"x\\":0,\\"y\\":0,\\"z\\":0},\\"scale\\":{\\"x\\":1,\\"y\\":1,\\"z\\":1}}}]}},{\\"key\\":\\"clip\\",\\"value\\":{\\"_startTime\\":48.6,\\"_duration\\":0,\\"_easeInDuration\\":0,\\"_easeOutDuration\\":0,\\"_blendInDuration\\":-1,\\"_blendOutDuration\\":-1,\\"_mixInEaseType\\":1,\\"_mixOutEaseType\\":1,\\"_timeScale\\":1}}]}",
+  },
+  {
+    "_t": "Unknown",
+    "raw": "{\\"command\\":\\"actormotion\\",\\"args\\":[{\\"key\\":\\"id\\",\\"value\\":\\"rio\\"},{\\"key\\":\\"motion\\",\\"value\\":\\"mot_adv_chr_cmn_talk-019_in\\"},{\\"key\\":\\"clip\\",\\"value\\":{\\"_startTime\\":48.6,\\"_duration\\":2.2333333492,\\"_easeInDuration\\":0,\\"_easeOutDuration\\":0,\\"_blendInDuration\\":-1,\\"_blendOutDuration\\":-1,\\"_mixInEaseType\\":1,\\"_mixOutEaseType\\":1,\\"_timeScale\\":1}}]}",
+  },
+  {
+    "_t": "Unknown",
+    "raw": "{\\"command\\":\\"actorfacialmotion\\",\\"args\\":[{\\"key\\":\\"id\\",\\"value\\":\\"rio\\"},{\\"key\\":\\"motion\\",\\"value\\":\\"mot_all_chr_cmn_facial-001_in\\"},{\\"key\\":\\"transition\\",\\"value\\":0},{\\"key\\":\\"clip\\",\\"value\\":{\\"_startTime\\":48.6,\\"_duration\\":0.0333333351,\\"_easeInDuration\\":0,\\"_easeOutDuration\\":0,\\"_blendInDuration\\":-1,\\"_blendOutDuration\\":-1,\\"_mixInEaseType\\":1,\\"_mixOutEaseType\\":1,\\"_timeScale\\":1}}]}",
+  },
+  {
+    "_t": "Unknown",
+    "raw": "{\\"command\\":\\"actormotion\\",\\"args\\":[{\\"key\\":\\"id\\",\\"value\\":\\"rio\\"},{\\"key\\":\\"motion\\",\\"value\\":\\"mot_adv_chr_cmn_talk-015_in\\"},{\\"key\\":\\"transition\\",\\"value\\":0.5},{\\"key\\":\\"clip\\",\\"value\\":{\\"_startTime\\":53.3666666667,\\"_duration\\":1.8000000715,\\"_easeInDuration\\":0,\\"_easeOutDuration\\":0,\\"_blendInDuration\\":-1,\\"_blendOutDuration\\":-1,\\"_mixInEaseType\\":1,\\"_mixOutEaseType\\":1,\\"_timeScale\\":1}}]}",
+  },
+  {
+    "_t": "Unknown",
+    "raw": "{\\"command\\":\\"actorfacialmotion\\",\\"args\\":[{\\"key\\":\\"id\\",\\"value\\":\\"rio\\"},{\\"key\\":\\"motion\\",\\"value\\":\\"mot_all_chr_cmn_facial-001_in\\"},{\\"key\\":\\"clip\\",\\"value\\":{\\"_startTime\\":53.3666666667,\\"_duration\\":0.0333333351,\\"_easeInDuration\\":0,\\"_easeOutDuration\\":0,\\"_blendInDuration\\":-1,\\"_blendOutDuration\\":-1,\\"_mixInEaseType\\":1,\\"_mixOutEaseType\\":1,\\"_timeScale\\":1}}]}",
+  },
+  {
+    "_t": "Message",
+    "name": "神崎莉央",
+    "text": "今から特別に聴いてもらいたい歌があります",
+    "thumbnail": "img_chr_adv_rio-00",
+  },
+  {
+    "_t": "Message",
+    "name": "神崎莉央",
+    "text": "……LizNoirではない、あるアイドルの曲です",
+    "thumbnail": "img_chr_adv_rio-00",
+  },
+  {
+    "_t": "Voice",
+    "actorId": "rio",
+    "channel": 1,
+    "duration": 8.415555954,
+    "startTime": 48.6,
+    "voice": "sud_vo_adv_event_2210_01_05-rio003",
+  },
+  {
+    "_t": "Unknown",
+    "raw": "{\\"command\\":\\"actormotion\\",\\"args\\":[{\\"key\\":\\"id\\",\\"value\\":\\"rio\\"},{\\"key\\":\\"motion\\",\\"value\\":\\"mot_adv_chr_cmn_think-003_in\\"},{\\"key\\":\\"transition\\",\\"value\\":0.5},{\\"key\\":\\"clip\\",\\"value\\":{\\"_startTime\\":57.9333333333,\\"_duration\\":2,\\"_easeInDuration\\":0,\\"_easeOutDuration\\":0,\\"_blendInDuration\\":-1,\\"_blendOutDuration\\":-1,\\"_mixInEaseType\\":1,\\"_mixOutEaseType\\":1,\\"_timeScale\\":1}}]}",
+  },
+  {
+    "_t": "Unknown",
+    "raw": "{\\"command\\":\\"actormotion\\",\\"args\\":[{\\"key\\":\\"id\\",\\"value\\":\\"rio\\"},{\\"key\\":\\"motion\\",\\"value\\":\\"mot_adv_chr_cmn_talk-010_in\\"},{\\"key\\":\\"transition\\",\\"value\\":0.5},{\\"key\\":\\"clip\\",\\"value\\":{\\"_startTime\\":60.4,\\"_duration\\":1.5333334208,\\"_easeInDuration\\":0,\\"_easeOutDuration\\":0,\\"_blendInDuration\\":-1,\\"_blendOutDuration\\":-1,\\"_mixInEaseType\\":1,\\"_mixOutEaseType\\":1,\\"_timeScale\\":1}}]}",
+  },
+  {
+    "_t": "Unknown",
+    "raw": "{\\"command\\":\\"actorfacialmotion\\",\\"args\\":[{\\"key\\":\\"id\\",\\"value\\":\\"rio\\"},{\\"key\\":\\"motion\\",\\"value\\":\\"mot_all_chr_cmn_facial-001_in\\"},{\\"key\\":\\"clip\\",\\"value\\":{\\"_startTime\\":60.4,\\"_duration\\":0.0333333351,\\"_easeInDuration\\":0,\\"_easeOutDuration\\":0,\\"_blendInDuration\\":-1,\\"_blendOutDuration\\":-1,\\"_mixInEaseType\\":1,\\"_mixOutEaseType\\":1,\\"_timeScale\\":1}}]}",
+  },
+  {
+    "_t": "Unknown",
+    "raw": "{\\"command\\":\\"actormotion\\",\\"args\\":[{\\"key\\":\\"id\\",\\"value\\":\\"rio\\"},{\\"key\\":\\"motion\\",\\"value\\":\\"mot_adv_chr_cmn_pos-005_in\\"},{\\"key\\":\\"transition\\",\\"value\\":0.5},{\\"key\\":\\"clip\\",\\"value\\":{\\"_startTime\\":62.8333333333,\\"_duration\\":1.3333333731,\\"_easeInDuration\\":0,\\"_easeOutDuration\\":0,\\"_blendInDuration\\":-1,\\"_blendOutDuration\\":-1,\\"_mixInEaseType\\":1,\\"_mixOutEaseType\\":1,\\"_timeScale\\":1}}]}",
+  },
+  {
+    "_t": "Se",
+    "duration": 4.021437645,
+    "se": "sud_se_adv_cheers-in-01",
+    "startTime": 63.5,
+  },
+  {
+    "_t": "Message",
+    "name": "神崎莉央",
+    "text": "三年前の曲だけど……私の大好きな歌",
+    "thumbnail": "img_chr_adv_rio-00",
+  },
+  {
+    "_t": "Message",
+    "name": "神崎莉央",
+    "text": "聴いてくれますか？",
+    "thumbnail": "img_chr_adv_rio-00",
+  },
+  {
+    "_t": "Voice",
+    "actorId": "rio",
+    "channel": 1,
+    "duration": 5.9576644897,
+    "startTime": 57.9333333333,
+    "voice": "sud_vo_adv_event_2210_01_05-rio004",
+  },
+  {
+    "_t": "Unknown",
+    "raw": "{\\"command\\":\\"camerasetting\\",\\"args\\":[{\\"key\\":\\"setting\\",\\"value\\":{\\"focalLength\\":200,\\"transform\\":{\\"position\\":{\\"x\\":0,\\"y\\":1.409999966621399,\\"z\\":3},\\"rotation\\":{\\"x\\":0,\\"y\\":180,\\"z\\":0},\\"scale\\":{\\"x\\":1,\\"y\\":1,\\"z\\":1}},\\"dofSetting\\":{\\"active\\":true,\\"focalPoint\\":4,\\"fNumber\\":4,\\"maxBlurSpread\\":3}}},{\\"key\\":\\"clip\\",\\"value\\":{\\"_startTime\\":67.3666666667,\\"_duration\\":0,\\"_easeInDuration\\":0,\\"_easeOutDuration\\":0,\\"_blendInDuration\\":-1,\\"_blendOutDuration\\":-1,\\"_mixInEaseType\\":1,\\"_mixOutEaseType\\":1,\\"_timeScale\\":1}}]}",
+  },
+  {
+    "_t": "BackgroundSetting",
+    "id": "livestage-00-noon",
+    "position": {
+      "x": 0,
+      "y": 0,
+    },
+    "scale": {
+      "x": 2,
+      "y": 2,
+    },
+    "startTime": 67.3666666667,
+  },
+  {
+    "_t": "Unknown",
+    "raw": "{\\"command\\":\\"actorlayoutgroup\\",\\"args\\":[{\\"key\\":\\"layouts\\",\\"value\\":{\\"command\\":\\"actorlayout\\",\\"args\\":[{\\"key\\":\\"id\\",\\"value\\":\\"rio\\"}]}},{\\"key\\":\\"clip\\",\\"value\\":{\\"_startTime\\":67.3666666667,\\"_duration\\":0,\\"_easeInDuration\\":0,\\"_easeOutDuration\\":0,\\"_blendInDuration\\":-1,\\"_blendOutDuration\\":-1,\\"_mixInEaseType\\":1,\\"_mixOutEaseType\\":1,\\"_timeScale\\":1}}]}",
+  },
+  {
+    "_t": "Unknown",
+    "raw": "{\\"command\\":\\"actormotion\\",\\"args\\":[{\\"key\\":\\"id\\",\\"value\\":\\"rio\\"},{\\"key\\":\\"motion\\",\\"value\\":\\"mot_adv_chr_cmn_talk-009_in\\"},{\\"key\\":\\"clip\\",\\"value\\":{\\"_startTime\\":67.3666666667,\\"_duration\\":1.5333334208,\\"_easeInDuration\\":0,\\"_easeOutDuration\\":0,\\"_blendInDuration\\":-1,\\"_blendOutDuration\\":-1,\\"_mixInEaseType\\":1,\\"_mixOutEaseType\\":1,\\"_timeScale\\":1}}]}",
+  },
+  {
+    "_t": "Unknown",
+    "raw": "{\\"command\\":\\"actorfacialmotion\\",\\"args\\":[{\\"key\\":\\"id\\",\\"value\\":\\"rio\\"},{\\"key\\":\\"motion\\",\\"value\\":\\"mot_all_chr_cmn_facial-050_in\\"},{\\"key\\":\\"clip\\",\\"value\\":{\\"_startTime\\":67.3666666667,\\"_duration\\":0.0333333351,\\"_easeInDuration\\":0,\\"_easeOutDuration\\":0,\\"_blendInDuration\\":-1,\\"_blendOutDuration\\":-1,\\"_mixInEaseType\\":1,\\"_mixOutEaseType\\":1,\\"_timeScale\\":1}}]}",
+  },
+  {
+    "_t": "Unknown",
+    "raw": "{\\"command\\":\\"actormotion\\",\\"args\\":[{\\"key\\":\\"id\\",\\"value\\":\\"rio\\"},{\\"key\\":\\"motion\\",\\"value\\":\\"mot_adv_chr_cmn_talk-016_in\\"},{\\"key\\":\\"transition\\",\\"value\\":0.5},{\\"key\\":\\"clip\\",\\"value\\":{\\"_startTime\\":69.1666666667,\\"_duration\\":2,\\"_easeInDuration\\":0,\\"_easeOutDuration\\":0,\\"_blendInDuration\\":-1,\\"_blendOutDuration\\":-1,\\"_mixInEaseType\\":1,\\"_mixOutEaseType\\":1,\\"_timeScale\\":1}}]}",
+  },
+  {
+    "_t": "Unknown",
+    "raw": "{\\"command\\":\\"actorfacialmotion\\",\\"args\\":[{\\"key\\":\\"id\\",\\"value\\":\\"rio\\"},{\\"key\\":\\"motion\\",\\"value\\":\\"mot_all_chr_cmn_facial-001_in\\"},{\\"key\\":\\"clip\\",\\"value\\":{\\"_startTime\\":69.1666666667,\\"_duration\\":0.0333333351,\\"_easeInDuration\\":0,\\"_easeOutDuration\\":0,\\"_blendInDuration\\":-1,\\"_blendOutDuration\\":-1,\\"_mixInEaseType\\":1,\\"_mixOutEaseType\\":1,\\"_timeScale\\":1}}]}",
+  },
+  {
+    "_t": "Unknown",
+    "raw": "{\\"command\\":\\"actormotion\\",\\"args\\":[{\\"key\\":\\"id\\",\\"value\\":\\"rio\\"},{\\"key\\":\\"motion\\",\\"value\\":\\"mot_adv_chr_cmn_talk-015_in\\"},{\\"key\\":\\"transition\\",\\"value\\":0.5},{\\"key\\":\\"clip\\",\\"value\\":{\\"_startTime\\":73.1333333333,\\"_duration\\":1.8000000715,\\"_easeInDuration\\":0,\\"_easeOutDuration\\":0,\\"_blendInDuration\\":-1,\\"_blendOutDuration\\":-1,\\"_mixInEaseType\\":1,\\"_mixOutEaseType\\":1,\\"_timeScale\\":1}}]}",
+  },
+  {
+    "_t": "Unknown",
+    "raw": "{\\"command\\":\\"actorfacialmotion\\",\\"args\\":[{\\"key\\":\\"id\\",\\"value\\":\\"rio\\"},{\\"key\\":\\"motion\\",\\"value\\":\\"mot_all_chr_cmn_facial-001_in\\"},{\\"key\\":\\"clip\\",\\"value\\":{\\"_startTime\\":73.1333333333,\\"_duration\\":0.0333333351,\\"_easeInDuration\\":0,\\"_easeOutDuration\\":0,\\"_blendInDuration\\":-1,\\"_blendOutDuration\\":-1,\\"_mixInEaseType\\":1,\\"_mixOutEaseType\\":1,\\"_timeScale\\":1}}]}",
+  },
+  {
+    "_t": "Unknown",
+    "raw": "{\\"command\\":\\"actorlooktargettween\\",\\"args\\":[{\\"key\\":\\"id\\",\\"value\\":\\"rio\\"},{\\"key\\":\\"from\\",\\"value\\":{\\"type\\":0,\\"actorId\\":\\"\\",\\"bones\\":10,\\"azimuth\\":0,\\"elevation\\":0,\\"weight\\":0,\\"eyesWeight\\":0.30000001192092896,\\"headWeight\\":0.6000000238418579,\\"bodyWeight\\":0.10000000149011612}},{\\"key\\":\\"to\\",\\"value\\":{\\"type\\":0,\\"actorId\\":\\"\\",\\"bones\\":10,\\"azimuth\\":30,\\"elevation\\":0,\\"weight\\":1,\\"eyesWeight\\":0.30000001192092896,\\"headWeight\\":0.6000000238418579,\\"bodyWeight\\":0.10000000149011612}},{\\"key\\":\\"clip\\",\\"value\\":{\\"_startTime\\":73.1333333333,\\"_duration\\":0.6,\\"_easeInDuration\\":0,\\"_easeOutDuration\\":0,\\"_blendInDuration\\":-1,\\"_blendOutDuration\\":-1,\\"_mixInEaseType\\":1,\\"_mixOutEaseType\\":1,\\"_timeScale\\":1}}]}",
+  },
+  {
+    "_t": "Message",
+    "name": "神崎莉央",
+    "text": "ありがとう。では、彼女と一緒に歌いたいと思います",
+    "thumbnail": "img_chr_adv_rio-00",
+  },
+  {
+    "_t": "Message",
+    "name": "神崎莉央",
+    "text": "どうぞ――",
+    "thumbnail": "img_chr_adv_rio-00",
+  },
+  {
+    "_t": "Voice",
+    "actorId": "rio",
+    "channel": 1,
+    "duration": 6.433151722,
+    "startTime": 67.3666666667,
+    "voice": "sud_vo_adv_event_2210_01_05-rio005",
+  },
+  {
+    "_t": "Unknown",
+    "raw": "{\\"command\\":\\"cameratween\\",\\"args\\":[{\\"key\\":\\"from\\",\\"value\\":{\\"focalLength\\":150,\\"transform\\":{\\"position\\":{\\"x\\":-0.13299942016601562,\\"y\\":1.2924399375915527,\\"z\\":1.8763763904571533},\\"rotation\\":{\\"x\\":13.515450477600098,\\"y\\":166.1634063720703,\\"z\\":9.48073264339655e-8},\\"scale\\":{\\"x\\":1,\\"y\\":1,\\"z\\":1}},\\"dofSetting\\":{\\"active\\":false,\\"focalPoint\\":4,\\"fNumber\\":4,\\"maxBlurSpread\\":3}}},{\\"key\\":\\"to\\",\\"value\\":{\\"focalLength\\":150,\\"transform\\":{\\"position\\":{\\"x\\":-0.6167886257171631,\\"y\\":1.2351808547973633,\\"z\\":2.657336711883545},\\"rotation\\":{\\"x\\":13.515450477600098,\\"y\\":166.1634063720703,\\"z\\":9.48073264339655e-8},\\"scale\\":{\\"x\\":1,\\"y\\":1,\\"z\\":1}},\\"dofSetting\\":{\\"active\\":false,\\"focalPoint\\":4,\\"fNumber\\":4,\\"maxBlurSpread\\":3}}},{\\"key\\":\\"ease\\",\\"value\\":\\"OutSine\\"},{\\"key\\":\\"clip\\",\\"value\\":{\\"_startTime\\":74.9666666667,\\"_duration\\":2,\\"_easeInDuration\\":0,\\"_easeOutDuration\\":0,\\"_blendInDuration\\":-1,\\"_blendOutDuration\\":-1,\\"_mixInEaseType\\":1,\\"_mixOutEaseType\\":1,\\"_timeScale\\":1}}]}",
+  },
+  {
+    "_t": "Unknown",
+    "raw": "{\\"command\\":\\"backgroundtween\\",\\"args\\":[{\\"key\\":\\"id\\",\\"value\\":\\"livestage-00-noon\\"},{\\"key\\":\\"from\\",\\"value\\":{\\"position\\":{\\"x\\":1900,\\"y\\":900},\\"scale\\":{\\"x\\":3,\\"y\\":3},\\"angle\\":0}},{\\"key\\":\\"to\\",\\"value\\":{\\"position\\":{\\"x\\":1300,\\"y\\":1000},\\"scale\\":{\\"x\\":3,\\"y\\":3},\\"angle\\":0}},{\\"key\\":\\"ease\\",\\"value\\":\\"OutSine\\"},{\\"key\\":\\"clip\\",\\"value\\":{\\"_startTime\\":74.9666666667,\\"_duration\\":2,\\"_easeInDuration\\":0,\\"_easeOutDuration\\":0,\\"_blendInDuration\\":-1,\\"_blendOutDuration\\":-1,\\"_mixInEaseType\\":1,\\"_mixOutEaseType\\":1,\\"_timeScale\\":1}}]}",
+  },
+  {
+    "_t": "Unknown",
+    "raw": "{\\"command\\":\\"actorlayoutgroup\\",\\"args\\":[{\\"key\\":\\"layouts\\",\\"value\\":{\\"command\\":\\"actorlayout\\",\\"args\\":[{\\"key\\":\\"id\\",\\"value\\":\\"ktn\\"},{\\"key\\":\\"transform\\",\\"value\\":{\\"position\\":{\\"x\\":0,\\"y\\":0,\\"z\\":0},\\"rotation\\":{\\"x\\":0,\\"y\\":-30.298860549926758,\\"z\\":0},\\"scale\\":{\\"x\\":1,\\"y\\":1,\\"z\\":1}}}]}},{\\"key\\":\\"clip\\",\\"value\\":{\\"_startTime\\":74.9666666667,\\"_duration\\":0,\\"_easeInDuration\\":0,\\"_easeOutDuration\\":0,\\"_blendInDuration\\":-1,\\"_blendOutDuration\\":-1,\\"_mixInEaseType\\":1,\\"_mixOutEaseType\\":1,\\"_timeScale\\":1}}]}",
+  },
+  {
+    "_t": "Unknown",
+    "raw": "{\\"command\\":\\"actormotion\\",\\"args\\":[{\\"key\\":\\"id\\",\\"value\\":\\"ktn\\"},{\\"key\\":\\"motion\\",\\"value\\":\\"mot_adv_chr_cmn_enter-007_in\\"},{\\"key\\":\\"clip\\",\\"value\\":{\\"_startTime\\":74.9666666667,\\"_duration\\":1.9666666666,\\"_easeInDuration\\":0,\\"_easeOutDuration\\":0,\\"_blendInDuration\\":-1,\\"_blendOutDuration\\":-1,\\"_mixInEaseType\\":1,\\"_mixOutEaseType\\":1,\\"_timeScale\\":1}}]}",
+  },
+  {
+    "_t": "Unknown",
+    "raw": "{\\"command\\":\\"actorfacialmotion\\",\\"args\\":[{\\"key\\":\\"id\\",\\"value\\":\\"ktn\\"},{\\"key\\":\\"motion\\",\\"value\\":\\"mot_all_chr_cmn_facial-001_in\\"},{\\"key\\":\\"transition\\",\\"value\\":0},{\\"key\\":\\"clip\\",\\"value\\":{\\"_startTime\\":74.9666666667,\\"_duration\\":0.0333333351,\\"_easeInDuration\\":0,\\"_easeOutDuration\\":0,\\"_blendInDuration\\":-1,\\"_blendOutDuration\\":-1,\\"_mixInEaseType\\":1,\\"_mixOutEaseType\\":1,\\"_timeScale\\":1}}]}",
+  },
+  {
+    "_t": "Se",
+    "duration": 1.9666666666,
+    "se": "sud_se_adv_walk-in-single-02",
+    "startTime": 74.9666666667,
+  },
+  {
+    "_t": "Unknown",
+    "raw": "{\\"command\\":\\"cameratween\\",\\"args\\":[{\\"key\\":\\"from\\",\\"value\\":{\\"focalLength\\":150,\\"transform\\":{\\"position\\":{\\"x\\":8.280442997943283e-10,\\"y\\":0.7163538336753845,\\"z\\":2.909471035003662},\\"rotation\\":{\\"x\\":-6.2875895500183105,\\"y\\":180,\\"z\\":-1.442947324126198e-13},\\"scale\\":{\\"x\\":1,\\"y\\":1,\\"z\\":1}},\\"dofSetting\\":{\\"active\\":false,\\"focalPoint\\":4,\\"fNumber\\":4,\\"maxBlurSpread\\":3}}},{\\"key\\":\\"to\\",\\"value\\":{\\"focalLength\\":150,\\"transform\\":{\\"position\\":{\\"x\\":4.2009977718748814e-9,\\"y\\":1.066521406173706,\\"z\\":2.9480535984039307},\\"rotation\\":{\\"x\\":-6.2875895500183105,\\"y\\":180,\\"z\\":-1.442947324126198e-13},\\"scale\\":{\\"x\\":1,\\"y\\":1,\\"z\\":1}},\\"dofSetting\\":{\\"active\\":false,\\"focalPoint\\":4,\\"fNumber\\":4,\\"maxBlurSpread\\":3}}},{\\"key\\":\\"ease\\",\\"value\\":\\"OutSine\\"},{\\"key\\":\\"clip\\",\\"value\\":{\\"_startTime\\":77.1,\\"_duration\\":2.4366666667,\\"_easeInDuration\\":0,\\"_easeOutDuration\\":0,\\"_blendInDuration\\":-1,\\"_blendOutDuration\\":-1,\\"_mixInEaseType\\":1,\\"_mixOutEaseType\\":1,\\"_timeScale\\":1}}]}",
+  },
+  {
+    "_t": "Unknown",
+    "raw": "{\\"command\\":\\"backgroundtween\\",\\"args\\":[{\\"key\\":\\"id\\",\\"value\\":\\"livestage-00-noon\\"},{\\"key\\":\\"from\\",\\"value\\":{\\"position\\":{\\"x\\":400,\\"y\\":100},\\"scale\\":{\\"x\\":1.7000000476837158,\\"y\\":1.7000000476837158},\\"angle\\":0}},{\\"key\\":\\"to\\",\\"value\\":{\\"position\\":{\\"x\\":400,\\"y\\":-100},\\"scale\\":{\\"x\\":1.7000000476837158,\\"y\\":1.7000000476837158},\\"angle\\":0}},{\\"key\\":\\"ease\\",\\"value\\":\\"OutSine\\"},{\\"key\\":\\"clip\\",\\"value\\":{\\"_startTime\\":77.1,\\"_duration\\":2.4366666667,\\"_easeInDuration\\":0,\\"_easeOutDuration\\":0,\\"_blendInDuration\\":-1,\\"_blendOutDuration\\":-1,\\"_mixInEaseType\\":1,\\"_mixOutEaseType\\":1,\\"_timeScale\\":1}}]}",
+  },
+  {
+    "_t": "Unknown",
+    "raw": "{\\"command\\":\\"actorlayoutgroup\\",\\"args\\":[{\\"key\\":\\"layouts\\",\\"value\\":{\\"command\\":\\"actorlayout\\",\\"args\\":[{\\"key\\":\\"id\\",\\"value\\":\\"ktn\\"},{\\"key\\":\\"transform\\",\\"value\\":{\\"position\\":{\\"x\\":0,\\"y\\":0,\\"z\\":0},\\"rotation\\":{\\"x\\":0,\\"y\\":0,\\"z\\":0},\\"scale\\":{\\"x\\":1,\\"y\\":1,\\"z\\":1}}}]}},{\\"key\\":\\"clip\\",\\"value\\":{\\"_startTime\\":77.1,\\"_duration\\":0,\\"_easeInDuration\\":0,\\"_easeOutDuration\\":0,\\"_blendInDuration\\":-1,\\"_blendOutDuration\\":-1,\\"_mixInEaseType\\":1,\\"_mixOutEaseType\\":1,\\"_timeScale\\":1}}]}",
+  },
+  {
+    "_t": "Unknown",
+    "raw": "{\\"command\\":\\"actormotion\\",\\"args\\":[{\\"key\\":\\"id\\",\\"value\\":\\"ktn\\"},{\\"key\\":\\"motion\\",\\"value\\":\\"mot_adv_chr_cmn_talk-015_in\\"},{\\"key\\":\\"clip\\",\\"value\\":{\\"_startTime\\":77.1,\\"_duration\\":1.8000000715,\\"_easeInDuration\\":0,\\"_easeOutDuration\\":0,\\"_blendInDuration\\":-1,\\"_blendOutDuration\\":-1,\\"_mixInEaseType\\":1,\\"_mixOutEaseType\\":1,\\"_timeScale\\":1}}]}",
+  },
+  {
+    "_t": "Unknown",
+    "raw": "{\\"command\\":\\"actorfacialmotion\\",\\"args\\":[{\\"key\\":\\"id\\",\\"value\\":\\"ktn\\"},{\\"key\\":\\"motion\\",\\"value\\":\\"mot_all_chr_cmn_facial-001_in\\"},{\\"key\\":\\"transition\\",\\"value\\":0},{\\"key\\":\\"clip\\",\\"value\\":{\\"_startTime\\":77.1,\\"_duration\\":0.0333333351,\\"_easeInDuration\\":0,\\"_easeOutDuration\\":0,\\"_blendInDuration\\":-1,\\"_blendOutDuration\\":-1,\\"_mixInEaseType\\":1,\\"_mixOutEaseType\\":1,\\"_timeScale\\":1}}]}",
+  },
+  {
+    "_t": "Unknown",
+    "raw": "{\\"command\\":\\"actormotion\\",\\"args\\":[{\\"key\\":\\"id\\",\\"value\\":\\"ktn\\"},{\\"key\\":\\"motion\\",\\"value\\":\\"mot_adv_chr_cmn_talk-019_in\\"},{\\"key\\":\\"transition\\",\\"value\\":0.5},{\\"key\\":\\"clip\\",\\"value\\":{\\"_startTime\\":79.5333333333,\\"_duration\\":2.2333333492,\\"_easeInDuration\\":0,\\"_easeOutDuration\\":0,\\"_blendInDuration\\":-1,\\"_blendOutDuration\\":-1,\\"_mixInEaseType\\":1,\\"_mixOutEaseType\\":1,\\"_timeScale\\":1}}]}",
+  },
+  {
+    "_t": "Unknown",
+    "raw": "{\\"command\\":\\"actorfacialmotion\\",\\"args\\":[{\\"key\\":\\"id\\",\\"value\\":\\"ktn\\"},{\\"key\\":\\"motion\\",\\"value\\":\\"mot_all_chr_cmn_facial-001_in\\"},{\\"key\\":\\"clip\\",\\"value\\":{\\"_startTime\\":79.5333333333,\\"_duration\\":0.0333333351,\\"_easeInDuration\\":0,\\"_easeOutDuration\\":0,\\"_blendInDuration\\":-1,\\"_blendOutDuration\\":-1,\\"_mixInEaseType\\":1,\\"_mixOutEaseType\\":1,\\"_timeScale\\":1}}]}",
+  },
+  {
+    "_t": "Unknown",
+    "raw": "{\\"command\\":\\"actormotion\\",\\"args\\":[{\\"key\\":\\"id\\",\\"value\\":\\"ktn\\"},{\\"key\\":\\"motion\\",\\"value\\":\\"mot_adv_chr_cmn_glad-007_in\\"},{\\"key\\":\\"transition\\",\\"value\\":0.5},{\\"key\\":\\"clip\\",\\"value\\":{\\"_startTime\\":82.7,\\"_duration\\":1.6666667461,\\"_easeInDuration\\":0,\\"_easeOutDuration\\":0,\\"_blendInDuration\\":-1,\\"_blendOutDuration\\":-1,\\"_mixInEaseType\\":1,\\"_mixOutEaseType\\":1,\\"_timeScale\\":1}}]}",
+  },
+  {
+    "_t": "Se",
+    "duration": 3.2313241959,
+    "se": "sud_se_adv_cheers-in-01",
+    "startTime": 83.6,
+  },
+  {
+    "_t": "Message",
+    "name": "長瀬琴乃",
+    "text": "みなさん、こんばんは",
+    "thumbnail": "img_chr_adv_ktn-00",
+  },
+  {
+    "_t": "Message",
+    "name": "長瀬琴乃",
+    "text": "月のテンペストの長瀬琴乃です",
+    "thumbnail": "img_chr_adv_ktn-00",
+  },
+  {
+    "_t": "Voice",
+    "actorId": "ktn",
+    "channel": 1,
+    "duration": 4.3612246513,
+    "startTime": 79.5333333333,
+    "voice": "sud_vo_adv_event_2210_01_05-ktn001",
+  },
+  {
+    "_t": "Unknown",
+    "raw": "{\\"command\\":\\"camerasetting\\",\\"args\\":[{\\"key\\":\\"setting\\",\\"value\\":{\\"focalLength\\":90,\\"transform\\":{\\"position\\":{\\"x\\":0,\\"y\\":1.2585389614105225,\\"z\\":2.5},\\"rotation\\":{\\"x\\":0,\\"y\\":180,\\"z\\":0},\\"scale\\":{\\"x\\":1,\\"y\\":1,\\"z\\":1}},\\"dofSetting\\":{\\"active\\":false,\\"focalPoint\\":4,\\"fNumber\\":4,\\"maxBlurSpread\\":3}}},{\\"key\\":\\"clip\\",\\"value\\":{\\"_startTime\\":85.4333333333,\\"_duration\\":0,\\"_easeInDuration\\":0,\\"_easeOutDuration\\":0,\\"_blendInDuration\\":-1,\\"_blendOutDuration\\":-1,\\"_mixInEaseType\\":1,\\"_mixOutEaseType\\":1,\\"_timeScale\\":1}}]}",
+  },
+  {
+    "_t": "BackgroundSetting",
+    "id": "livestage-00-noon",
+    "position": {
+      "x": 0,
+      "y": 0,
+    },
+    "scale": {
+      "x": 1,
+      "y": 1,
+    },
+    "startTime": 85.4333333333,
+  },
+  {
+    "_t": "Unknown",
+    "raw": "{\\"command\\":\\"actorlayoutgroup\\",\\"args\\":[{\\"key\\":\\"layouts\\",\\"value\\":{\\"command\\":\\"actorlayout\\",\\"args\\":[{\\"key\\":\\"id\\",\\"value\\":\\"ktn\\"},{\\"key\\":\\"transform\\",\\"value\\":{\\"position\\":{\\"x\\":0.3499999940395355,\\"y\\":0,\\"z\\":-1.2000000476837158},\\"rotation\\":{\\"x\\":0,\\"y\\":-6,\\"z\\":0},\\"scale\\":{\\"x\\":1,\\"y\\":1,\\"z\\":1}}}]}},{\\"key\\":\\"layouts\\",\\"value\\":{\\"command\\":\\"actorlayout\\",\\"args\\":[{\\"key\\":\\"id\\",\\"value\\":\\"rio\\"},{\\"key\\":\\"transform\\",\\"value\\":{\\"position\\":{\\"x\\":-0.3499999940395355,\\"y\\":0,\\"z\\":-1.2000000476837158},\\"rotation\\":{\\"x\\":0,\\"y\\":6,\\"z\\":0},\\"scale\\":{\\"x\\":1,\\"y\\":1,\\"z\\":1}}}]}},{\\"key\\":\\"clip\\",\\"value\\":{\\"_startTime\\":85.4333333333,\\"_duration\\":0,\\"_easeInDuration\\":0,\\"_easeOutDuration\\":0,\\"_blendInDuration\\":-1,\\"_blendOutDuration\\":-1,\\"_mixInEaseType\\":1,\\"_mixOutEaseType\\":1,\\"_timeScale\\":1}}]}",
+  },
+  {
+    "_t": "Unknown",
+    "raw": "{\\"command\\":\\"actormotion\\",\\"args\\":[{\\"key\\":\\"id\\",\\"value\\":\\"ktn\\"},{\\"key\\":\\"motion\\",\\"value\\":\\"mot_adv_chr_cmn_talk-023_in\\"},{\\"key\\":\\"clip\\",\\"value\\":{\\"_startTime\\":85.4333333333,\\"_duration\\":1.9333333969,\\"_easeInDuration\\":0,\\"_easeOutDuration\\":0,\\"_blendInDuration\\":-1,\\"_blendOutDuration\\":-1,\\"_mixInEaseType\\":1,\\"_mixOutEaseType\\":1,\\"_timeScale\\":1}}]}",
+  },
+  {
+    "_t": "Unknown",
+    "raw": "{\\"command\\":\\"actorfacialmotion\\",\\"args\\":[{\\"key\\":\\"id\\",\\"value\\":\\"ktn\\"},{\\"key\\":\\"motion\\",\\"value\\":\\"mot_all_chr_cmn_facial-001_in\\"},{\\"key\\":\\"transition\\",\\"value\\":0},{\\"key\\":\\"clip\\",\\"value\\":{\\"_startTime\\":85.4333333333,\\"_duration\\":0.0333333351,\\"_easeInDuration\\":0,\\"_easeOutDuration\\":0,\\"_blendInDuration\\":-1,\\"_blendOutDuration\\":-1,\\"_mixInEaseType\\":1,\\"_mixOutEaseType\\":1,\\"_timeScale\\":1}}]}",
+  },
+  {
+    "_t": "Unknown",
+    "raw": "{\\"command\\":\\"actorlooktargettween\\",\\"args\\":[{\\"key\\":\\"id\\",\\"value\\":\\"ktn\\"},{\\"key\\":\\"from\\",\\"value\\":{\\"type\\":0,\\"actorId\\":\\"\\",\\"bones\\":10,\\"azimuth\\":0,\\"elevation\\":0,\\"weight\\":0,\\"eyesWeight\\":0.30000001192092896,\\"headWeight\\":0.6000000238418579,\\"bodyWeight\\":0.10000000149011612}},{\\"key\\":\\"to\\",\\"value\\":{\\"type\\":0,\\"actorId\\":\\"\\",\\"bones\\":10,\\"azimuth\\":-30,\\"elevation\\":0,\\"weight\\":1,\\"eyesWeight\\":0.30000001192092896,\\"headWeight\\":0.6000000238418579,\\"bodyWeight\\":0.10000000149011612}},{\\"key\\":\\"clip\\",\\"value\\":{\\"_startTime\\":87.4666666667,\\"_duration\\":0.6,\\"_easeInDuration\\":0,\\"_easeOutDuration\\":0,\\"_blendInDuration\\":-1,\\"_blendOutDuration\\":-1,\\"_mixInEaseType\\":1,\\"_mixOutEaseType\\":1,\\"_timeScale\\":1}}]}",
+  },
+  {
+    "_t": "Unknown",
+    "raw": "{\\"command\\":\\"actormotion\\",\\"args\\":[{\\"key\\":\\"id\\",\\"value\\":\\"ktn\\"},{\\"key\\":\\"motion\\",\\"value\\":\\"mot_adv_chr_cmn_talk-015_in\\"},{\\"key\\":\\"transition\\",\\"value\\":0.5},{\\"key\\":\\"clip\\",\\"value\\":{\\"_startTime\\":90.7333333333,\\"_duration\\":1.8000000715,\\"_easeInDuration\\":0,\\"_easeOutDuration\\":0,\\"_blendInDuration\\":-1,\\"_blendOutDuration\\":-1,\\"_mixInEaseType\\":1,\\"_mixOutEaseType\\":1,\\"_timeScale\\":1}}]}",
+  },
+  {
+    "_t": "Unknown",
+    "raw": "{\\"command\\":\\"actorfacialmotion\\",\\"args\\":[{\\"key\\":\\"id\\",\\"value\\":\\"ktn\\"},{\\"key\\":\\"motion\\",\\"value\\":\\"mot_all_chr_cmn_facial-001_in\\"},{\\"key\\":\\"clip\\",\\"value\\":{\\"_startTime\\":90.7333333333,\\"_duration\\":0.0333333351,\\"_easeInDuration\\":0,\\"_easeOutDuration\\":0,\\"_blendInDuration\\":-1,\\"_blendOutDuration\\":-1,\\"_mixInEaseType\\":1,\\"_mixOutEaseType\\":1,\\"_timeScale\\":1}}]}",
+  },
+  {
+    "_t": "Unknown",
+    "raw": "{\\"command\\":\\"actorlooktargettween\\",\\"args\\":[{\\"key\\":\\"id\\",\\"value\\":\\"ktn\\"},{\\"key\\":\\"from\\",\\"value\\":{\\"type\\":0,\\"actorId\\":\\"\\",\\"bones\\":10,\\"azimuth\\":-30,\\"elevation\\":0,\\"weight\\":1,\\"eyesWeight\\":0.30000001192092896,\\"headWeight\\":0.6000000238418579,\\"bodyWeight\\":0.10000000149011612}},{\\"key\\":\\"to\\",\\"value\\":{\\"type\\":0,\\"actorId\\":\\"\\",\\"bones\\":10,\\"azimuth\\":0,\\"elevation\\":0,\\"weight\\":0,\\"eyesWeight\\":0.30000001192092896,\\"headWeight\\":0.6000000238418579,\\"bodyWeight\\":0.10000000149011612}},{\\"key\\":\\"clip\\",\\"value\\":{\\"_startTime\\":90.7333333333,\\"_duration\\":0.6,\\"_easeInDuration\\":0,\\"_easeOutDuration\\":0,\\"_blendInDuration\\":-1,\\"_blendOutDuration\\":-1,\\"_mixInEaseType\\":1,\\"_mixOutEaseType\\":1,\\"_timeScale\\":1}}]}",
+  },
+  {
+    "_t": "Unknown",
+    "raw": "{\\"command\\":\\"actormotion\\",\\"args\\":[{\\"key\\":\\"id\\",\\"value\\":\\"rio\\"},{\\"key\\":\\"motion\\",\\"value\\":\\"mot_adv_chr_cmn_talk-013_in\\"},{\\"key\\":\\"transition\\",\\"value\\":0.5},{\\"key\\":\\"clip\\",\\"value\\":{\\"_startTime\\":88.2666666667,\\"_duration\\":2.1000001431,\\"_easeInDuration\\":0,\\"_easeOutDuration\\":0,\\"_blendInDuration\\":-1,\\"_blendOutDuration\\":-1,\\"_mixInEaseType\\":1,\\"_mixOutEaseType\\":1,\\"_timeScale\\":1}}]}",
+  },
+  {
+    "_t": "Unknown",
+    "raw": "{\\"command\\":\\"actorfacialmotion\\",\\"args\\":[{\\"key\\":\\"id\\",\\"value\\":\\"rio\\"},{\\"key\\":\\"motion\\",\\"value\\":\\"mot_all_chr_cmn_facial-001_in\\"},{\\"key\\":\\"clip\\",\\"value\\":{\\"_startTime\\":88.2666666667,\\"_duration\\":0.0333333351,\\"_easeInDuration\\":0,\\"_easeOutDuration\\":0,\\"_blendInDuration\\":-1,\\"_blendOutDuration\\":-1,\\"_mixInEaseType\\":1,\\"_mixOutEaseType\\":1,\\"_timeScale\\":1}}]}",
+  },
+  {
+    "_t": "Message",
+    "name": "長瀬琴乃",
+    "text": "みなさんもご存じの通りLizNoirは",
+    "thumbnail": "img_chr_adv_ktn-00",
+  },
+  {
+    "_t": "Message",
+    "name": "長瀬琴乃",
+    "text": "今私達と同じ星見プロダクションに所属しています",
+    "thumbnail": "img_chr_adv_ktn-00",
+  },
+  {
+    "_t": "Voice",
+    "actorId": "ktn",
+    "channel": 1,
+    "duration": 7.2013378143,
+    "startTime": 85.4333333333,
+    "voice": "sud_vo_adv_event_2210_01_05-ktn002",
+  },
+  {
+    "_t": "Unknown",
+    "raw": "{\\"command\\":\\"camerasetting\\",\\"args\\":[{\\"key\\":\\"setting\\",\\"value\\":{\\"focalLength\\":130,\\"transform\\":{\\"position\\":{\\"x\\":0,\\"y\\":1.3600000143051147,\\"z\\":3},\\"rotation\\":{\\"x\\":0,\\"y\\":180,\\"z\\":0},\\"scale\\":{\\"x\\":1,\\"y\\":1,\\"z\\":1}},\\"dofSetting\\":{\\"active\\":false,\\"focalPoint\\":4,\\"fNumber\\":4,\\"maxBlurSpread\\":3}}},{\\"key\\":\\"clip\\",\\"value\\":{\\"_startTime\\":93.4333333333,\\"_duration\\":0,\\"_easeInDuration\\":0,\\"_easeOutDuration\\":0,\\"_blendInDuration\\":-1,\\"_blendOutDuration\\":-1,\\"_mixInEaseType\\":1,\\"_mixOutEaseType\\":1,\\"_timeScale\\":1}}]}",
+  },
+  {
+    "_t": "BackgroundSetting",
+    "id": "livestage-00-noon",
+    "position": {
+      "x": 300,
+      "y": 0,
+    },
+    "scale": {
+      "x": 1.5,
+      "y": 1.5,
+    },
+    "startTime": 93.4333333333,
+  },
+  {
+    "_t": "Unknown",
+    "raw": "{\\"command\\":\\"actorlayoutgroup\\",\\"args\\":[{\\"key\\":\\"layouts\\",\\"value\\":{\\"command\\":\\"actorlayout\\",\\"args\\":[{\\"key\\":\\"id\\",\\"value\\":\\"ktn\\"},{\\"key\\":\\"transform\\",\\"value\\":{\\"position\\":{\\"x\\":0,\\"y\\":0,\\"z\\":0},\\"rotation\\":{\\"x\\":0,\\"y\\":0,\\"z\\":0},\\"scale\\":{\\"x\\":1,\\"y\\":1,\\"z\\":1}}}]}},{\\"key\\":\\"clip\\",\\"value\\":{\\"_startTime\\":93.4333333333,\\"_duration\\":0,\\"_easeInDuration\\":0,\\"_easeOutDuration\\":0,\\"_blendInDuration\\":-1,\\"_blendOutDuration\\":-1,\\"_mixInEaseType\\":1,\\"_mixOutEaseType\\":1,\\"_timeScale\\":1}}]}",
+  },
+  {
+    "_t": "Unknown",
+    "raw": "{\\"command\\":\\"actormotion\\",\\"args\\":[{\\"key\\":\\"id\\",\\"value\\":\\"ktn\\"},{\\"key\\":\\"motion\\",\\"value\\":\\"mot_adv_chr_cmn_talk-012_in\\"},{\\"key\\":\\"clip\\",\\"value\\":{\\"_startTime\\":93.4333333333,\\"_duration\\":1.76666677,\\"_easeInDuration\\":0,\\"_easeOutDuration\\":0,\\"_blendInDuration\\":-1,\\"_blendOutDuration\\":-1,\\"_mixInEaseType\\":1,\\"_mixOutEaseType\\":1,\\"_timeScale\\":1}}]}",
+  },
+  {
+    "_t": "Unknown",
+    "raw": "{\\"command\\":\\"actorfacialmotion\\",\\"args\\":[{\\"key\\":\\"id\\",\\"value\\":\\"ktn\\"},{\\"key\\":\\"motion\\",\\"value\\":\\"mot_all_chr_cmn_facial-001_in\\"},{\\"key\\":\\"transition\\",\\"value\\":0},{\\"key\\":\\"clip\\",\\"value\\":{\\"_startTime\\":93.4333333333,\\"_duration\\":0.0333333351,\\"_easeInDuration\\":0,\\"_easeOutDuration\\":0,\\"_blendInDuration\\":-1,\\"_blendOutDuration\\":-1,\\"_mixInEaseType\\":1,\\"_mixOutEaseType\\":1,\\"_timeScale\\":1}}]}",
+  },
+  {
+    "_t": "Unknown",
+    "raw": "{\\"command\\":\\"actormotion\\",\\"args\\":[{\\"key\\":\\"id\\",\\"value\\":\\"ktn\\"},{\\"key\\":\\"motion\\",\\"value\\":\\"mot_adv_chr_cmn_talk-007_in\\"},{\\"key\\":\\"transition\\",\\"value\\":0.5},{\\"key\\":\\"clip\\",\\"value\\":{\\"_startTime\\":96.0666666667,\\"_duration\\":1.8333333731,\\"_easeInDuration\\":0,\\"_easeOutDuration\\":0,\\"_blendInDuration\\":-1,\\"_blendOutDuration\\":-1,\\"_mixInEaseType\\":1,\\"_mixOutEaseType\\":1,\\"_timeScale\\":1}}]}",
+  },
+  {
+    "_t": "Unknown",
+    "raw": "{\\"command\\":\\"actorfacialmotion\\",\\"args\\":[{\\"key\\":\\"id\\",\\"value\\":\\"ktn\\"},{\\"key\\":\\"motion\\",\\"value\\":\\"mot_all_chr_cmn_facial-001_in\\"},{\\"key\\":\\"clip\\",\\"value\\":{\\"_startTime\\":96.0666666667,\\"_duration\\":0.0333333351,\\"_easeInDuration\\":0,\\"_easeOutDuration\\":0,\\"_blendInDuration\\":-1,\\"_blendOutDuration\\":-1,\\"_mixInEaseType\\":1,\\"_mixOutEaseType\\":1,\\"_timeScale\\":1}}]}",
+  },
+  {
+    "_t": "Unknown",
+    "raw": "{\\"command\\":\\"actorfacialmotion\\",\\"args\\":[{\\"key\\":\\"id\\",\\"value\\":\\"ktn\\"},{\\"key\\":\\"motion\\",\\"value\\":\\"mot_all_chr_cmn_facial-050_in\\"},{\\"key\\":\\"clip\\",\\"value\\":{\\"_startTime\\":98.2666666667,\\"_duration\\":0.0333333351,\\"_easeInDuration\\":0,\\"_easeOutDuration\\":0,\\"_blendInDuration\\":-1,\\"_blendOutDuration\\":-1,\\"_mixInEaseType\\":1,\\"_mixOutEaseType\\":1,\\"_timeScale\\":1}}]}",
+  },
+  {
+    "_t": "Unknown",
+    "raw": "{\\"command\\":\\"actoradditivemotion\\",\\"args\\":[{\\"key\\":\\"id\\",\\"value\\":\\"ktn\\"},{\\"key\\":\\"motion\\",\\"value\\":\\"mot_all_chr_cmn_yes-002-add_in\\"},{\\"key\\":\\"clip\\",\\"value\\":{\\"_startTime\\":98.2666666667,\\"_duration\\":1.6666666666,\\"_easeInDuration\\":0,\\"_easeOutDuration\\":0,\\"_blendInDuration\\":-1,\\"_blendOutDuration\\":-1,\\"_mixInEaseType\\":1,\\"_mixOutEaseType\\":1,\\"_timeScale\\":1}}]}",
+  },
+  {
+    "_t": "Unknown",
+    "raw": "{\\"command\\":\\"actorfacialmotion\\",\\"args\\":[{\\"key\\":\\"id\\",\\"value\\":\\"ktn\\"},{\\"key\\":\\"motion\\",\\"value\\":\\"mot_all_chr_cmn_facial-001_in\\"},{\\"key\\":\\"clip\\",\\"value\\":{\\"_startTime\\":99.0666666667,\\"_duration\\":0.03333333507180214,\\"_easeInDuration\\":0,\\"_easeOutDuration\\":0,\\"_blendInDuration\\":-1,\\"_blendOutDuration\\":-1,\\"_mixInEaseType\\":1,\\"_mixOutEaseType\\":1,\\"_timeScale\\":1}}]}",
+  },
+  {
+    "_t": "Message",
+    "name": "長瀬琴乃",
+    "text": "LizNoirはかつて私達とNEXT VENUS",
+    "thumbnail": "img_chr_adv_ktn-00",
+  },
+  {
+    "_t": "Message",
+    "name": "長瀬琴乃",
+    "text": "グランプリで戦った、ライバルです",
+    "thumbnail": "img_chr_adv_ktn-00",
+  },
+  {
+    "_t": "Voice",
+    "actorId": "ktn",
+    "channel": 1,
+    "duration": 5.7783675194,
+    "startTime": 93.4333333333,
+    "voice": "sud_vo_adv_event_2210_01_05-ktn003",
+  },
+  {
+    "_t": "Unknown",
+    "raw": "{\\"command\\":\\"actormotion\\",\\"args\\":[{\\"key\\":\\"id\\",\\"value\\":\\"ktn\\"},{\\"key\\":\\"motion\\",\\"value\\":\\"mot_adv_chr_cmn_talk-019_in\\"},{\\"key\\":\\"transition\\",\\"value\\":0.5},{\\"key\\":\\"clip\\",\\"value\\":{\\"_startTime\\":99.9333333333,\\"_duration\\":2.2333333492,\\"_easeInDuration\\":0,\\"_easeOutDuration\\":0,\\"_blendInDuration\\":-1,\\"_blendOutDuration\\":-1,\\"_mixInEaseType\\":1,\\"_mixOutEaseType\\":1,\\"_timeScale\\":1}}]}",
+  },
+  {
+    "_t": "Unknown",
+    "raw": "{\\"command\\":\\"actorfacialmotion\\",\\"args\\":[{\\"key\\":\\"id\\",\\"value\\":\\"ktn\\"},{\\"key\\":\\"motion\\",\\"value\\":\\"mot_all_chr_cmn_facial-001_in\\"},{\\"key\\":\\"clip\\",\\"value\\":{\\"_startTime\\":99.9333333333,\\"_duration\\":0.0333333351,\\"_easeInDuration\\":0,\\"_easeOutDuration\\":0,\\"_blendInDuration\\":-1,\\"_blendOutDuration\\":-1,\\"_mixInEaseType\\":1,\\"_mixOutEaseType\\":1,\\"_timeScale\\":1}}]}",
+  },
+  {
+    "_t": "Message",
+    "name": "長瀬琴乃",
+    "text": "でも、同時に大切な仲間です",
+    "thumbnail": "img_chr_adv_ktn-00",
+  },
+  {
+    "_t": "Voice",
+    "actorId": "ktn",
+    "channel": 1,
+    "duration": 2.7241044044,
+    "startTime": 99.9333333333,
+    "voice": "sud_vo_adv_event_2210_01_05-ktn004",
+  },
+  {
+    "_t": "Unknown",
+    "raw": "{\\"command\\":\\"camerasetting\\",\\"args\\":[{\\"key\\":\\"setting\\",\\"value\\":{\\"focalLength\\":200,\\"transform\\":{\\"position\\":{\\"x\\":0,\\"y\\":1.4199999570846558,\\"z\\":3.0999999046325684},\\"rotation\\":{\\"x\\":0,\\"y\\":180,\\"z\\":0},\\"scale\\":{\\"x\\":1,\\"y\\":1,\\"z\\":1}},\\"dofSetting\\":{\\"active\\":true,\\"focalPoint\\":4,\\"fNumber\\":4,\\"maxBlurSpread\\":3}}},{\\"key\\":\\"clip\\",\\"value\\":{\\"_startTime\\":103.3,\\"_duration\\":0,\\"_easeInDuration\\":0,\\"_easeOutDuration\\":0,\\"_blendInDuration\\":-1,\\"_blendOutDuration\\":-1,\\"_mixInEaseType\\":1,\\"_mixOutEaseType\\":1,\\"_timeScale\\":1}}]}",
+  },
+  {
+    "_t": "BackgroundSetting",
+    "id": "livestage-00-noon",
+    "position": {
+      "x": 500,
+      "y": 0,
+    },
+    "scale": {
+      "x": 2,
+      "y": 2,
+    },
+    "startTime": 103.3,
+  },
+  {
+    "_t": "Unknown",
+    "raw": "{\\"command\\":\\"actorlayoutgroup\\",\\"args\\":[{\\"key\\":\\"layouts\\",\\"value\\":{\\"command\\":\\"actorlayout\\",\\"args\\":[{\\"key\\":\\"id\\",\\"value\\":\\"ktn\\"},{\\"key\\":\\"transform\\",\\"value\\":{\\"position\\":{\\"x\\":0,\\"y\\":0,\\"z\\":0},\\"rotation\\":{\\"x\\":0,\\"y\\":0,\\"z\\":0},\\"scale\\":{\\"x\\":1,\\"y\\":1,\\"z\\":1}}}]}},{\\"key\\":\\"clip\\",\\"value\\":{\\"_startTime\\":103.3,\\"_duration\\":0,\\"_easeInDuration\\":0,\\"_easeOutDuration\\":0,\\"_blendInDuration\\":-1,\\"_blendOutDuration\\":-1,\\"_mixInEaseType\\":1,\\"_mixOutEaseType\\":1,\\"_timeScale\\":1}}]}",
+  },
+  {
+    "_t": "Unknown",
+    "raw": "{\\"command\\":\\"actormotion\\",\\"args\\":[{\\"key\\":\\"id\\",\\"value\\":\\"ktn\\"},{\\"key\\":\\"motion\\",\\"value\\":\\"mot_adv_chr_cmn_talk-009_in\\"},{\\"key\\":\\"clip\\",\\"value\\":{\\"_startTime\\":103.3,\\"_duration\\":1.5333334208,\\"_easeInDuration\\":0,\\"_easeOutDuration\\":0,\\"_blendInDuration\\":-1,\\"_blendOutDuration\\":-1,\\"_mixInEaseType\\":1,\\"_mixOutEaseType\\":1,\\"_timeScale\\":1}}]}",
+  },
+  {
+    "_t": "Unknown",
+    "raw": "{\\"command\\":\\"actorfacialmotion\\",\\"args\\":[{\\"key\\":\\"id\\",\\"value\\":\\"ktn\\"},{\\"key\\":\\"motion\\",\\"value\\":\\"mot_all_chr_cmn_facial-001_in\\"},{\\"key\\":\\"transition\\",\\"value\\":0},{\\"key\\":\\"clip\\",\\"value\\":{\\"_startTime\\":103.3,\\"_duration\\":0.0333333351,\\"_easeInDuration\\":0,\\"_easeOutDuration\\":0,\\"_blendInDuration\\":-1,\\"_blendOutDuration\\":-1,\\"_mixInEaseType\\":1,\\"_mixOutEaseType\\":1,\\"_timeScale\\":1}}]}",
+  },
+  {
+    "_t": "Unknown",
+    "raw": "{\\"command\\":\\"actormotion\\",\\"args\\":[{\\"key\\":\\"id\\",\\"value\\":\\"ktn\\"},{\\"key\\":\\"motion\\",\\"value\\":\\"mot_adv_chr_cmn_think-003_in\\"},{\\"key\\":\\"transition\\",\\"value\\":0.5},{\\"key\\":\\"clip\\",\\"value\\":{\\"_startTime\\":105.5333333333,\\"_duration\\":2,\\"_easeInDuration\\":0,\\"_easeOutDuration\\":0,\\"_blendInDuration\\":-1,\\"_blendOutDuration\\":-1,\\"_mixInEaseType\\":1,\\"_mixOutEaseType\\":1,\\"_timeScale\\":1}}]}",
+  },
+  {
+    "_t": "Unknown",
+    "raw": "{\\"command\\":\\"actormotion\\",\\"args\\":[{\\"key\\":\\"id\\",\\"value\\":\\"ktn\\"},{\\"key\\":\\"motion\\",\\"value\\":\\"mot_adv_chr_cmn_talk-013_in\\"},{\\"key\\":\\"transition\\",\\"value\\":0.5},{\\"key\\":\\"clip\\",\\"value\\":{\\"_startTime\\":107.7666666667,\\"_duration\\":2.1000001431,\\"_easeInDuration\\":0,\\"_easeOutDuration\\":0,\\"_blendInDuration\\":-1,\\"_blendOutDuration\\":-1,\\"_mixInEaseType\\":1,\\"_mixOutEaseType\\":1,\\"_timeScale\\":1}}]}",
+  },
+  {
+    "_t": "Unknown",
+    "raw": "{\\"command\\":\\"actorfacialmotion\\",\\"args\\":[{\\"key\\":\\"id\\",\\"value\\":\\"ktn\\"},{\\"key\\":\\"motion\\",\\"value\\":\\"mot_all_chr_cmn_facial-001_in\\"},{\\"key\\":\\"clip\\",\\"value\\":{\\"_startTime\\":107.7666666667,\\"_duration\\":0.0333333351,\\"_easeInDuration\\":0,\\"_easeOutDuration\\":0,\\"_blendInDuration\\":-1,\\"_blendOutDuration\\":-1,\\"_mixInEaseType\\":1,\\"_mixOutEaseType\\":1,\\"_timeScale\\":1}}]}",
+  },
+  {
+    "_t": "Unknown",
+    "raw": "{\\"command\\":\\"actormotion\\",\\"args\\":[{\\"key\\":\\"id\\",\\"value\\":\\"ktn\\"},{\\"key\\":\\"motion\\",\\"value\\":\\"mot_adv_chr_cmn_pos-011_in\\"},{\\"key\\":\\"transition\\",\\"value\\":0.5},{\\"key\\":\\"clip\\",\\"value\\":{\\"_startTime\\":110.1666666667,\\"_duration\\":2.3333334923,\\"_easeInDuration\\":0,\\"_easeOutDuration\\":0,\\"_blendInDuration\\":-1,\\"_blendOutDuration\\":-1,\\"_mixInEaseType\\":1,\\"_mixOutEaseType\\":1,\\"_timeScale\\":1}}]}",
+  },
+  {
+    "_t": "Message",
+    "name": "長瀬琴乃",
+    "text": "私だけじゃありません、私の姉――",
+    "thumbnail": "img_chr_adv_ktn-00",
+  },
+  {
+    "_t": "Message",
+    "name": "長瀬琴乃",
+    "text": "長瀬麻奈にとってもLizNoirは特別な存在でした",
+    "thumbnail": "img_chr_adv_ktn-00",
+  },
+  {
+    "_t": "Voice",
+    "actorId": "ktn",
+    "channel": 1,
+    "duration": 9.1253061295,
+    "startTime": 103.3,
+    "voice": "sud_vo_adv_event_2210_01_05-ktn005",
+  },
+  {
+    "_t": "Unknown",
+    "raw": "{\\"command\\":\\"camerasetting\\",\\"args\\":[{\\"key\\":\\"setting\\",\\"value\\":{\\"focalLength\\":130,\\"transform\\":{\\"position\\":{\\"x\\":0,\\"y\\":1.3600000143051147,\\"z\\":3},\\"rotation\\":{\\"x\\":0,\\"y\\":180,\\"z\\":0},\\"scale\\":{\\"x\\":1,\\"y\\":1,\\"z\\":1}},\\"dofSetting\\":{\\"active\\":false,\\"focalPoint\\":4,\\"fNumber\\":4,\\"maxBlurSpread\\":3}}},{\\"key\\":\\"clip\\",\\"value\\":{\\"_startTime\\":113.1333333333,\\"_duration\\":0,\\"_easeInDuration\\":0,\\"_easeOutDuration\\":0,\\"_blendInDuration\\":-1,\\"_blendOutDuration\\":-1,\\"_mixInEaseType\\":1,\\"_mixOutEaseType\\":1,\\"_timeScale\\":1}}]}",
+  },
+  {
+    "_t": "BackgroundSetting",
+    "id": "livestage-00-noon",
+    "position": {
+      "x": 300,
+      "y": 0,
+    },
+    "scale": {
+      "x": 1.5,
+      "y": 1.5,
+    },
+    "startTime": 113.1333333333,
+  },
+  {
+    "_t": "Unknown",
+    "raw": "{\\"command\\":\\"actorlayoutgroup\\",\\"args\\":[{\\"key\\":\\"layouts\\",\\"value\\":{\\"command\\":\\"actorlayout\\",\\"args\\":[{\\"key\\":\\"id\\",\\"value\\":\\"ktn\\"},{\\"key\\":\\"transform\\",\\"value\\":{\\"position\\":{\\"x\\":0,\\"y\\":0,\\"z\\":0},\\"rotation\\":{\\"x\\":0,\\"y\\":0,\\"z\\":0},\\"scale\\":{\\"x\\":1,\\"y\\":1,\\"z\\":1}}}]}},{\\"key\\":\\"clip\\",\\"value\\":{\\"_startTime\\":113.1333333333,\\"_duration\\":0,\\"_easeInDuration\\":0,\\"_easeOutDuration\\":0,\\"_blendInDuration\\":-1,\\"_blendOutDuration\\":-1,\\"_mixInEaseType\\":1,\\"_mixOutEaseType\\":1,\\"_timeScale\\":1}}]}",
+  },
+  {
+    "_t": "Unknown",
+    "raw": "{\\"command\\":\\"actormotion\\",\\"args\\":[{\\"key\\":\\"id\\",\\"value\\":\\"ktn\\"},{\\"key\\":\\"motion\\",\\"value\\":\\"mot_adv_chr_cmn_talk-008_in\\"},{\\"key\\":\\"clip\\",\\"value\\":{\\"_startTime\\":113.1333333333,\\"_duration\\":1.8333333731,\\"_easeInDuration\\":0,\\"_easeOutDuration\\":0,\\"_blendInDuration\\":-1,\\"_blendOutDuration\\":-1,\\"_mixInEaseType\\":1,\\"_mixOutEaseType\\":1,\\"_timeScale\\":1}}]}",
+  },
+  {
+    "_t": "Unknown",
+    "raw": "{\\"command\\":\\"actorfacialmotion\\",\\"args\\":[{\\"key\\":\\"id\\",\\"value\\":\\"ktn\\"},{\\"key\\":\\"motion\\",\\"value\\":\\"mot_all_chr_cmn_facial-001_in\\"},{\\"key\\":\\"transition\\",\\"value\\":0},{\\"key\\":\\"clip\\",\\"value\\":{\\"_startTime\\":113.1333333333,\\"_duration\\":0.0333333351,\\"_easeInDuration\\":0,\\"_easeOutDuration\\":0,\\"_blendInDuration\\":-1,\\"_blendOutDuration\\":-1,\\"_mixInEaseType\\":1,\\"_mixOutEaseType\\":1,\\"_timeScale\\":1}}]}",
+  },
+  {
+    "_t": "Unknown",
+    "raw": "{\\"command\\":\\"actormotion\\",\\"args\\":[{\\"key\\":\\"id\\",\\"value\\":\\"ktn\\"},{\\"key\\":\\"motion\\",\\"value\\":\\"mot_adv_chr_cmn_talk-016_in\\"},{\\"key\\":\\"transition\\",\\"value\\":0.5},{\\"key\\":\\"clip\\",\\"value\\":{\\"_startTime\\":115.5333333333,\\"_duration\\":2,\\"_easeInDuration\\":0,\\"_easeOutDuration\\":0,\\"_blendInDuration\\":-1,\\"_blendOutDuration\\":-1,\\"_mixInEaseType\\":1,\\"_mixOutEaseType\\":1,\\"_timeScale\\":1}}]}",
+  },
+  {
+    "_t": "Unknown",
+    "raw": "{\\"command\\":\\"actorfacialmotion\\",\\"args\\":[{\\"key\\":\\"id\\",\\"value\\":\\"ktn\\"},{\\"key\\":\\"motion\\",\\"value\\":\\"mot_all_chr_cmn_facial-001_in\\"},{\\"key\\":\\"clip\\",\\"value\\":{\\"_startTime\\":115.5333333333,\\"_duration\\":0.0333333351,\\"_easeInDuration\\":0,\\"_easeOutDuration\\":0,\\"_blendInDuration\\":-1,\\"_blendOutDuration\\":-1,\\"_mixInEaseType\\":1,\\"_mixOutEaseType\\":1,\\"_timeScale\\":1}}]}",
+  },
+  {
+    "_t": "Unknown",
+    "raw": "{\\"command\\":\\"actorlooktargettween\\",\\"args\\":[{\\"key\\":\\"id\\",\\"value\\":\\"ktn\\"},{\\"key\\":\\"from\\",\\"value\\":{\\"type\\":0,\\"actorId\\":\\"\\",\\"bones\\":10,\\"azimuth\\":0,\\"elevation\\":0,\\"weight\\":0,\\"eyesWeight\\":0.30000001192092896,\\"headWeight\\":0.6000000238418579,\\"bodyWeight\\":0.10000000149011612}},{\\"key\\":\\"to\\",\\"value\\":{\\"type\\":0,\\"actorId\\":\\"\\",\\"bones\\":10,\\"azimuth\\":-30,\\"elevation\\":0,\\"weight\\":1,\\"eyesWeight\\":0.30000001192092896,\\"headWeight\\":0.6000000238418579,\\"bodyWeight\\":0.10000000149011612}},{\\"key\\":\\"clip\\",\\"value\\":{\\"_startTime\\":117.1333333333,\\"_duration\\":0.6,\\"_easeInDuration\\":0,\\"_easeOutDuration\\":0,\\"_blendInDuration\\":-1,\\"_blendOutDuration\\":-1,\\"_mixInEaseType\\":1,\\"_mixOutEaseType\\":1,\\"_timeScale\\":1}}]}",
+  },
+  {
+    "_t": "Message",
+    "name": "長瀬琴乃",
+    "text": "姉がアイドルを目指したきっかけは",
+    "thumbnail": "img_chr_adv_ktn-00",
+  },
+  {
+    "_t": "Message",
+    "name": "長瀬琴乃",
+    "text": "このライブハウスでLizNoirの――",
+    "thumbnail": "img_chr_adv_ktn-00",
+  },
+  {
+    "_t": "Voice",
+    "actorId": "ktn",
+    "channel": 1,
+    "duration": 5.4003629684,
+    "startTime": 113.1333333333,
+    "voice": "sud_vo_adv_event_2210_01_05-ktn006",
+  },
+  {
+    "_t": "Unknown",
+    "raw": "{\\"command\\":\\"camerasetting\\",\\"args\\":[{\\"key\\":\\"setting\\",\\"value\\":{\\"focalLength\\":200,\\"transform\\":{\\"position\\":{\\"x\\":0.019999999552965164,\\"y\\":1.396343469619751,\\"z\\":3},\\"rotation\\":{\\"x\\":0,\\"y\\":180,\\"z\\":0},\\"scale\\":{\\"x\\":1,\\"y\\":1,\\"z\\":1}},\\"dofSetting\\":{\\"active\\":true,\\"focalPoint\\":4,\\"fNumber\\":4,\\"maxBlurSpread\\":3}}},{\\"key\\":\\"clip\\",\\"value\\":{\\"_startTime\\":119.0666666667,\\"_duration\\":0,\\"_easeInDuration\\":0,\\"_easeOutDuration\\":0,\\"_blendInDuration\\":-1,\\"_blendOutDuration\\":-1,\\"_mixInEaseType\\":1,\\"_mixOutEaseType\\":1,\\"_timeScale\\":1}}]}",
+  },
+  {
+    "_t": "BackgroundSetting",
+    "id": "livestage-00-noon",
+    "position": {
+      "x": -500,
+      "y": 0,
+    },
+    "scale": {
+      "x": 2,
+      "y": 2,
+    },
+    "startTime": 119.0666666667,
+  },
+  {
+    "_t": "Unknown",
+    "raw": "{\\"command\\":\\"actorlayoutgroup\\",\\"args\\":[{\\"key\\":\\"layouts\\",\\"value\\":{\\"command\\":\\"actorlayout\\",\\"args\\":[{\\"key\\":\\"id\\",\\"value\\":\\"rio\\"},{\\"key\\":\\"transform\\",\\"value\\":{\\"position\\":{\\"x\\":0,\\"y\\":0,\\"z\\":0},\\"rotation\\":{\\"x\\":0,\\"y\\":24,\\"z\\":0},\\"scale\\":{\\"x\\":1,\\"y\\":1,\\"z\\":1}}}]}},{\\"key\\":\\"clip\\",\\"value\\":{\\"_startTime\\":119.0666666667,\\"_duration\\":0,\\"_easeInDuration\\":0,\\"_easeOutDuration\\":0,\\"_blendInDuration\\":-1,\\"_blendOutDuration\\":-1,\\"_mixInEaseType\\":1,\\"_mixOutEaseType\\":1,\\"_timeScale\\":1}}]}",
+  },
+  {
+    "_t": "Unknown",
+    "raw": "{\\"command\\":\\"actorlooktarget\\",\\"args\\":[{\\"key\\":\\"id\\",\\"value\\":\\"rio\\"},{\\"key\\":\\"clip\\",\\"value\\":{\\"_startTime\\":119.0666666667,\\"_duration\\":0,\\"_easeInDuration\\":0,\\"_easeOutDuration\\":0,\\"_blendInDuration\\":-1,\\"_blendOutDuration\\":-1,\\"_mixInEaseType\\":1,\\"_mixOutEaseType\\":1,\\"_timeScale\\":1}}]}",
+  },
+  {
+    "_t": "Unknown",
+    "raw": "{\\"command\\":\\"camerasetting\\",\\"args\\":[{\\"key\\":\\"setting\\",\\"value\\":{\\"focalLength\\":200,\\"transform\\":{\\"position\\":{\\"x\\":0.025810301303863525,\\"y\\":1.3840880393981934,\\"z\\":2.8664581775665283},\\"rotation\\":{\\"x\\":0,\\"y\\":180,\\"z\\":0},\\"scale\\":{\\"x\\":1,\\"y\\":1,\\"z\\":1}},\\"dofSetting\\":{\\"active\\":true,\\"focalPoint\\":4,\\"fNumber\\":4,\\"maxBlurSpread\\":3}}},{\\"key\\":\\"clip\\",\\"value\\":{\\"_startTime\\":120.3,\\"_duration\\":0,\\"_easeInDuration\\":0,\\"_easeOutDuration\\":0,\\"_blendInDuration\\":-1,\\"_blendOutDuration\\":-1,\\"_mixInEaseType\\":1,\\"_mixOutEaseType\\":1,\\"_timeScale\\":1}}]}",
+  },
+  {
+    "_t": "BackgroundSetting",
+    "id": "livestage-00-noon",
+    "position": {
+      "x": 0,
+      "y": 0,
+    },
+    "scale": {
+      "x": 2,
+      "y": 2,
+    },
+    "startTime": 120.3,
+  },
+  {
+    "_t": "Unknown",
+    "raw": "{\\"command\\":\\"actorlayoutgroup\\",\\"args\\":[{\\"key\\":\\"layouts\\",\\"value\\":{\\"command\\":\\"actorlayout\\",\\"args\\":[{\\"key\\":\\"id\\",\\"value\\":\\"aoi\\"},{\\"key\\":\\"transform\\",\\"value\\":{\\"position\\":{\\"x\\":0,\\"y\\":0,\\"z\\":0},\\"rotation\\":{\\"x\\":0,\\"y\\":20,\\"z\\":0},\\"scale\\":{\\"x\\":1,\\"y\\":1,\\"z\\":1}}}]}},{\\"key\\":\\"clip\\",\\"value\\":{\\"_startTime\\":120.3,\\"_duration\\":0,\\"_easeInDuration\\":0,\\"_easeOutDuration\\":0,\\"_blendInDuration\\":-1,\\"_blendOutDuration\\":-1,\\"_mixInEaseType\\":1,\\"_mixOutEaseType\\":1,\\"_timeScale\\":1}}]}",
+  },
+  {
+    "_t": "Unknown",
+    "raw": "{\\"command\\":\\"actormotion\\",\\"args\\":[{\\"key\\":\\"id\\",\\"value\\":\\"aoi\\"},{\\"key\\":\\"motion\\",\\"value\\":\\"mot_adv_chr_cmn_talk-008_pose\\"},{\\"key\\":\\"clip\\",\\"value\\":{\\"_startTime\\":119.0666666667,\\"_duration\\":0.0333333351,\\"_easeInDuration\\":0,\\"_easeOutDuration\\":0,\\"_blendInDuration\\":-1,\\"_blendOutDuration\\":-1,\\"_mixInEaseType\\":1,\\"_mixOutEaseType\\":1,\\"_timeScale\\":1}}]}",
+  },
+  {
+    "_t": "Unknown",
+    "raw": "{\\"command\\":\\"actorfacialmotion\\",\\"args\\":[{\\"key\\":\\"id\\",\\"value\\":\\"aoi\\"},{\\"key\\":\\"motion\\",\\"value\\":\\"mot_all_chr_cmn_facial-001_in\\"},{\\"key\\":\\"transition\\",\\"value\\":0},{\\"key\\":\\"clip\\",\\"value\\":{\\"_startTime\\":119.0666666667,\\"_duration\\":0.0333333351,\\"_easeInDuration\\":0,\\"_easeOutDuration\\":0,\\"_blendInDuration\\":-1,\\"_blendOutDuration\\":-1,\\"_mixInEaseType\\":1,\\"_mixOutEaseType\\":1,\\"_timeScale\\":1}}]}",
+  },
+  {
+    "_t": "Message",
+    "name": "長瀬琴乃",
+    "text": "莉央さんと葵さんの歌を聴いたから――",
+    "thumbnail": "img_chr_adv_ktn-00",
+  },
+  {
+    "_t": "Voice",
+    "actorId": "ktn",
+    "channel": 1,
+    "duration": 2.7077097893,
+    "startTime": 119.0666666667,
+    "voice": "sud_vo_adv_event_2210_01_05-ktn007",
+  },
+  {
+    "_t": "Unknown",
+    "raw": "{\\"command\\":\\"camerasetting\\",\\"args\\":[{\\"key\\":\\"setting\\",\\"value\\":{\\"focalLength\\":130,\\"transform\\":{\\"position\\":{\\"x\\":0,\\"y\\":1.3600000143051147,\\"z\\":3},\\"rotation\\":{\\"x\\":0,\\"y\\":180,\\"z\\":0},\\"scale\\":{\\"x\\":1,\\"y\\":1,\\"z\\":1}},\\"dofSetting\\":{\\"active\\":false,\\"focalPoint\\":4,\\"fNumber\\":4,\\"maxBlurSpread\\":3}}},{\\"key\\":\\"clip\\",\\"value\\":{\\"_startTime\\":122.5,\\"_duration\\":0,\\"_easeInDuration\\":0,\\"_easeOutDuration\\":0,\\"_blendInDuration\\":-1,\\"_blendOutDuration\\":-1,\\"_mixInEaseType\\":1,\\"_mixOutEaseType\\":1,\\"_timeScale\\":1}}]}",
+  },
+  {
+    "_t": "BackgroundSetting",
+    "id": "livestage-00-noon",
+    "position": {
+      "x": 300,
+      "y": 0,
+    },
+    "scale": {
+      "x": 1.5,
+      "y": 1.5,
+    },
+    "startTime": 122.5,
+  },
+  {
+    "_t": "Unknown",
+    "raw": "{\\"command\\":\\"actorlayoutgroup\\",\\"args\\":[{\\"key\\":\\"layouts\\",\\"value\\":{\\"command\\":\\"actorlayout\\",\\"args\\":[{\\"key\\":\\"id\\",\\"value\\":\\"ktn\\"},{\\"key\\":\\"transform\\",\\"value\\":{\\"position\\":{\\"x\\":0,\\"y\\":0,\\"z\\":0},\\"rotation\\":{\\"x\\":0,\\"y\\":0,\\"z\\":0},\\"scale\\":{\\"x\\":1,\\"y\\":1,\\"z\\":1}}}]}},{\\"key\\":\\"clip\\",\\"value\\":{\\"_startTime\\":122.5,\\"_duration\\":0,\\"_easeInDuration\\":0,\\"_easeOutDuration\\":0,\\"_blendInDuration\\":-1,\\"_blendOutDuration\\":-1,\\"_mixInEaseType\\":1,\\"_mixOutEaseType\\":1,\\"_timeScale\\":1}}]}",
+  },
+  {
+    "_t": "Unknown",
+    "raw": "{\\"command\\":\\"actormotion\\",\\"args\\":[{\\"key\\":\\"id\\",\\"value\\":\\"ktn\\"},{\\"key\\":\\"motion\\",\\"value\\":\\"mot_adv_chr_cmn_talk-012_in\\"},{\\"key\\":\\"clip\\",\\"value\\":{\\"_startTime\\":122.5,\\"_duration\\":1.76666677,\\"_easeInDuration\\":0,\\"_easeOutDuration\\":0,\\"_blendInDuration\\":-1,\\"_blendOutDuration\\":-1,\\"_mixInEaseType\\":1,\\"_mixOutEaseType\\":1,\\"_timeScale\\":1}}]}",
+  },
+  {
+    "_t": "Unknown",
+    "raw": "{\\"command\\":\\"actorfacialmotion\\",\\"args\\":[{\\"key\\":\\"id\\",\\"value\\":\\"ktn\\"},{\\"key\\":\\"motion\\",\\"value\\":\\"mot_all_chr_cmn_facial-001_in\\"},{\\"key\\":\\"transition\\",\\"value\\":0},{\\"key\\":\\"clip\\",\\"value\\":{\\"_startTime\\":122.5,\\"_duration\\":0.0333333351,\\"_easeInDuration\\":0,\\"_easeOutDuration\\":0,\\"_blendInDuration\\":-1,\\"_blendOutDuration\\":-1,\\"_mixInEaseType\\":1,\\"_mixOutEaseType\\":1,\\"_timeScale\\":1}}]}",
+  },
+  {
+    "_t": "Unknown",
+    "raw": "{\\"command\\":\\"actormotion\\",\\"args\\":[{\\"key\\":\\"id\\",\\"value\\":\\"ktn\\"},{\\"key\\":\\"motion\\",\\"value\\":\\"mot_adv_chr_cmn_glad-001_in\\"},{\\"key\\":\\"transition\\",\\"value\\":0.5},{\\"key\\":\\"clip\\",\\"value\\":{\\"_startTime\\":126.6333333333,\\"_duration\\":2,\\"_easeInDuration\\":0,\\"_easeOutDuration\\":0,\\"_blendInDuration\\":-1,\\"_blendOutDuration\\":-1,\\"_mixInEaseType\\":1,\\"_mixOutEaseType\\":1,\\"_timeScale\\":1}}]}",
+  },
+  {
+    "_t": "Unknown",
+    "raw": "{\\"command\\":\\"actorlooktargettween\\",\\"args\\":[{\\"key\\":\\"id\\",\\"value\\":\\"ktn\\"},{\\"key\\":\\"from\\",\\"value\\":{\\"type\\":0,\\"actorId\\":\\"\\",\\"bones\\":10,\\"azimuth\\":-30,\\"elevation\\":0,\\"weight\\":1,\\"eyesWeight\\":0.30000001192092896,\\"headWeight\\":0.6000000238418579,\\"bodyWeight\\":0.10000000149011612}},{\\"key\\":\\"to\\",\\"value\\":{\\"type\\":0,\\"actorId\\":\\"\\",\\"bones\\":10,\\"azimuth\\":0,\\"elevation\\":0,\\"weight\\":0,\\"eyesWeight\\":0.30000001192092896,\\"headWeight\\":0.6000000238418579,\\"bodyWeight\\":0.10000000149011612}},{\\"key\\":\\"clip\\",\\"value\\":{\\"_startTime\\":122.5,\\"_duration\\":0.6,\\"_easeInDuration\\":0,\\"_easeOutDuration\\":0,\\"_blendInDuration\\":-1,\\"_blendOutDuration\\":-1,\\"_mixInEaseType\\":1,\\"_mixOutEaseType\\":1,\\"_timeScale\\":1}}]}",
+  },
+  {
+    "_t": "Message",
+    "name": "長瀬琴乃",
+    "text": "今日、私は、そんなLizNoirと",
+    "thumbnail": "img_chr_adv_ktn-00",
+  },
+  {
+    "_t": "Message",
+    "name": "長瀬琴乃",
+    "text": "このステージに立てて……とても嬉しいです……",
+    "thumbnail": "img_chr_adv_ktn-00",
+  },
+  {
+    "_t": "Voice",
+    "actorId": "ktn",
+    "channel": 1,
+    "duration": 5.3229250908,
+    "startTime": 122.5,
+    "voice": "sud_vo_adv_event_2210_01_05-ktn008",
+  },
+  {
+    "_t": "Unknown",
+    "raw": "{\\"command\\":\\"camerasetting\\",\\"args\\":[{\\"key\\":\\"setting\\",\\"value\\":{\\"focalLength\\":200,\\"transform\\":{\\"position\\":{\\"x\\":0.019999999552965164,\\"y\\":1.399999976158142,\\"z\\":3},\\"rotation\\":{\\"x\\":0,\\"y\\":180,\\"z\\":0},\\"scale\\":{\\"x\\":1,\\"y\\":1,\\"z\\":1}},\\"dofSetting\\":{\\"active\\":true,\\"focalPoint\\":4,\\"fNumber\\":4,\\"maxBlurSpread\\":3}}},{\\"key\\":\\"clip\\",\\"value\\":{\\"_startTime\\":128.7,\\"_duration\\":0,\\"_easeInDuration\\":0,\\"_easeOutDuration\\":0,\\"_blendInDuration\\":-1,\\"_blendOutDuration\\":-1,\\"_mixInEaseType\\":1,\\"_mixOutEaseType\\":1,\\"_timeScale\\":1}}]}",
+  },
+  {
+    "_t": "BackgroundSetting",
+    "id": "livestage-00-noon",
+    "position": {
+      "x": -500,
+      "y": 0,
+    },
+    "scale": {
+      "x": 2,
+      "y": 2,
+    },
+    "startTime": 128.7,
+  },
+  {
+    "_t": "Unknown",
+    "raw": "{\\"command\\":\\"actorlayoutgroup\\",\\"args\\":[{\\"key\\":\\"layouts\\",\\"value\\":{\\"command\\":\\"actorlayout\\",\\"args\\":[{\\"key\\":\\"id\\",\\"value\\":\\"rio\\"},{\\"key\\":\\"transform\\",\\"value\\":{\\"position\\":{\\"x\\":0,\\"y\\":0,\\"z\\":0},\\"rotation\\":{\\"x\\":0,\\"y\\":24,\\"z\\":0},\\"scale\\":{\\"x\\":1,\\"y\\":1,\\"z\\":1}}}]}},{\\"key\\":\\"clip\\",\\"value\\":{\\"_startTime\\":128.7,\\"_duration\\":0,\\"_easeInDuration\\":0,\\"_easeOutDuration\\":0,\\"_blendInDuration\\":-1,\\"_blendOutDuration\\":-1,\\"_mixInEaseType\\":1,\\"_mixOutEaseType\\":1,\\"_timeScale\\":1}}]}",
+  },
+  {
+    "_t": "Unknown",
+    "raw": "{\\"command\\":\\"actormotion\\",\\"args\\":[{\\"key\\":\\"id\\",\\"value\\":\\"rio\\"},{\\"key\\":\\"motion\\",\\"value\\":\\"mot_adv_chr_cmn_talk-009_in\\"},{\\"key\\":\\"clip\\",\\"value\\":{\\"_startTime\\":128.7,\\"_duration\\":1.5333334208,\\"_easeInDuration\\":0,\\"_easeOutDuration\\":0,\\"_blendInDuration\\":-1,\\"_blendOutDuration\\":-1,\\"_mixInEaseType\\":1,\\"_mixOutEaseType\\":1,\\"_timeScale\\":1}}]}",
+  },
+  {
+    "_t": "Unknown",
+    "raw": "{\\"command\\":\\"actorfacialmotion\\",\\"args\\":[{\\"key\\":\\"id\\",\\"value\\":\\"rio\\"},{\\"key\\":\\"motion\\",\\"value\\":\\"mot_all_chr_cmn_facial-008_in\\"},{\\"key\\":\\"transition\\",\\"value\\":0},{\\"key\\":\\"clip\\",\\"value\\":{\\"_startTime\\":128.7,\\"_duration\\":0.0333333351,\\"_easeInDuration\\":0,\\"_easeOutDuration\\":0,\\"_blendInDuration\\":-1,\\"_blendOutDuration\\":-1,\\"_mixInEaseType\\":1,\\"_mixOutEaseType\\":1,\\"_timeScale\\":1}}]}",
+  },
+  {
+    "_t": "Message",
+    "name": "神崎莉央",
+    "text": "琴乃……",
+    "thumbnail": "img_chr_adv_rio-00",
+  },
+  {
+    "_t": "Voice",
+    "actorId": "rio",
+    "channel": 1,
+    "duration": 0.8166440129,
+    "startTime": 128.7,
+    "voice": "sud_vo_adv_event_2210_01_05-rio006",
+  },
+  {
+    "_t": "Unknown",
+    "raw": "{\\"command\\":\\"camerasetting\\",\\"args\\":[{\\"key\\":\\"setting\\",\\"value\\":{\\"focalLength\\":200,\\"transform\\":{\\"position\\":{\\"x\\":0.025414109230041504,\\"y\\":1.3840880393981934,\\"z\\":2.8664581775665283},\\"rotation\\":{\\"x\\":0,\\"y\\":180,\\"z\\":0},\\"scale\\":{\\"x\\":1,\\"y\\":1,\\"z\\":1}},\\"dofSetting\\":{\\"active\\":true,\\"focalPoint\\":4,\\"fNumber\\":4,\\"maxBlurSpread\\":3}}},{\\"key\\":\\"clip\\",\\"value\\":{\\"_startTime\\":130.4,\\"_duration\\":0,\\"_easeInDuration\\":0,\\"_easeOutDuration\\":0,\\"_blendInDuration\\":-1,\\"_blendOutDuration\\":-1,\\"_mixInEaseType\\":1,\\"_mixOutEaseType\\":1,\\"_timeScale\\":1}}]}",
+  },
+  {
+    "_t": "BackgroundSetting",
+    "id": "livestage-00-noon",
+    "position": {
+      "x": 0,
+      "y": 0,
+    },
+    "scale": {
+      "x": 2,
+      "y": 2,
+    },
+    "startTime": 130.4,
+  },
+  {
+    "_t": "Unknown",
+    "raw": "{\\"command\\":\\"actorlayoutgroup\\",\\"args\\":[{\\"key\\":\\"layouts\\",\\"value\\":{\\"command\\":\\"actorlayout\\",\\"args\\":[{\\"key\\":\\"id\\",\\"value\\":\\"aoi\\"},{\\"key\\":\\"transform\\",\\"value\\":{\\"position\\":{\\"x\\":0,\\"y\\":0,\\"z\\":0},\\"rotation\\":{\\"x\\":0,\\"y\\":24,\\"z\\":0},\\"scale\\":{\\"x\\":1,\\"y\\":1,\\"z\\":1}}}]}},{\\"key\\":\\"clip\\",\\"value\\":{\\"_startTime\\":130.4,\\"_duration\\":0,\\"_easeInDuration\\":0,\\"_easeOutDuration\\":0,\\"_blendInDuration\\":-1,\\"_blendOutDuration\\":-1,\\"_mixInEaseType\\":1,\\"_mixOutEaseType\\":1,\\"_timeScale\\":1}}]}",
+  },
+  {
+    "_t": "Unknown",
+    "raw": "{\\"command\\":\\"actormotion\\",\\"args\\":[{\\"key\\":\\"id\\",\\"value\\":\\"aoi\\"},{\\"key\\":\\"motion\\",\\"value\\":\\"mot_adv_chr_cmn_talk-012_in\\"},{\\"key\\":\\"clip\\",\\"value\\":{\\"_startTime\\":130.4,\\"_duration\\":1.1,\\"_easeInDuration\\":0,\\"_easeOutDuration\\":0,\\"_blendInDuration\\":-1,\\"_blendOutDuration\\":-1,\\"_mixInEaseType\\":1,\\"_mixOutEaseType\\":1,\\"_timeScale\\":1}}]}",
+  },
+  {
+    "_t": "Unknown",
+    "raw": "{\\"command\\":\\"actorfacialmotion\\",\\"args\\":[{\\"key\\":\\"id\\",\\"value\\":\\"aoi\\"},{\\"key\\":\\"motion\\",\\"value\\":\\"mot_all_chr_cmn_facial-046_in\\"},{\\"key\\":\\"clip\\",\\"value\\":{\\"_startTime\\":130.4,\\"_duration\\":0.0333333351,\\"_easeInDuration\\":0,\\"_easeOutDuration\\":0,\\"_blendInDuration\\":-1,\\"_blendOutDuration\\":-1,\\"_mixInEaseType\\":1,\\"_mixOutEaseType\\":1,\\"_timeScale\\":1}}]}",
+  },
+  {
+    "_t": "Unknown",
+    "raw": "{\\"command\\":\\"actormotion\\",\\"args\\":[{\\"key\\":\\"id\\",\\"value\\":\\"aoi\\"},{\\"key\\":\\"motion\\",\\"value\\":\\"mot_adv_chr_cmn_talk-022_in\\"},{\\"key\\":\\"transition\\",\\"value\\":0.5},{\\"key\\":\\"clip\\",\\"value\\":{\\"_startTime\\":131.8,\\"_duration\\":1.9333333969,\\"_easeInDuration\\":0,\\"_easeOutDuration\\":0,\\"_blendInDuration\\":-1,\\"_blendOutDuration\\":-1,\\"_mixInEaseType\\":1,\\"_mixOutEaseType\\":1,\\"_timeScale\\":1}}]}",
+  },
+  {
+    "_t": "Unknown",
+    "raw": "{\\"command\\":\\"actorfacialmotion\\",\\"args\\":[{\\"key\\":\\"id\\",\\"value\\":\\"aoi\\"},{\\"key\\":\\"motion\\",\\"value\\":\\"mot_all_chr_cmn_facial-001_in\\"},{\\"key\\":\\"clip\\",\\"value\\":{\\"_startTime\\":131.8,\\"_duration\\":0.0333333351,\\"_easeInDuration\\":0,\\"_easeOutDuration\\":0,\\"_blendInDuration\\":-1,\\"_blendOutDuration\\":-1,\\"_mixInEaseType\\":1,\\"_mixOutEaseType\\":1,\\"_timeScale\\":1}}]}",
+  },
+  {
+    "_t": "Message",
+    "name": "井川葵",
+    "text": "……こちらこそ光栄だね",
+    "thumbnail": "img_chr_adv_aoi-00",
+  },
+  {
+    "_t": "Voice",
+    "actorId": "aoi",
+    "channel": 1,
+    "duration": 2.7747392654,
+    "startTime": 131,
+    "voice": "sud_vo_adv_event_2210_01_05-aoi002",
+  },
+  {
+    "_t": "Unknown",
+    "raw": "{\\"command\\":\\"camerasetting\\",\\"args\\":[{\\"key\\":\\"setting\\",\\"value\\":{\\"focalLength\\":130,\\"transform\\":{\\"position\\":{\\"x\\":0,\\"y\\":1.3600000143051147,\\"z\\":3},\\"rotation\\":{\\"x\\":0,\\"y\\":180,\\"z\\":0},\\"scale\\":{\\"x\\":1,\\"y\\":1,\\"z\\":1}},\\"dofSetting\\":{\\"active\\":false,\\"focalPoint\\":4,\\"fNumber\\":4,\\"maxBlurSpread\\":3}}},{\\"key\\":\\"clip\\",\\"value\\":{\\"_startTime\\":134.4,\\"_duration\\":0,\\"_easeInDuration\\":0,\\"_easeOutDuration\\":0,\\"_blendInDuration\\":-1,\\"_blendOutDuration\\":-1,\\"_mixInEaseType\\":1,\\"_mixOutEaseType\\":1,\\"_timeScale\\":1}}]}",
+  },
+  {
+    "_t": "BackgroundSetting",
+    "id": "livestage-00-noon",
+    "position": {
+      "x": 300,
+      "y": 0,
+    },
+    "scale": {
+      "x": 1.5,
+      "y": 1.5,
+    },
+    "startTime": 134.4,
+  },
+  {
+    "_t": "Unknown",
+    "raw": "{\\"command\\":\\"actorlayoutgroup\\",\\"args\\":[{\\"key\\":\\"layouts\\",\\"value\\":{\\"command\\":\\"actorlayout\\",\\"args\\":[{\\"key\\":\\"id\\",\\"value\\":\\"ktn\\"},{\\"key\\":\\"transform\\",\\"value\\":{\\"position\\":{\\"x\\":0,\\"y\\":0,\\"z\\":0},\\"rotation\\":{\\"x\\":0,\\"y\\":0,\\"z\\":0},\\"scale\\":{\\"x\\":1,\\"y\\":1,\\"z\\":1}}}]}},{\\"key\\":\\"clip\\",\\"value\\":{\\"_startTime\\":134.4,\\"_duration\\":0,\\"_easeInDuration\\":0,\\"_easeOutDuration\\":0,\\"_blendInDuration\\":-1,\\"_blendOutDuration\\":-1,\\"_mixInEaseType\\":1,\\"_mixOutEaseType\\":1,\\"_timeScale\\":1}}]}",
+  },
+  {
+    "_t": "Unknown",
+    "raw": "{\\"command\\":\\"actormotion\\",\\"args\\":[{\\"key\\":\\"id\\",\\"value\\":\\"ktn\\"},{\\"key\\":\\"motion\\",\\"value\\":\\"mot_adv_chr_cmn_talk-015_in\\"},{\\"key\\":\\"clip\\",\\"value\\":{\\"_startTime\\":134.4,\\"_duration\\":1.8000000715,\\"_easeInDuration\\":0,\\"_easeOutDuration\\":0,\\"_blendInDuration\\":-1,\\"_blendOutDuration\\":-1,\\"_mixInEaseType\\":1,\\"_mixOutEaseType\\":1,\\"_timeScale\\":1}}]}",
+  },
+  {
+    "_t": "Unknown",
+    "raw": "{\\"command\\":\\"actorfacialmotion\\",\\"args\\":[{\\"key\\":\\"id\\",\\"value\\":\\"ktn\\"},{\\"key\\":\\"motion\\",\\"value\\":\\"mot_all_chr_cmn_facial-001_in\\"},{\\"key\\":\\"transition\\",\\"value\\":0},{\\"key\\":\\"clip\\",\\"value\\":{\\"_startTime\\":134.4,\\"_duration\\":0.0333333351,\\"_easeInDuration\\":0,\\"_easeOutDuration\\":0,\\"_blendInDuration\\":-1,\\"_blendOutDuration\\":-1,\\"_mixInEaseType\\":1,\\"_mixOutEaseType\\":1,\\"_timeScale\\":1}}]}",
+  },
+  {
+    "_t": "Unknown",
+    "raw": "{\\"command\\":\\"actorlooktargettween\\",\\"args\\":[{\\"key\\":\\"id\\",\\"value\\":\\"ktn\\"},{\\"key\\":\\"to\\",\\"value\\":{\\"type\\":0,\\"actorId\\":\\"\\",\\"bones\\":10,\\"azimuth\\":0,\\"elevation\\":-15,\\"weight\\":1,\\"eyesWeight\\":0.30000001192092896,\\"headWeight\\":0.6000000238418579,\\"bodyWeight\\":0.10000000149011612}},{\\"key\\":\\"clip\\",\\"value\\":{\\"_startTime\\":136.5,\\"_duration\\":0.6,\\"_easeInDuration\\":0,\\"_easeOutDuration\\":0,\\"_blendInDuration\\":-1,\\"_blendOutDuration\\":-1,\\"_mixInEaseType\\":1,\\"_mixOutEaseType\\":1,\\"_timeScale\\":1}}]}",
+  },
+  {
+    "_t": "Unknown",
+    "raw": "{\\"command\\":\\"actorlooktargettween\\",\\"args\\":[{\\"key\\":\\"id\\",\\"value\\":\\"ktn\\"},{\\"key\\":\\"from\\",\\"value\\":{\\"type\\":0,\\"actorId\\":\\"\\",\\"bones\\":10,\\"azimuth\\":0,\\"elevation\\":-15,\\"weight\\":1,\\"eyesWeight\\":0.30000001192092896,\\"headWeight\\":0.6000000238418579,\\"bodyWeight\\":0.10000000149011612}},{\\"key\\":\\"to\\",\\"value\\":{\\"type\\":0,\\"actorId\\":\\"\\",\\"bones\\":10,\\"azimuth\\":0,\\"elevation\\":0,\\"weight\\":0,\\"eyesWeight\\":0.30000001192092896,\\"headWeight\\":0.6000000238418579,\\"bodyWeight\\":0.10000000149011612}},{\\"key\\":\\"clip\\",\\"value\\":{\\"_startTime\\":138.6,\\"_duration\\":0.6,\\"_easeInDuration\\":0,\\"_easeOutDuration\\":0,\\"_blendInDuration\\":-1,\\"_blendOutDuration\\":-1,\\"_mixInEaseType\\":1,\\"_mixOutEaseType\\":1,\\"_timeScale\\":1}}]}",
+  },
+  {
+    "_t": "Unknown",
+    "raw": "{\\"command\\":\\"actormotion\\",\\"args\\":[{\\"key\\":\\"id\\",\\"value\\":\\"ktn\\"},{\\"key\\":\\"motion\\",\\"value\\":\\"mot_adv_chr_cmn_talk-019_in\\"},{\\"key\\":\\"transition\\",\\"value\\":0.5},{\\"key\\":\\"clip\\",\\"value\\":{\\"_startTime\\":136.5,\\"_duration\\":2.2333333492,\\"_easeInDuration\\":0,\\"_easeOutDuration\\":0,\\"_blendInDuration\\":-1,\\"_blendOutDuration\\":-1,\\"_mixInEaseType\\":1,\\"_mixOutEaseType\\":1,\\"_timeScale\\":1}}]}",
+  },
+  {
+    "_t": "Unknown",
+    "raw": "{\\"command\\":\\"actorfacialmotion\\",\\"args\\":[{\\"key\\":\\"id\\",\\"value\\":\\"ktn\\"},{\\"key\\":\\"motion\\",\\"value\\":\\"mot_all_chr_cmn_facial-057_in\\"},{\\"key\\":\\"clip\\",\\"value\\":{\\"_startTime\\":136.5,\\"_duration\\":0.0333333351,\\"_easeInDuration\\":0,\\"_easeOutDuration\\":0,\\"_blendInDuration\\":-1,\\"_blendOutDuration\\":-1,\\"_mixInEaseType\\":1,\\"_mixOutEaseType\\":1,\\"_timeScale\\":1}}]}",
+  },
+  {
+    "_t": "Unknown",
+    "raw": "{\\"command\\":\\"actormotion\\",\\"args\\":[{\\"key\\":\\"id\\",\\"value\\":\\"ktn\\"},{\\"key\\":\\"motion\\",\\"value\\":\\"mot_adv_chr_cmn_talk-010_in\\"},{\\"key\\":\\"transition\\",\\"value\\":0.5},{\\"key\\":\\"clip\\",\\"value\\":{\\"_startTime\\":138.6474775132,\\"_duration\\":1.5333334208,\\"_easeInDuration\\":0,\\"_easeOutDuration\\":0,\\"_blendInDuration\\":-1,\\"_blendOutDuration\\":-1,\\"_mixInEaseType\\":1,\\"_mixOutEaseType\\":1,\\"_timeScale\\":1}}]}",
+  },
+  {
+    "_t": "Unknown",
+    "raw": "{\\"command\\":\\"actorfacialmotion\\",\\"args\\":[{\\"key\\":\\"id\\",\\"value\\":\\"ktn\\"},{\\"key\\":\\"motion\\",\\"value\\":\\"mot_all_chr_cmn_facial-058_in\\"},{\\"key\\":\\"clip\\",\\"value\\":{\\"_startTime\\":138.6474775132,\\"_duration\\":0.0333333351,\\"_easeInDuration\\":0,\\"_easeOutDuration\\":0,\\"_blendInDuration\\":-1,\\"_blendOutDuration\\":-1,\\"_mixInEaseType\\":1,\\"_mixOutEaseType\\":1,\\"_timeScale\\":1}}]}",
+  },
+  {
+    "_t": "Unknown",
+    "raw": "{\\"command\\":\\"actorlooktargettween\\",\\"args\\":[{\\"key\\":\\"id\\",\\"value\\":\\"ktn\\"},{\\"key\\":\\"from\\",\\"value\\":{\\"type\\":0,\\"actorId\\":\\"\\",\\"bones\\":10,\\"azimuth\\":0,\\"elevation\\":0,\\"weight\\":0,\\"eyesWeight\\":0.30000001192092896,\\"headWeight\\":0.6000000238418579,\\"bodyWeight\\":0.10000000149011612}},{\\"key\\":\\"to\\",\\"value\\":{\\"type\\":0,\\"actorId\\":\\"\\",\\"bones\\":10,\\"azimuth\\":-30,\\"elevation\\":0,\\"weight\\":1,\\"eyesWeight\\":0.30000001192092896,\\"headWeight\\":0.6000000238418579,\\"bodyWeight\\":0.10000000149011612}},{\\"key\\":\\"clip\\",\\"value\\":{\\"_startTime\\":141.8666666667,\\"_duration\\":0.6,\\"_easeInDuration\\":0,\\"_easeOutDuration\\":0,\\"_blendInDuration\\":-1,\\"_blendOutDuration\\":-1,\\"_mixInEaseType\\":1,\\"_mixOutEaseType\\":1,\\"_timeScale\\":1}}]}",
+  },
+  {
+    "_t": "Unknown",
+    "raw": "{\\"command\\":\\"actormotion\\",\\"args\\":[{\\"key\\":\\"id\\",\\"value\\":\\"ktn\\"},{\\"key\\":\\"motion\\",\\"value\\":\\"mot_adv_chr_cmn_talk-023_in\\"},{\\"key\\":\\"transition\\",\\"value\\":0.5},{\\"key\\":\\"clip\\",\\"value\\":{\\"_startTime\\":141.8666666667,\\"_duration\\":1.9333333969,\\"_easeInDuration\\":0,\\"_easeOutDuration\\":0,\\"_blendInDuration\\":-1,\\"_blendOutDuration\\":-1,\\"_mixInEaseType\\":1,\\"_mixOutEaseType\\":1,\\"_timeScale\\":1}}]}",
+  },
+  {
+    "_t": "Unknown",
+    "raw": "{\\"command\\":\\"actorfacialmotion\\",\\"args\\":[{\\"key\\":\\"id\\",\\"value\\":\\"ktn\\"},{\\"key\\":\\"motion\\",\\"value\\":\\"mot_all_chr_cmn_facial-001_in\\"},{\\"key\\":\\"clip\\",\\"value\\":{\\"_startTime\\":141.8666666667,\\"_duration\\":0.0333333351,\\"_easeInDuration\\":0,\\"_easeOutDuration\\":0,\\"_blendInDuration\\":-1,\\"_blendOutDuration\\":-1,\\"_mixInEaseType\\":1,\\"_mixOutEaseType\\":1,\\"_timeScale\\":1}}]}",
+  },
+  {
+    "_t": "Message",
+    "name": "長瀬琴乃",
+    "text": "今から歌う曲は、姉に届くように、心をこめて歌います",
+    "thumbnail": "img_chr_adv_ktn-00",
+  },
+  {
+    "_t": "Message",
+    "name": "長瀬琴乃",
+    "text": "莉央さん",
+    "thumbnail": "img_chr_adv_ktn-00",
+  },
+  {
+    "_t": "Voice",
+    "actorId": "ktn",
+    "channel": 1,
+    "duration": 8.1115188599,
+    "startTime": 134.4,
+    "voice": "sud_vo_adv_event_2210_01_05-ktn009",
+  },
+  {
+    "_t": "Unknown",
+    "raw": "{\\"command\\":\\"camerasetting\\",\\"args\\":[{\\"key\\":\\"setting\\",\\"value\\":{\\"focalLength\\":130,\\"transform\\":{\\"position\\":{\\"x\\":0,\\"y\\":1.3450000286102295,\\"z\\":3},\\"rotation\\":{\\"x\\":0,\\"y\\":180,\\"z\\":0},\\"scale\\":{\\"x\\":1,\\"y\\":1,\\"z\\":1}},\\"dofSetting\\":{\\"active\\":false,\\"focalPoint\\":1.7999999523162842,\\"fNumber\\":2.799999952316284,\\"maxBlurSpread\\":3}}},{\\"key\\":\\"clip\\",\\"value\\":{\\"_startTime\\":143.7333333333,\\"_duration\\":0,\\"_easeInDuration\\":0,\\"_easeOutDuration\\":0,\\"_blendInDuration\\":-1,\\"_blendOutDuration\\":-1,\\"_mixInEaseType\\":1,\\"_mixOutEaseType\\":1,\\"_timeScale\\":1}}]}",
+  },
+  {
+    "_t": "BackgroundSetting",
+    "id": "livestage-00-noon",
+    "position": {
+      "x": -300,
+      "y": 0,
+    },
+    "scale": {
+      "x": 1.5,
+      "y": 1.5,
+    },
+    "startTime": 143.7333333333,
+  },
+  {
+    "_t": "Unknown",
+    "raw": "{\\"command\\":\\"actorlayoutgroup\\",\\"args\\":[{\\"key\\":\\"layouts\\",\\"value\\":{\\"command\\":\\"actorlayout\\",\\"args\\":[{\\"key\\":\\"id\\",\\"value\\":\\"rio\\"},{\\"key\\":\\"transform\\",\\"value\\":{\\"position\\":{\\"x\\":0,\\"y\\":0,\\"z\\":0},\\"rotation\\":{\\"x\\":0,\\"y\\":0,\\"z\\":0},\\"scale\\":{\\"x\\":1,\\"y\\":1,\\"z\\":1}}}]}},{\\"key\\":\\"clip\\",\\"value\\":{\\"_startTime\\":143.7333333333,\\"_duration\\":0,\\"_easeInDuration\\":0,\\"_easeOutDuration\\":0,\\"_blendInDuration\\":-1,\\"_blendOutDuration\\":-1,\\"_mixInEaseType\\":1,\\"_mixOutEaseType\\":1,\\"_timeScale\\":1}}]}",
+  },
+  {
+    "_t": "Unknown",
+    "raw": "{\\"command\\":\\"actorlooktarget\\",\\"args\\":[{\\"key\\":\\"id\\",\\"value\\":\\"rio\\"},{\\"key\\":\\"target\\",\\"value\\":{\\"type\\":0,\\"actorId\\":\\"\\",\\"bones\\":10,\\"azimuth\\":30,\\"elevation\\":0,\\"weight\\":1,\\"eyesWeight\\":0.30000001192092896,\\"headWeight\\":0.6000000238418579,\\"bodyWeight\\":0.10000000149011612}},{\\"key\\":\\"clip\\",\\"value\\":{\\"_startTime\\":143.7333333333,\\"_duration\\":0,\\"_easeInDuration\\":0,\\"_easeOutDuration\\":0,\\"_blendInDuration\\":-1,\\"_blendOutDuration\\":-1,\\"_mixInEaseType\\":1,\\"_mixOutEaseType\\":1,\\"_timeScale\\":1}}]}",
+  },
+  {
+    "_t": "Unknown",
+    "raw": "{\\"command\\":\\"actormotion\\",\\"args\\":[{\\"key\\":\\"id\\",\\"value\\":\\"rio\\"},{\\"key\\":\\"motion\\",\\"value\\":\\"mot_adv_chr_cmn_talk-012_in\\"},{\\"key\\":\\"clip\\",\\"value\\":{\\"_startTime\\":143.7333333333,\\"_duration\\":1.3666666666,\\"_easeInDuration\\":0,\\"_easeOutDuration\\":0,\\"_blendInDuration\\":-1,\\"_blendOutDuration\\":-1,\\"_mixInEaseType\\":1,\\"_mixOutEaseType\\":1,\\"_timeScale\\":1}}]}",
+  },
+  {
+    "_t": "Unknown",
+    "raw": "{\\"command\\":\\"actorfacialmotion\\",\\"args\\":[{\\"key\\":\\"id\\",\\"value\\":\\"rio\\"},{\\"key\\":\\"motion\\",\\"value\\":\\"mot_all_chr_cmn_facial-001_in\\"},{\\"key\\":\\"transition\\",\\"value\\":0},{\\"key\\":\\"clip\\",\\"value\\":{\\"_startTime\\":143.7333333333,\\"_duration\\":0.0333333351,\\"_easeInDuration\\":0,\\"_easeOutDuration\\":0,\\"_blendInDuration\\":-1,\\"_blendOutDuration\\":-1,\\"_mixInEaseType\\":1,\\"_mixOutEaseType\\":1,\\"_timeScale\\":1}}]}",
+  },
+  {
+    "_t": "Unknown",
+    "raw": "{\\"command\\":\\"actorlooktargettween\\",\\"args\\":[{\\"key\\":\\"id\\",\\"value\\":\\"rio\\"},{\\"key\\":\\"from\\",\\"value\\":{\\"type\\":0,\\"actorId\\":\\"\\",\\"bones\\":10,\\"azimuth\\":30,\\"elevation\\":0,\\"weight\\":1,\\"eyesWeight\\":0.30000001192092896,\\"headWeight\\":0.6000000238418579,\\"bodyWeight\\":0.10000000149011612}},{\\"key\\":\\"to\\",\\"value\\":{\\"type\\":0,\\"actorId\\":\\"\\",\\"bones\\":10,\\"azimuth\\":0,\\"elevation\\":0,\\"weight\\":0,\\"eyesWeight\\":0.30000001192092896,\\"headWeight\\":0.6000000238418579,\\"bodyWeight\\":0.10000000149011612}},{\\"key\\":\\"clip\\",\\"value\\":{\\"_startTime\\":145.1,\\"_duration\\":0.6,\\"_easeInDuration\\":0,\\"_easeOutDuration\\":0,\\"_blendInDuration\\":-1,\\"_blendOutDuration\\":-1,\\"_mixInEaseType\\":1,\\"_mixOutEaseType\\":1,\\"_timeScale\\":1}}]}",
+  },
+  {
+    "_t": "Message",
+    "name": "神崎莉央",
+    "text": "ええ、では、聴いて下さい",
+    "thumbnail": "img_chr_adv_rio-00",
+  },
+  {
+    "_t": "Voice",
+    "actorId": "rio",
+    "channel": 1,
+    "duration": 3.2279365063,
+    "startTime": 143.7333333333,
+    "voice": "sud_vo_adv_event_2210_01_05-rio007",
+  },
+  {
+    "_t": "Unknown",
+    "raw": "{\\"command\\":\\"camerasetting\\",\\"args\\":[{\\"key\\":\\"setting\\",\\"value\\":{\\"focalLength\\":200,\\"transform\\":{\\"position\\":{\\"x\\":0,\\"y\\":1.396343469619751,\\"z\\":2.9000000953674316},\\"rotation\\":{\\"x\\":0,\\"y\\":180,\\"z\\":0},\\"scale\\":{\\"x\\":1,\\"y\\":1,\\"z\\":1}},\\"dofSetting\\":{\\"active\\":true,\\"focalPoint\\":4,\\"fNumber\\":4,\\"maxBlurSpread\\":3}}},{\\"key\\":\\"clip\\",\\"value\\":{\\"_startTime\\":148.0666666667,\\"_duration\\":0,\\"_easeInDuration\\":0,\\"_easeOutDuration\\":0,\\"_blendInDuration\\":-1,\\"_blendOutDuration\\":-1,\\"_mixInEaseType\\":1,\\"_mixOutEaseType\\":1,\\"_timeScale\\":1}}]}",
+  },
+  {
+    "_t": "BackgroundSetting",
+    "id": "livestage-00-noon",
+    "position": {
+      "x": -500,
+      "y": 0,
+    },
+    "scale": {
+      "x": 2,
+      "y": 2,
+    },
+    "startTime": 148.0666666667,
+  },
+  {
+    "_t": "Unknown",
+    "raw": "{\\"command\\":\\"actorlayoutgroup\\",\\"args\\":[{\\"key\\":\\"layouts\\",\\"value\\":{\\"command\\":\\"actorlayout\\",\\"args\\":[{\\"key\\":\\"id\\",\\"value\\":\\"rio\\"}]}},{\\"key\\":\\"clip\\",\\"value\\":{\\"_startTime\\":148.0666666667,\\"_duration\\":0,\\"_easeInDuration\\":0,\\"_easeOutDuration\\":0,\\"_blendInDuration\\":-1,\\"_blendOutDuration\\":-1,\\"_mixInEaseType\\":1,\\"_mixOutEaseType\\":1,\\"_timeScale\\":1}}]}",
+  },
+  {
+    "_t": "Unknown",
+    "raw": "{\\"command\\":\\"camerasetting\\",\\"args\\":[{\\"key\\":\\"setting\\",\\"value\\":{\\"focalLength\\":200,\\"transform\\":{\\"position\\":{\\"x\\":0,\\"y\\":1.4199999570846558,\\"z\\":3.0999999046325684},\\"rotation\\":{\\"x\\":0,\\"y\\":180,\\"z\\":0},\\"scale\\":{\\"x\\":1,\\"y\\":1,\\"z\\":1}},\\"dofSetting\\":{\\"active\\":true,\\"focalPoint\\":4,\\"fNumber\\":4,\\"maxBlurSpread\\":3}}},{\\"key\\":\\"clip\\",\\"value\\":{\\"_startTime\\":148.7666666667,\\"_duration\\":0,\\"_easeInDuration\\":0,\\"_easeOutDuration\\":0,\\"_blendInDuration\\":-1,\\"_blendOutDuration\\":-1,\\"_mixInEaseType\\":1,\\"_mixOutEaseType\\":1,\\"_timeScale\\":1}}]}",
+  },
+  {
+    "_t": "BackgroundSetting",
+    "id": "livestage-00-noon",
+    "position": {
+      "x": 500,
+      "y": 0,
+    },
+    "scale": {
+      "x": 2,
+      "y": 2,
+    },
+    "startTime": 148.7666666667,
+  },
+  {
+    "_t": "Unknown",
+    "raw": "{\\"command\\":\\"actorlayoutgroup\\",\\"args\\":[{\\"key\\":\\"layouts\\",\\"value\\":{\\"command\\":\\"actorlayout\\",\\"args\\":[{\\"key\\":\\"id\\",\\"value\\":\\"ktn\\"},{\\"key\\":\\"transform\\",\\"value\\":{\\"position\\":{\\"x\\":0,\\"y\\":0,\\"z\\":0},\\"rotation\\":{\\"x\\":0,\\"y\\":0,\\"z\\":0},\\"scale\\":{\\"x\\":1,\\"y\\":1,\\"z\\":1}}}]}},{\\"key\\":\\"clip\\",\\"value\\":{\\"_startTime\\":148.7666666667,\\"_duration\\":0,\\"_easeInDuration\\":0,\\"_easeOutDuration\\":0,\\"_blendInDuration\\":-1,\\"_blendOutDuration\\":-1,\\"_mixInEaseType\\":1,\\"_mixOutEaseType\\":1,\\"_timeScale\\":1}}]}",
+  },
+  {
+    "_t": "Unknown",
+    "raw": "{\\"command\\":\\"actorlooktarget\\",\\"args\\":[{\\"key\\":\\"id\\",\\"value\\":\\"ktn\\"},{\\"key\\":\\"target\\",\\"value\\":{\\"type\\":0,\\"actorId\\":\\"\\",\\"bones\\":10,\\"azimuth\\":0,\\"elevation\\":0,\\"weight\\":0,\\"eyesWeight\\":0.30000001192092896,\\"headWeight\\":0.6000000238418579,\\"bodyWeight\\":0.10000000149011612}},{\\"key\\":\\"clip\\",\\"value\\":{\\"_startTime\\":148.7666666667,\\"_duration\\":0,\\"_easeInDuration\\":0,\\"_easeOutDuration\\":0,\\"_blendInDuration\\":-1,\\"_blendOutDuration\\":-1,\\"_mixInEaseType\\":1,\\"_mixOutEaseType\\":1,\\"_timeScale\\":1}}]}",
+  },
+  {
+    "_t": "Unknown",
+    "raw": "{\\"command\\":\\"actormotion\\",\\"args\\":[{\\"key\\":\\"id\\",\\"value\\":\\"ktn\\"},{\\"key\\":\\"motion\\",\\"value\\":\\"mot_adv_chr_cmn_talk-019_pose\\"},{\\"key\\":\\"clip\\",\\"value\\":{\\"_startTime\\":148.7666666667,\\"_duration\\":0.0333333351,\\"_easeInDuration\\":0,\\"_easeOutDuration\\":0,\\"_blendInDuration\\":-1,\\"_blendOutDuration\\":-1,\\"_mixInEaseType\\":1,\\"_mixOutEaseType\\":1,\\"_timeScale\\":1}}]}",
+  },
+  {
+    "_t": "Unknown",
+    "raw": "{\\"command\\":\\"actorfacialmotion\\",\\"args\\":[{\\"key\\":\\"id\\",\\"value\\":\\"ktn\\"},{\\"key\\":\\"motion\\",\\"value\\":\\"mot_all_chr_cmn_facial-001_in\\"},{\\"key\\":\\"transition\\",\\"value\\":0},{\\"key\\":\\"clip\\",\\"value\\":{\\"_startTime\\":148.7666666667,\\"_duration\\":0.0333333351,\\"_easeInDuration\\":0,\\"_easeOutDuration\\":0,\\"_blendInDuration\\":-1,\\"_blendOutDuration\\":-1,\\"_mixInEaseType\\":1,\\"_mixOutEaseType\\":1,\\"_timeScale\\":1}}]}",
+  },
+  {
+    "_t": "Message",
+    "name": "一同",
+    "text": "『星の海の記憶』",
+    "thumbnail": undefined,
+  },
+  {
+    "_t": "Voice",
+    "actorId": "rio",
+    "channel": 1,
+    "duration": 1.3364626169,
+    "startTime": 148.0666666667,
+    "voice": "sud_vo_adv_event_2210_01_05-rio008",
+  },
+  {
+    "_t": "Voice",
+    "actorId": "ktn",
+    "channel": 2,
+    "duration": 1.2558503151,
+    "startTime": 148.0666666667,
+    "voice": "sud_vo_adv_event_2210_01_05-ktn010",
+  },
+  {
+    "_t": "Unknown",
+    "raw": "{\\"command\\":\\"fade\\",\\"args\\":[{\\"key\\":\\"from\\",\\"value\\":0},{\\"key\\":\\"to\\",\\"value\\":1},{\\"key\\":\\"clip\\",\\"value\\":{\\"_startTime\\":149.9,\\"_duration\\":0.8,\\"_easeInDuration\\":0,\\"_easeOutDuration\\":0,\\"_blendInDuration\\":-1,\\"_blendOutDuration\\":-1,\\"_mixInEaseType\\":1,\\"_mixOutEaseType\\":1,\\"_timeScale\\":1}}]}",
+  },
+  {
+    "_t": "Unknown",
+    "raw": "{\\"command\\":\\"actoreyeblink\\",\\"args\\":[{\\"key\\":\\"id\\",\\"value\\":\\"rio\\"},{\\"key\\":\\"clip\\",\\"value\\":{\\"_startTime\\":4.3041939735,\\"_duration\\":0.23333333,\\"_easeInDuration\\":0,\\"_easeOutDuration\\":0,\\"_blendInDuration\\":-1,\\"_blendOutDuration\\":-1,\\"_mixInEaseType\\":1,\\"_mixOutEaseType\\":1,\\"_timeScale\\":1}}]}",
+  },
+  {
+    "_t": "Unknown",
+    "raw": "{\\"command\\":\\"actoreyeblink\\",\\"args\\":[{\\"key\\":\\"id\\",\\"value\\":\\"rio\\"},{\\"key\\":\\"clip\\",\\"value\\":{\\"_startTime\\":8.818543911,\\"_duration\\":0.23333333,\\"_easeInDuration\\":0,\\"_easeOutDuration\\":0,\\"_blendInDuration\\":-1,\\"_blendOutDuration\\":-1,\\"_mixInEaseType\\":1,\\"_mixOutEaseType\\":1,\\"_timeScale\\":1}}]}",
+  },
+  {
+    "_t": "Unknown",
+    "raw": "{\\"command\\":\\"actoreyeblink\\",\\"args\\":[{\\"key\\":\\"id\\",\\"value\\":\\"rio\\"},{\\"key\\":\\"clip\\",\\"value\\":{\\"_startTime\\":13.0179448128,\\"_duration\\":0.23333333,\\"_easeInDuration\\":0,\\"_easeOutDuration\\":0,\\"_blendInDuration\\":-1,\\"_blendOutDuration\\":-1,\\"_mixInEaseType\\":1,\\"_mixOutEaseType\\":1,\\"_timeScale\\":1}}]}",
+  },
+  {
+    "_t": "Unknown",
+    "raw": "{\\"command\\":\\"actoreyeblink\\",\\"args\\":[{\\"key\\":\\"id\\",\\"value\\":\\"rio\\"},{\\"key\\":\\"clip\\",\\"value\\":{\\"_startTime\\":17.199903965,\\"_duration\\":0.23333333,\\"_easeInDuration\\":0,\\"_easeOutDuration\\":0,\\"_blendInDuration\\":-1,\\"_blendOutDuration\\":-1,\\"_mixInEaseType\\":1,\\"_mixOutEaseType\\":1,\\"_timeScale\\":1}}]}",
+  },
+  {
+    "_t": "Unknown",
+    "raw": "{\\"command\\":\\"actoreyeblink\\",\\"args\\":[{\\"key\\":\\"id\\",\\"value\\":\\"rio\\"},{\\"key\\":\\"clip\\",\\"value\\":{\\"_startTime\\":20.7015526295,\\"_duration\\":0.23333333,\\"_easeInDuration\\":0,\\"_easeOutDuration\\":0,\\"_blendInDuration\\":-1,\\"_blendOutDuration\\":-1,\\"_mixInEaseType\\":1,\\"_mixOutEaseType\\":1,\\"_timeScale\\":1}}]}",
+  },
+  {
+    "_t": "Unknown",
+    "raw": "{\\"command\\":\\"actoreyeblink\\",\\"args\\":[{\\"key\\":\\"id\\",\\"value\\":\\"rio\\"},{\\"key\\":\\"clip\\",\\"value\\":{\\"_startTime\\":25.392026186,\\"_duration\\":0.23333333,\\"_easeInDuration\\":0,\\"_easeOutDuration\\":0,\\"_blendInDuration\\":-1,\\"_blendOutDuration\\":-1,\\"_mixInEaseType\\":1,\\"_mixOutEaseType\\":1,\\"_timeScale\\":1}}]}",
+  },
+  {
+    "_t": "Unknown",
+    "raw": "{\\"command\\":\\"actoreyeblink\\",\\"args\\":[{\\"key\\":\\"id\\",\\"value\\":\\"rio\\"},{\\"key\\":\\"clip\\",\\"value\\":{\\"_startTime\\":31.3198106289,\\"_duration\\":0.23333333,\\"_easeInDuration\\":0,\\"_easeOutDuration\\":0,\\"_blendInDuration\\":-1,\\"_blendOutDuration\\":-1,\\"_mixInEaseType\\":1,\\"_mixOutEaseType\\":1,\\"_timeScale\\":1}}]}",
+  },
+  {
+    "_t": "Unknown",
+    "raw": "{\\"command\\":\\"actoreyeblink\\",\\"args\\":[{\\"key\\":\\"id\\",\\"value\\":\\"rio\\"},{\\"key\\":\\"clip\\",\\"value\\":{\\"_startTime\\":38.0333334048,\\"_duration\\":0.23333333,\\"_easeInDuration\\":0,\\"_easeOutDuration\\":0,\\"_blendInDuration\\":-1,\\"_blendOutDuration\\":-1,\\"_mixInEaseType\\":1,\\"_mixOutEaseType\\":1,\\"_timeScale\\":1}}]}",
+  },
+  {
+    "_t": "Unknown",
+    "raw": "{\\"command\\":\\"actoreyeblink\\",\\"args\\":[{\\"key\\":\\"id\\",\\"value\\":\\"rio\\"},{\\"key\\":\\"clip\\",\\"value\\":{\\"_startTime\\":41.4571417411,\\"_duration\\":0.23333333,\\"_easeInDuration\\":0,\\"_easeOutDuration\\":0,\\"_blendInDuration\\":-1,\\"_blendOutDuration\\":-1,\\"_mixInEaseType\\":1,\\"_mixOutEaseType\\":1,\\"_timeScale\\":1}}]}",
+  },
+  {
+    "_t": "Unknown",
+    "raw": "{\\"command\\":\\"actoreyeblink\\",\\"args\\":[{\\"key\\":\\"id\\",\\"value\\":\\"rio\\"},{\\"key\\":\\"clip\\",\\"value\\":{\\"_startTime\\":45.0009106238,\\"_duration\\":0.23333333,\\"_easeInDuration\\":0,\\"_easeOutDuration\\":0,\\"_blendInDuration\\":-1,\\"_blendOutDuration\\":-1,\\"_mixInEaseType\\":1,\\"_mixOutEaseType\\":1,\\"_timeScale\\":1}}]}",
+  },
+  {
+    "_t": "Unknown",
+    "raw": "{\\"command\\":\\"actoreyeblink\\",\\"args\\":[{\\"key\\":\\"id\\",\\"value\\":\\"rio\\"},{\\"key\\":\\"clip\\",\\"value\\":{\\"_startTime\\":50.8666666825,\\"_duration\\":0.23333333,\\"_easeInDuration\\":0,\\"_easeOutDuration\\":0,\\"_blendInDuration\\":-1,\\"_blendOutDuration\\":-1,\\"_mixInEaseType\\":1,\\"_mixOutEaseType\\":1,\\"_timeScale\\":1}}]}",
+  },
+  {
+    "_t": "Unknown",
+    "raw": "{\\"command\\":\\"actoreyeblink\\",\\"args\\":[{\\"key\\":\\"id\\",\\"value\\":\\"rio\\"},{\\"key\\":\\"clip\\",\\"value\\":{\\"_startTime\\":55.2364553292,\\"_duration\\":0.23333333,\\"_easeInDuration\\":0,\\"_easeOutDuration\\":0,\\"_blendInDuration\\":-1,\\"_blendOutDuration\\":-1,\\"_mixInEaseType\\":1,\\"_mixOutEaseType\\":1,\\"_timeScale\\":1}}]}",
+  },
+  {
+    "_t": "Unknown",
+    "raw": "{\\"command\\":\\"actoreyeblink\\",\\"args\\":[{\\"key\\":\\"id\\",\\"value\\":\\"rio\\"},{\\"key\\":\\"clip\\",\\"value\\":{\\"_startTime\\":61.9666667541,\\"_duration\\":0.23333333,\\"_easeInDuration\\":0,\\"_easeOutDuration\\":0,\\"_blendInDuration\\":-1,\\"_blendOutDuration\\":-1,\\"_mixInEaseType\\":1,\\"_mixOutEaseType\\":1,\\"_timeScale\\":1}}]}",
+  },
+  {
+    "_t": "Unknown",
+    "raw": "{\\"command\\":\\"actoreyeblink\\",\\"args\\":[{\\"key\\":\\"id\\",\\"value\\":\\"rio\\"},{\\"key\\":\\"clip\\",\\"value\\":{\\"_startTime\\":71.2,\\"_duration\\":0.23333333,\\"_easeInDuration\\":0,\\"_easeOutDuration\\":0,\\"_blendInDuration\\":-1,\\"_blendOutDuration\\":-1,\\"_mixInEaseType\\":1,\\"_mixOutEaseType\\":1,\\"_timeScale\\":1}}]}",
+  },
+  {
+    "_t": "Unknown",
+    "raw": "{\\"command\\":\\"actoreyeblink\\",\\"args\\":[{\\"key\\":\\"id\\",\\"value\\":\\"rio\\"},{\\"key\\":\\"clip\\",\\"value\\":{\\"_startTime\\":75.4121858597,\\"_duration\\":0.23333333,\\"_easeInDuration\\":0,\\"_easeOutDuration\\":0,\\"_blendInDuration\\":-1,\\"_blendOutDuration\\":-1,\\"_mixInEaseType\\":1,\\"_mixOutEaseType\\":1,\\"_timeScale\\":1}}]}",
+  },
+  {
+    "_t": "Unknown",
+    "raw": "{\\"command\\":\\"actoreyeblink\\",\\"args\\":[{\\"key\\":\\"id\\",\\"value\\":\\"rio\\"},{\\"key\\":\\"clip\\",\\"value\\":{\\"_startTime\\":79.9243919373,\\"_duration\\":0.23333333,\\"_easeInDuration\\":0,\\"_easeOutDuration\\":0,\\"_blendInDuration\\":-1,\\"_blendOutDuration\\":-1,\\"_mixInEaseType\\":1,\\"_mixOutEaseType\\":1,\\"_timeScale\\":1}}]}",
+  },
+  {
+    "_t": "Unknown",
+    "raw": "{\\"command\\":\\"actoreyeblink\\",\\"args\\":[{\\"key\\":\\"id\\",\\"value\\":\\"rio\\"},{\\"key\\":\\"clip\\",\\"value\\":{\\"_startTime\\":83.2833489895,\\"_duration\\":0.23333333,\\"_easeInDuration\\":0,\\"_easeOutDuration\\":0,\\"_blendInDuration\\":-1,\\"_blendOutDuration\\":-1,\\"_mixInEaseType\\":1,\\"_mixOutEaseType\\":1,\\"_timeScale\\":1}}]}",
+  },
+  {
+    "_t": "Unknown",
+    "raw": "{\\"command\\":\\"actoreyeblink\\",\\"args\\":[{\\"key\\":\\"id\\",\\"value\\":\\"rio\\"},{\\"key\\":\\"clip\\",\\"value\\":{\\"_startTime\\":87.7629880429,\\"_duration\\":0.23333333,\\"_easeInDuration\\":0,\\"_easeOutDuration\\":0,\\"_blendInDuration\\":-1,\\"_blendOutDuration\\":-1,\\"_mixInEaseType\\":1,\\"_mixOutEaseType\\":1,\\"_timeScale\\":1}}]}",
+  },
+  {
+    "_t": "Unknown",
+    "raw": "{\\"command\\":\\"actoreyeblink\\",\\"args\\":[{\\"key\\":\\"id\\",\\"value\\":\\"rio\\"},{\\"key\\":\\"clip\\",\\"value\\":{\\"_startTime\\":92.4978003025,\\"_duration\\":0.23333333,\\"_easeInDuration\\":0,\\"_easeOutDuration\\":0,\\"_blendInDuration\\":-1,\\"_blendOutDuration\\":-1,\\"_mixInEaseType\\":1,\\"_mixOutEaseType\\":1,\\"_timeScale\\":1}}]}",
+  },
+  {
+    "_t": "Unknown",
+    "raw": "{\\"command\\":\\"actoreyeblink\\",\\"args\\":[{\\"key\\":\\"id\\",\\"value\\":\\"rio\\"},{\\"key\\":\\"clip\\",\\"value\\":{\\"_startTime\\":98.3447093487,\\"_duration\\":0.23333333,\\"_easeInDuration\\":0,\\"_easeOutDuration\\":0,\\"_blendInDuration\\":-1,\\"_blendOutDuration\\":-1,\\"_mixInEaseType\\":1,\\"_mixOutEaseType\\":1,\\"_timeScale\\":1}}]}",
+  },
+  {
+    "_t": "Unknown",
+    "raw": "{\\"command\\":\\"actoreyeblink\\",\\"args\\":[{\\"key\\":\\"id\\",\\"value\\":\\"rio\\"},{\\"key\\":\\"clip\\",\\"value\\":{\\"_startTime\\":102.904133749,\\"_duration\\":0.23333333,\\"_easeInDuration\\":0,\\"_easeOutDuration\\":0,\\"_blendInDuration\\":-1,\\"_blendOutDuration\\":-1,\\"_mixInEaseType\\":1,\\"_mixOutEaseType\\":1,\\"_timeScale\\":1}}]}",
+  },
+  {
+    "_t": "Unknown",
+    "raw": "{\\"command\\":\\"actoreyeblink\\",\\"args\\":[{\\"key\\":\\"id\\",\\"value\\":\\"rio\\"},{\\"key\\":\\"clip\\",\\"value\\":{\\"_startTime\\":108.4890675068,\\"_duration\\":0.23333333,\\"_easeInDuration\\":0,\\"_easeOutDuration\\":0,\\"_blendInDuration\\":-1,\\"_blendOutDuration\\":-1,\\"_mixInEaseType\\":1,\\"_mixOutEaseType\\":1,\\"_timeScale\\":1}}]}",
+  },
+  {
+    "_t": "Unknown",
+    "raw": "{\\"command\\":\\"actoreyeblink\\",\\"args\\":[{\\"key\\":\\"id\\",\\"value\\":\\"rio\\"},{\\"key\\":\\"clip\\",\\"value\\":{\\"_startTime\\":112.6280202389,\\"_duration\\":0.23333333,\\"_easeInDuration\\":0,\\"_easeOutDuration\\":0,\\"_blendInDuration\\":-1,\\"_blendOutDuration\\":-1,\\"_mixInEaseType\\":1,\\"_mixOutEaseType\\":1,\\"_timeScale\\":1}}]}",
+  },
+  {
+    "_t": "Unknown",
+    "raw": "{\\"command\\":\\"actoreyeblink\\",\\"args\\":[{\\"key\\":\\"id\\",\\"value\\":\\"rio\\"},{\\"key\\":\\"clip\\",\\"value\\":{\\"_startTime\\":115.7925369263,\\"_duration\\":0.23333333,\\"_easeInDuration\\":0,\\"_easeOutDuration\\":0,\\"_blendInDuration\\":-1,\\"_blendOutDuration\\":-1,\\"_mixInEaseType\\":1,\\"_mixOutEaseType\\":1,\\"_timeScale\\":1}}]}",
+  },
+  {
+    "_t": "Unknown",
+    "raw": "{\\"command\\":\\"actoreyeblink\\",\\"args\\":[{\\"key\\":\\"id\\",\\"value\\":\\"rio\\"},{\\"key\\":\\"clip\\",\\"value\\":{\\"_startTime\\":119.1687683583,\\"_duration\\":0.23333333,\\"_easeInDuration\\":0,\\"_easeOutDuration\\":0,\\"_blendInDuration\\":-1,\\"_blendOutDuration\\":-1,\\"_mixInEaseType\\":1,\\"_mixOutEaseType\\":1,\\"_timeScale\\":1}}]}",
+  },
+  {
+    "_t": "Unknown",
+    "raw": "{\\"command\\":\\"actoreyeblink\\",\\"args\\":[{\\"key\\":\\"id\\",\\"value\\":\\"rio\\"},{\\"key\\":\\"clip\\",\\"value\\":{\\"_startTime\\":123.8689608097,\\"_duration\\":0.23333333,\\"_easeInDuration\\":0,\\"_easeOutDuration\\":0,\\"_blendInDuration\\":-1,\\"_blendOutDuration\\":-1,\\"_mixInEaseType\\":1,\\"_mixOutEaseType\\":1,\\"_timeScale\\":1}}]}",
+  },
+  {
+    "_t": "Unknown",
+    "raw": "{\\"command\\":\\"actoreyeblink\\",\\"args\\":[{\\"key\\":\\"id\\",\\"value\\":\\"rio\\"},{\\"key\\":\\"clip\\",\\"value\\":{\\"_startTime\\":127.5205194474,\\"_duration\\":0.23333333,\\"_easeInDuration\\":0,\\"_easeOutDuration\\":0,\\"_blendInDuration\\":-1,\\"_blendOutDuration\\":-1,\\"_mixInEaseType\\":1,\\"_mixOutEaseType\\":1,\\"_timeScale\\":1}}]}",
+  },
+  {
+    "_t": "Unknown",
+    "raw": "{\\"command\\":\\"actoreyeblink\\",\\"args\\":[{\\"key\\":\\"id\\",\\"value\\":\\"rio\\"},{\\"key\\":\\"clip\\",\\"value\\":{\\"_startTime\\":132.5670110703,\\"_duration\\":0.23333333,\\"_easeInDuration\\":0,\\"_easeOutDuration\\":0,\\"_blendInDuration\\":-1,\\"_blendOutDuration\\":-1,\\"_mixInEaseType\\":1,\\"_mixOutEaseType\\":1,\\"_timeScale\\":1}}]}",
+  },
+  {
+    "_t": "Unknown",
+    "raw": "{\\"command\\":\\"actoreyeblink\\",\\"args\\":[{\\"key\\":\\"id\\",\\"value\\":\\"rio\\"},{\\"key\\":\\"clip\\",\\"value\\":{\\"_startTime\\":137.9396860123,\\"_duration\\":0.23333333,\\"_easeInDuration\\":0,\\"_easeOutDuration\\":0,\\"_blendInDuration\\":-1,\\"_blendOutDuration\\":-1,\\"_mixInEaseType\\":1,\\"_mixOutEaseType\\":1,\\"_timeScale\\":1}}]}",
+  },
+  {
+    "_t": "Unknown",
+    "raw": "{\\"command\\":\\"actoreyeblink\\",\\"args\\":[{\\"key\\":\\"id\\",\\"value\\":\\"rio\\"},{\\"key\\":\\"clip\\",\\"value\\":{\\"_startTime\\":141.3544013024,\\"_duration\\":0.23333333,\\"_easeInDuration\\":0,\\"_easeOutDuration\\":0,\\"_blendInDuration\\":-1,\\"_blendOutDuration\\":-1,\\"_mixInEaseType\\":1,\\"_mixOutEaseType\\":1,\\"_timeScale\\":1}}]}",
+  },
+  {
+    "_t": "Unknown",
+    "raw": "{\\"command\\":\\"actoreyeblink\\",\\"args\\":[{\\"key\\":\\"id\\",\\"value\\":\\"rio\\"},{\\"key\\":\\"clip\\",\\"value\\":{\\"_startTime\\":145.8325116158,\\"_duration\\":0.23333333,\\"_easeInDuration\\":0,\\"_easeOutDuration\\":0,\\"_blendInDuration\\":-1,\\"_blendOutDuration\\":-1,\\"_mixInEaseType\\":1,\\"_mixOutEaseType\\":1,\\"_timeScale\\":1}}]}",
+  },
+  {
+    "_t": "Unknown",
+    "raw": "{\\"command\\":\\"actoreyeblink\\",\\"args\\":[{\\"key\\":\\"id\\",\\"value\\":\\"rio\\"},{\\"key\\":\\"clip\\",\\"value\\":{\\"_startTime\\":150.208538723,\\"_duration\\":0.23333333,\\"_easeInDuration\\":0,\\"_easeOutDuration\\":0,\\"_blendInDuration\\":-1,\\"_blendOutDuration\\":-1,\\"_mixInEaseType\\":1,\\"_mixOutEaseType\\":1,\\"_timeScale\\":1}}]}",
+  },
+  {
+    "_t": "Unknown",
+    "raw": "{\\"command\\":\\"actoreyeblink\\",\\"args\\":[{\\"key\\":\\"id\\",\\"value\\":\\"aoi\\"},{\\"key\\":\\"clip\\",\\"value\\":{\\"_startTime\\":4.9235591888,\\"_duration\\":0.23333333,\\"_easeInDuration\\":0,\\"_easeOutDuration\\":0,\\"_blendInDuration\\":-1,\\"_blendOutDuration\\":-1,\\"_mixInEaseType\\":1,\\"_mixOutEaseType\\":1,\\"_timeScale\\":1}}]}",
+  },
+  {
+    "_t": "Unknown",
+    "raw": "{\\"command\\":\\"actoreyeblink\\",\\"args\\":[{\\"key\\":\\"id\\",\\"value\\":\\"aoi\\"},{\\"key\\":\\"clip\\",\\"value\\":{\\"_startTime\\":7.9259588718,\\"_duration\\":0.23333333,\\"_easeInDuration\\":0,\\"_easeOutDuration\\":0,\\"_blendInDuration\\":-1,\\"_blendOutDuration\\":-1,\\"_mixInEaseType\\":1,\\"_mixOutEaseType\\":1,\\"_timeScale\\":1}}]}",
+  },
+  {
+    "_t": "Unknown",
+    "raw": "{\\"command\\":\\"actoreyeblink\\",\\"args\\":[{\\"key\\":\\"id\\",\\"value\\":\\"aoi\\"},{\\"key\\":\\"clip\\",\\"value\\":{\\"_startTime\\":11.1427235603,\\"_duration\\":0.23333333,\\"_easeInDuration\\":0,\\"_easeOutDuration\\":0,\\"_blendInDuration\\":-1,\\"_blendOutDuration\\":-1,\\"_mixInEaseType\\":1,\\"_mixOutEaseType\\":1,\\"_timeScale\\":1}}]}",
+  },
+  {
+    "_t": "Unknown",
+    "raw": "{\\"command\\":\\"actoreyeblink\\",\\"args\\":[{\\"key\\":\\"id\\",\\"value\\":\\"aoi\\"},{\\"key\\":\\"clip\\",\\"value\\":{\\"_startTime\\":15.0214653015,\\"_duration\\":0.23333333,\\"_easeInDuration\\":0,\\"_easeOutDuration\\":0,\\"_blendInDuration\\":-1,\\"_blendOutDuration\\":-1,\\"_mixInEaseType\\":1,\\"_mixOutEaseType\\":1,\\"_timeScale\\":1}}]}",
+  },
+  {
+    "_t": "Unknown",
+    "raw": "{\\"command\\":\\"actoreyeblink\\",\\"args\\":[{\\"key\\":\\"id\\",\\"value\\":\\"aoi\\"},{\\"key\\":\\"clip\\",\\"value\\":{\\"_startTime\\":20.6482930183,\\"_duration\\":0.23333333,\\"_easeInDuration\\":0,\\"_easeOutDuration\\":0,\\"_blendInDuration\\":-1,\\"_blendOutDuration\\":-1,\\"_mixInEaseType\\":1,\\"_mixOutEaseType\\":1,\\"_timeScale\\":1}}]}",
+  },
+  {
+    "_t": "Unknown",
+    "raw": "{\\"command\\":\\"actoreyeblink\\",\\"args\\":[{\\"key\\":\\"id\\",\\"value\\":\\"aoi\\"},{\\"key\\":\\"clip\\",\\"value\\":{\\"_startTime\\":25.5207648277,\\"_duration\\":0.23333333,\\"_easeInDuration\\":0,\\"_easeOutDuration\\":0,\\"_blendInDuration\\":-1,\\"_blendOutDuration\\":-1,\\"_mixInEaseType\\":1,\\"_mixOutEaseType\\":1,\\"_timeScale\\":1}}]}",
+  },
+  {
+    "_t": "Unknown",
+    "raw": "{\\"command\\":\\"actoreyeblink\\",\\"args\\":[{\\"key\\":\\"id\\",\\"value\\":\\"aoi\\"},{\\"key\\":\\"clip\\",\\"value\\":{\\"_startTime\\":29.0333334048,\\"_duration\\":0.23333333,\\"_easeInDuration\\":0,\\"_easeOutDuration\\":0,\\"_blendInDuration\\":-1,\\"_blendOutDuration\\":-1,\\"_mixInEaseType\\":1,\\"_mixOutEaseType\\":1,\\"_timeScale\\":1}}]}",
+  },
+  {
+    "_t": "Unknown",
+    "raw": "{\\"command\\":\\"actoreyeblink\\",\\"args\\":[{\\"key\\":\\"id\\",\\"value\\":\\"aoi\\"},{\\"key\\":\\"clip\\",\\"value\\":{\\"_startTime\\":33.8067465861,\\"_duration\\":0.23333333,\\"_easeInDuration\\":0,\\"_easeOutDuration\\":0,\\"_blendInDuration\\":-1,\\"_blendOutDuration\\":-1,\\"_mixInEaseType\\":1,\\"_mixOutEaseType\\":1,\\"_timeScale\\":1}}]}",
+  },
+  {
+    "_t": "Unknown",
+    "raw": "{\\"command\\":\\"actoreyeblink\\",\\"args\\":[{\\"key\\":\\"id\\",\\"value\\":\\"aoi\\"},{\\"key\\":\\"clip\\",\\"value\\":{\\"_startTime\\":36.9213179191,\\"_duration\\":0.23333333,\\"_easeInDuration\\":0,\\"_easeOutDuration\\":0,\\"_blendInDuration\\":-1,\\"_blendOutDuration\\":-1,\\"_mixInEaseType\\":1,\\"_mixOutEaseType\\":1,\\"_timeScale\\":1}}]}",
+  },
+  {
+    "_t": "Unknown",
+    "raw": "{\\"command\\":\\"actoreyeblink\\",\\"args\\":[{\\"key\\":\\"id\\",\\"value\\":\\"aoi\\"},{\\"key\\":\\"clip\\",\\"value\\":{\\"_startTime\\":42.0177577575,\\"_duration\\":0.23333333,\\"_easeInDuration\\":0,\\"_easeOutDuration\\":0,\\"_blendInDuration\\":-1,\\"_blendOutDuration\\":-1,\\"_mixInEaseType\\":1,\\"_mixOutEaseType\\":1,\\"_timeScale\\":1}}]}",
+  },
+  {
+    "_t": "Unknown",
+    "raw": "{\\"command\\":\\"actoreyeblink\\",\\"args\\":[{\\"key\\":\\"id\\",\\"value\\":\\"aoi\\"},{\\"key\\":\\"clip\\",\\"value\\":{\\"_startTime\\":47.1780317863,\\"_duration\\":0.23333333,\\"_easeInDuration\\":0,\\"_easeOutDuration\\":0,\\"_blendInDuration\\":-1,\\"_blendOutDuration\\":-1,\\"_mixInEaseType\\":1,\\"_mixOutEaseType\\":1,\\"_timeScale\\":1}}]}",
+  },
+  {
+    "_t": "Unknown",
+    "raw": "{\\"command\\":\\"actoreyeblink\\",\\"args\\":[{\\"key\\":\\"id\\",\\"value\\":\\"aoi\\"},{\\"key\\":\\"clip\\",\\"value\\":{\\"_startTime\\":52.8763440688,\\"_duration\\":0.23333333,\\"_easeInDuration\\":0,\\"_easeOutDuration\\":0,\\"_blendInDuration\\":-1,\\"_blendOutDuration\\":-1,\\"_mixInEaseType\\":1,\\"_mixOutEaseType\\":1,\\"_timeScale\\":1}}]}",
+  },
+  {
+    "_t": "Unknown",
+    "raw": "{\\"command\\":\\"actoreyeblink\\",\\"args\\":[{\\"key\\":\\"id\\",\\"value\\":\\"aoi\\"},{\\"key\\":\\"clip\\",\\"value\\":{\\"_startTime\\":55.9154413779,\\"_duration\\":0.23333333,\\"_easeInDuration\\":0,\\"_easeOutDuration\\":0,\\"_blendInDuration\\":-1,\\"_blendOutDuration\\":-1,\\"_mixInEaseType\\":1,\\"_mixOutEaseType\\":1,\\"_timeScale\\":1}}]}",
+  },
+  {
+    "_t": "Unknown",
+    "raw": "{\\"command\\":\\"actoreyeblink\\",\\"args\\":[{\\"key\\":\\"id\\",\\"value\\":\\"aoi\\"},{\\"key\\":\\"clip\\",\\"value\\":{\\"_startTime\\":61.8509844382,\\"_duration\\":0.23333333,\\"_easeInDuration\\":0,\\"_easeOutDuration\\":0,\\"_blendInDuration\\":-1,\\"_blendOutDuration\\":-1,\\"_mixInEaseType\\":1,\\"_mixOutEaseType\\":1,\\"_timeScale\\":1}}]}",
+  },
+  {
+    "_t": "Unknown",
+    "raw": "{\\"command\\":\\"actoreyeblink\\",\\"args\\":[{\\"key\\":\\"id\\",\\"value\\":\\"aoi\\"},{\\"key\\":\\"clip\\",\\"value\\":{\\"_startTime\\":65.2636340697,\\"_duration\\":0.23333333,\\"_easeInDuration\\":0,\\"_easeOutDuration\\":0,\\"_blendInDuration\\":-1,\\"_blendOutDuration\\":-1,\\"_mixInEaseType\\":1,\\"_mixOutEaseType\\":1,\\"_timeScale\\":1}}]}",
+  },
+  {
+    "_t": "Unknown",
+    "raw": "{\\"command\\":\\"actoreyeblink\\",\\"args\\":[{\\"key\\":\\"id\\",\\"value\\":\\"aoi\\"},{\\"key\\":\\"clip\\",\\"value\\":{\\"_startTime\\":69.8763936599,\\"_duration\\":0.23333333,\\"_easeInDuration\\":0,\\"_easeOutDuration\\":0,\\"_blendInDuration\\":-1,\\"_blendOutDuration\\":-1,\\"_mixInEaseType\\":1,\\"_mixOutEaseType\\":1,\\"_timeScale\\":1}}]}",
+  },
+  {
+    "_t": "Unknown",
+    "raw": "{\\"command\\":\\"actoreyeblink\\",\\"args\\":[{\\"key\\":\\"id\\",\\"value\\":\\"aoi\\"},{\\"key\\":\\"clip\\",\\"value\\":{\\"_startTime\\":74.4891961654,\\"_duration\\":0.23333333,\\"_easeInDuration\\":0,\\"_easeOutDuration\\":0,\\"_blendInDuration\\":-1,\\"_blendOutDuration\\":-1,\\"_mixInEaseType\\":1,\\"_mixOutEaseType\\":1,\\"_timeScale\\":1}}]}",
+  },
+  {
+    "_t": "Unknown",
+    "raw": "{\\"command\\":\\"actoreyeblink\\",\\"args\\":[{\\"key\\":\\"id\\",\\"value\\":\\"aoi\\"},{\\"key\\":\\"clip\\",\\"value\\":{\\"_startTime\\":79.2670754035,\\"_duration\\":0.23333333,\\"_easeInDuration\\":0,\\"_easeOutDuration\\":0,\\"_blendInDuration\\":-1,\\"_blendOutDuration\\":-1,\\"_mixInEaseType\\":1,\\"_mixOutEaseType\\":1,\\"_timeScale\\":1}}]}",
+  },
+  {
+    "_t": "Unknown",
+    "raw": "{\\"command\\":\\"actoreyeblink\\",\\"args\\":[{\\"key\\":\\"id\\",\\"value\\":\\"aoi\\"},{\\"key\\":\\"clip\\",\\"value\\":{\\"_startTime\\":82.371041878,\\"_duration\\":0.23333333,\\"_easeInDuration\\":0,\\"_easeOutDuration\\":0,\\"_blendInDuration\\":-1,\\"_blendOutDuration\\":-1,\\"_mixInEaseType\\":1,\\"_mixOutEaseType\\":1,\\"_timeScale\\":1}}]}",
+  },
+  {
+    "_t": "Unknown",
+    "raw": "{\\"command\\":\\"actoreyeblink\\",\\"args\\":[{\\"key\\":\\"id\\",\\"value\\":\\"aoi\\"},{\\"key\\":\\"clip\\",\\"value\\":{\\"_startTime\\":86.4988790591,\\"_duration\\":0.23333333,\\"_easeInDuration\\":0,\\"_easeOutDuration\\":0,\\"_blendInDuration\\":-1,\\"_blendOutDuration\\":-1,\\"_mixInEaseType\\":1,\\"_mixOutEaseType\\":1,\\"_timeScale\\":1}}]}",
+  },
+  {
+    "_t": "Unknown",
+    "raw": "{\\"command\\":\\"actoreyeblink\\",\\"args\\":[{\\"key\\":\\"id\\",\\"value\\":\\"aoi\\"},{\\"key\\":\\"clip\\",\\"value\\":{\\"_startTime\\":90.2573329051,\\"_duration\\":0.23333333,\\"_easeInDuration\\":0,\\"_easeOutDuration\\":0,\\"_blendInDuration\\":-1,\\"_blendOutDuration\\":-1,\\"_mixInEaseType\\":1,\\"_mixOutEaseType\\":1,\\"_timeScale\\":1}}]}",
+  },
+  {
+    "_t": "Unknown",
+    "raw": "{\\"command\\":\\"actoreyeblink\\",\\"args\\":[{\\"key\\":\\"id\\",\\"value\\":\\"aoi\\"},{\\"key\\":\\"clip\\",\\"value\\":{\\"_startTime\\":93.7240573009,\\"_duration\\":0.23333333,\\"_easeInDuration\\":0,\\"_easeOutDuration\\":0,\\"_blendInDuration\\":-1,\\"_blendOutDuration\\":-1,\\"_mixInEaseType\\":1,\\"_mixOutEaseType\\":1,\\"_timeScale\\":1}}]}",
+  },
+  {
+    "_t": "Unknown",
+    "raw": "{\\"command\\":\\"actoreyeblink\\",\\"args\\":[{\\"key\\":\\"id\\",\\"value\\":\\"aoi\\"},{\\"key\\":\\"clip\\",\\"value\\":{\\"_startTime\\":97.8694411357,\\"_duration\\":0.23333333,\\"_easeInDuration\\":0,\\"_easeOutDuration\\":0,\\"_blendInDuration\\":-1,\\"_blendOutDuration\\":-1,\\"_mixInEaseType\\":1,\\"_mixOutEaseType\\":1,\\"_timeScale\\":1}}]}",
+  },
+  {
+    "_t": "Unknown",
+    "raw": "{\\"command\\":\\"actoreyeblink\\",\\"args\\":[{\\"key\\":\\"id\\",\\"value\\":\\"aoi\\"},{\\"key\\":\\"clip\\",\\"value\\":{\\"_startTime\\":100.927748545,\\"_duration\\":0.23333333,\\"_easeInDuration\\":0,\\"_easeOutDuration\\":0,\\"_blendInDuration\\":-1,\\"_blendOutDuration\\":-1,\\"_mixInEaseType\\":1,\\"_mixOutEaseType\\":1,\\"_timeScale\\":1}}]}",
+  },
+  {
+    "_t": "Unknown",
+    "raw": "{\\"command\\":\\"actoreyeblink\\",\\"args\\":[{\\"key\\":\\"id\\",\\"value\\":\\"aoi\\"},{\\"key\\":\\"clip\\",\\"value\\":{\\"_startTime\\":106.2670763572,\\"_duration\\":0.23333333,\\"_easeInDuration\\":0,\\"_easeOutDuration\\":0,\\"_blendInDuration\\":-1,\\"_blendOutDuration\\":-1,\\"_mixInEaseType\\":1,\\"_mixOutEaseType\\":1,\\"_timeScale\\":1}}]}",
+  },
+  {
+    "_t": "Unknown",
+    "raw": "{\\"command\\":\\"actoreyeblink\\",\\"args\\":[{\\"key\\":\\"id\\",\\"value\\":\\"aoi\\"},{\\"key\\":\\"clip\\",\\"value\\":{\\"_startTime\\":110.0276106437,\\"_duration\\":0.23333333,\\"_easeInDuration\\":0,\\"_easeOutDuration\\":0,\\"_blendInDuration\\":-1,\\"_blendOutDuration\\":-1,\\"_mixInEaseType\\":1,\\"_mixOutEaseType\\":1,\\"_timeScale\\":1}}]}",
+  },
+  {
+    "_t": "Unknown",
+    "raw": "{\\"command\\":\\"actoreyeblink\\",\\"args\\":[{\\"key\\":\\"id\\",\\"value\\":\\"aoi\\"},{\\"key\\":\\"clip\\",\\"value\\":{\\"_startTime\\":114.3600748618,\\"_duration\\":0.23333333,\\"_easeInDuration\\":0,\\"_easeOutDuration\\":0,\\"_blendInDuration\\":-1,\\"_blendOutDuration\\":-1,\\"_mixInEaseType\\":1,\\"_mixOutEaseType\\":1,\\"_timeScale\\":1}}]}",
+  },
+  {
+    "_t": "Unknown",
+    "raw": "{\\"command\\":\\"actoreyeblink\\",\\"args\\":[{\\"key\\":\\"id\\",\\"value\\":\\"aoi\\"},{\\"key\\":\\"clip\\",\\"value\\":{\\"_startTime\\":119.6389754851,\\"_duration\\":0.23333333,\\"_easeInDuration\\":0,\\"_easeOutDuration\\":0,\\"_blendInDuration\\":-1,\\"_blendOutDuration\\":-1,\\"_mixInEaseType\\":1,\\"_mixOutEaseType\\":1,\\"_timeScale\\":1}}]}",
+  },
+  {
+    "_t": "Unknown",
+    "raw": "{\\"command\\":\\"actoreyeblink\\",\\"args\\":[{\\"key\\":\\"id\\",\\"value\\":\\"aoi\\"},{\\"key\\":\\"clip\\",\\"value\\":{\\"_startTime\\":125.1815832694,\\"_duration\\":0.23333333,\\"_easeInDuration\\":0,\\"_easeOutDuration\\":0,\\"_blendInDuration\\":-1,\\"_blendOutDuration\\":-1,\\"_mixInEaseType\\":1,\\"_mixOutEaseType\\":1,\\"_timeScale\\":1}}]}",
+  },
+  {
+    "_t": "Unknown",
+    "raw": "{\\"command\\":\\"actoreyeblink\\",\\"args\\":[{\\"key\\":\\"id\\",\\"value\\":\\"aoi\\"},{\\"key\\":\\"clip\\",\\"value\\":{\\"_startTime\\":129.8137701591,\\"_duration\\":0.23333333,\\"_easeInDuration\\":0,\\"_easeOutDuration\\":0,\\"_blendInDuration\\":-1,\\"_blendOutDuration\\":-1,\\"_mixInEaseType\\":1,\\"_mixOutEaseType\\":1,\\"_timeScale\\":1}}]}",
+  },
+  {
+    "_t": "Unknown",
+    "raw": "{\\"command\\":\\"actoreyeblink\\",\\"args\\":[{\\"key\\":\\"id\\",\\"value\\":\\"aoi\\"},{\\"key\\":\\"clip\\",\\"value\\":{\\"_startTime\\":133.7666667302,\\"_duration\\":0.23333333,\\"_easeInDuration\\":0,\\"_easeOutDuration\\":0,\\"_blendInDuration\\":-1,\\"_blendOutDuration\\":-1,\\"_mixInEaseType\\":1,\\"_mixOutEaseType\\":1,\\"_timeScale\\":1}}]}",
+  },
+  {
+    "_t": "Unknown",
+    "raw": "{\\"command\\":\\"actoreyeblink\\",\\"args\\":[{\\"key\\":\\"id\\",\\"value\\":\\"aoi\\"},{\\"key\\":\\"clip\\",\\"value\\":{\\"_startTime\\":139.1059687932,\\"_duration\\":0.23333333,\\"_easeInDuration\\":0,\\"_easeOutDuration\\":0,\\"_blendInDuration\\":-1,\\"_blendOutDuration\\":-1,\\"_mixInEaseType\\":1,\\"_mixOutEaseType\\":1,\\"_timeScale\\":1}}]}",
+  },
+  {
+    "_t": "Unknown",
+    "raw": "{\\"command\\":\\"actoreyeblink\\",\\"args\\":[{\\"key\\":\\"id\\",\\"value\\":\\"aoi\\"},{\\"key\\":\\"clip\\",\\"value\\":{\\"_startTime\\":144.681093057,\\"_duration\\":0.23333333,\\"_easeInDuration\\":0,\\"_easeOutDuration\\":0,\\"_blendInDuration\\":-1,\\"_blendOutDuration\\":-1,\\"_mixInEaseType\\":1,\\"_mixOutEaseType\\":1,\\"_timeScale\\":1}}]}",
+  },
+  {
+    "_t": "Unknown",
+    "raw": "{\\"command\\":\\"actoreyeblink\\",\\"args\\":[{\\"key\\":\\"id\\",\\"value\\":\\"aoi\\"},{\\"key\\":\\"clip\\",\\"value\\":{\\"_startTime\\":150.1903613408,\\"_duration\\":0.23333333,\\"_easeInDuration\\":0,\\"_easeOutDuration\\":0,\\"_blendInDuration\\":-1,\\"_blendOutDuration\\":-1,\\"_mixInEaseType\\":1,\\"_mixOutEaseType\\":1,\\"_timeScale\\":1}}]}",
+  },
+  {
+    "_t": "Unknown",
+    "raw": "{\\"command\\":\\"actoreyeblink\\",\\"args\\":[{\\"key\\":\\"id\\",\\"value\\":\\"ai\\"},{\\"key\\":\\"clip\\",\\"value\\":{\\"_startTime\\":4.0917401314,\\"_duration\\":0.23333333,\\"_easeInDuration\\":0,\\"_easeOutDuration\\":0,\\"_blendInDuration\\":-1,\\"_blendOutDuration\\":-1,\\"_mixInEaseType\\":1,\\"_mixOutEaseType\\":1,\\"_timeScale\\":1}}]}",
+  },
+  {
+    "_t": "Unknown",
+    "raw": "{\\"command\\":\\"actoreyeblink\\",\\"args\\":[{\\"key\\":\\"id\\",\\"value\\":\\"ai\\"},{\\"key\\":\\"clip\\",\\"value\\":{\\"_startTime\\":9.0609092712,\\"_duration\\":0.23333333,\\"_easeInDuration\\":0,\\"_easeOutDuration\\":0,\\"_blendInDuration\\":-1,\\"_blendOutDuration\\":-1,\\"_mixInEaseType\\":1,\\"_mixOutEaseType\\":1,\\"_timeScale\\":1}}]}",
+  },
+  {
+    "_t": "Unknown",
+    "raw": "{\\"command\\":\\"actoreyeblink\\",\\"args\\":[{\\"key\\":\\"id\\",\\"value\\":\\"ai\\"},{\\"key\\":\\"clip\\",\\"value\\":{\\"_startTime\\":13.694357872,\\"_duration\\":0.23333333,\\"_easeInDuration\\":0,\\"_easeOutDuration\\":0,\\"_blendInDuration\\":-1,\\"_blendOutDuration\\":-1,\\"_mixInEaseType\\":1,\\"_mixOutEaseType\\":1,\\"_timeScale\\":1}}]}",
+  },
+  {
+    "_t": "Unknown",
+    "raw": "{\\"command\\":\\"actoreyeblink\\",\\"args\\":[{\\"key\\":\\"id\\",\\"value\\":\\"ai\\"},{\\"key\\":\\"clip\\",\\"value\\":{\\"_startTime\\":19.0674686432,\\"_duration\\":0.23333333,\\"_easeInDuration\\":0,\\"_easeOutDuration\\":0,\\"_blendInDuration\\":-1,\\"_blendOutDuration\\":-1,\\"_mixInEaseType\\":1,\\"_mixOutEaseType\\":1,\\"_timeScale\\":1}}]}",
+  },
+  {
+    "_t": "Unknown",
+    "raw": "{\\"command\\":\\"actoreyeblink\\",\\"args\\":[{\\"key\\":\\"id\\",\\"value\\":\\"ai\\"},{\\"key\\":\\"clip\\",\\"value\\":{\\"_startTime\\":25.7666667302,\\"_duration\\":0.23333333,\\"_easeInDuration\\":0,\\"_easeOutDuration\\":0,\\"_blendInDuration\\":-1,\\"_blendOutDuration\\":-1,\\"_mixInEaseType\\":1,\\"_mixOutEaseType\\":1,\\"_timeScale\\":1}}]}",
+  },
+  {
+    "_t": "Unknown",
+    "raw": "{\\"command\\":\\"actoreyeblink\\",\\"args\\":[{\\"key\\":\\"id\\",\\"value\\":\\"ai\\"},{\\"key\\":\\"clip\\",\\"value\\":{\\"_startTime\\":29.611761411,\\"_duration\\":0.23333333,\\"_easeInDuration\\":0,\\"_easeOutDuration\\":0,\\"_blendInDuration\\":-1,\\"_blendOutDuration\\":-1,\\"_mixInEaseType\\":1,\\"_mixOutEaseType\\":1,\\"_timeScale\\":1}}]}",
+  },
+  {
+    "_t": "Unknown",
+    "raw": "{\\"command\\":\\"actoreyeblink\\",\\"args\\":[{\\"key\\":\\"id\\",\\"value\\":\\"ai\\"},{\\"key\\":\\"clip\\",\\"value\\":{\\"_startTime\\":33.8215273221,\\"_duration\\":0.23333333,\\"_easeInDuration\\":0,\\"_easeOutDuration\\":0,\\"_blendInDuration\\":-1,\\"_blendOutDuration\\":-1,\\"_mixInEaseType\\":1,\\"_mixOutEaseType\\":1,\\"_timeScale\\":1}}]}",
+  },
+  {
+    "_t": "Unknown",
+    "raw": "{\\"command\\":\\"actoreyeblink\\",\\"args\\":[{\\"key\\":\\"id\\",\\"value\\":\\"ai\\"},{\\"key\\":\\"clip\\",\\"value\\":{\\"_startTime\\":39.0413001378,\\"_duration\\":0.23333333,\\"_easeInDuration\\":0,\\"_easeOutDuration\\":0,\\"_blendInDuration\\":-1,\\"_blendOutDuration\\":-1,\\"_mixInEaseType\\":1,\\"_mixOutEaseType\\":1,\\"_timeScale\\":1}}]}",
+  },
+  {
+    "_t": "Unknown",
+    "raw": "{\\"command\\":\\"actoreyeblink\\",\\"args\\":[{\\"key\\":\\"id\\",\\"value\\":\\"ai\\"},{\\"key\\":\\"clip\\",\\"value\\":{\\"_startTime\\":42.7587018808,\\"_duration\\":0.23333333,\\"_easeInDuration\\":0,\\"_easeOutDuration\\":0,\\"_blendInDuration\\":-1,\\"_blendOutDuration\\":-1,\\"_mixInEaseType\\":1,\\"_mixOutEaseType\\":1,\\"_timeScale\\":1}}]}",
+  },
+  {
+    "_t": "Unknown",
+    "raw": "{\\"command\\":\\"actoreyeblink\\",\\"args\\":[{\\"key\\":\\"id\\",\\"value\\":\\"ai\\"},{\\"key\\":\\"clip\\",\\"value\\":{\\"_startTime\\":48.4377680619,\\"_duration\\":0.23333333,\\"_easeInDuration\\":0,\\"_easeOutDuration\\":0,\\"_blendInDuration\\":-1,\\"_blendOutDuration\\":-1,\\"_mixInEaseType\\":1,\\"_mixOutEaseType\\":1,\\"_timeScale\\":1}}]}",
+  },
+  {
+    "_t": "Unknown",
+    "raw": "{\\"command\\":\\"actoreyeblink\\",\\"args\\":[{\\"key\\":\\"id\\",\\"value\\":\\"ai\\"},{\\"key\\":\\"clip\\",\\"value\\":{\\"_startTime\\":54.0719014009,\\"_duration\\":0.23333333,\\"_easeInDuration\\":0,\\"_easeOutDuration\\":0,\\"_blendInDuration\\":-1,\\"_blendOutDuration\\":-1,\\"_mixInEaseType\\":1,\\"_mixOutEaseType\\":1,\\"_timeScale\\":1}}]}",
+  },
+  {
+    "_t": "Unknown",
+    "raw": "{\\"command\\":\\"actoreyeblink\\",\\"args\\":[{\\"key\\":\\"id\\",\\"value\\":\\"ai\\"},{\\"key\\":\\"clip\\",\\"value\\":{\\"_startTime\\":58.4547177156,\\"_duration\\":0.23333333,\\"_easeInDuration\\":0,\\"_easeOutDuration\\":0,\\"_blendInDuration\\":-1,\\"_blendOutDuration\\":-1,\\"_mixInEaseType\\":1,\\"_mixOutEaseType\\":1,\\"_timeScale\\":1}}]}",
+  },
+  {
+    "_t": "Unknown",
+    "raw": "{\\"command\\":\\"actoreyeblink\\",\\"args\\":[{\\"key\\":\\"id\\",\\"value\\":\\"ai\\"},{\\"key\\":\\"clip\\",\\"value\\":{\\"_startTime\\":62.1303342183,\\"_duration\\":0.23333333,\\"_easeInDuration\\":0,\\"_easeOutDuration\\":0,\\"_blendInDuration\\":-1,\\"_blendOutDuration\\":-1,\\"_mixInEaseType\\":1,\\"_mixOutEaseType\\":1,\\"_timeScale\\":1}}]}",
+  },
+  {
+    "_t": "Unknown",
+    "raw": "{\\"command\\":\\"actoreyeblink\\",\\"args\\":[{\\"key\\":\\"id\\",\\"value\\":\\"ai\\"},{\\"key\\":\\"clip\\",\\"value\\":{\\"_startTime\\":66.0515950521,\\"_duration\\":0.23333333,\\"_easeInDuration\\":0,\\"_easeOutDuration\\":0,\\"_blendInDuration\\":-1,\\"_blendOutDuration\\":-1,\\"_mixInEaseType\\":1,\\"_mixOutEaseType\\":1,\\"_timeScale\\":1}}]}",
+  },
+  {
+    "_t": "Unknown",
+    "raw": "{\\"command\\":\\"actoreyeblink\\",\\"args\\":[{\\"key\\":\\"id\\",\\"value\\":\\"ai\\"},{\\"key\\":\\"clip\\",\\"value\\":{\\"_startTime\\":70.4301136335,\\"_duration\\":0.23333333,\\"_easeInDuration\\":0,\\"_easeOutDuration\\":0,\\"_blendInDuration\\":-1,\\"_blendOutDuration\\":-1,\\"_mixInEaseType\\":1,\\"_mixOutEaseType\\":1,\\"_timeScale\\":1}}]}",
+  },
+  {
+    "_t": "Unknown",
+    "raw": "{\\"command\\":\\"actoreyeblink\\",\\"args\\":[{\\"key\\":\\"id\\",\\"value\\":\\"ai\\"},{\\"key\\":\\"clip\\",\\"value\\":{\\"_startTime\\":73.8686719735,\\"_duration\\":0.23333333,\\"_easeInDuration\\":0,\\"_easeOutDuration\\":0,\\"_blendInDuration\\":-1,\\"_blendOutDuration\\":-1,\\"_mixInEaseType\\":1,\\"_mixOutEaseType\\":1,\\"_timeScale\\":1}}]}",
+  },
+  {
+    "_t": "Unknown",
+    "raw": "{\\"command\\":\\"actoreyeblink\\",\\"args\\":[{\\"key\\":\\"id\\",\\"value\\":\\"ai\\"},{\\"key\\":\\"clip\\",\\"value\\":{\\"_startTime\\":78.9585686525,\\"_duration\\":0.23333333,\\"_easeInDuration\\":0,\\"_easeOutDuration\\":0,\\"_blendInDuration\\":-1,\\"_blendOutDuration\\":-1,\\"_mixInEaseType\\":1,\\"_mixOutEaseType\\":1,\\"_timeScale\\":1}}]}",
+  },
+  {
+    "_t": "Unknown",
+    "raw": "{\\"command\\":\\"actoreyeblink\\",\\"args\\":[{\\"key\\":\\"id\\",\\"value\\":\\"ai\\"},{\\"key\\":\\"clip\\",\\"value\\":{\\"_startTime\\":82.7489147981,\\"_duration\\":0.23333333,\\"_easeInDuration\\":0,\\"_easeOutDuration\\":0,\\"_blendInDuration\\":-1,\\"_blendOutDuration\\":-1,\\"_mixInEaseType\\":1,\\"_mixOutEaseType\\":1,\\"_timeScale\\":1}}]}",
+  },
+  {
+    "_t": "Unknown",
+    "raw": "{\\"command\\":\\"actoreyeblink\\",\\"args\\":[{\\"key\\":\\"id\\",\\"value\\":\\"ai\\"},{\\"key\\":\\"clip\\",\\"value\\":{\\"_startTime\\":86.6535974344,\\"_duration\\":0.23333333,\\"_easeInDuration\\":0,\\"_easeOutDuration\\":0,\\"_blendInDuration\\":-1,\\"_blendOutDuration\\":-1,\\"_mixInEaseType\\":1,\\"_mixOutEaseType\\":1,\\"_timeScale\\":1}}]}",
+  },
+  {
+    "_t": "Unknown",
+    "raw": "{\\"command\\":\\"actoreyeblink\\",\\"args\\":[{\\"key\\":\\"id\\",\\"value\\":\\"ai\\"},{\\"key\\":\\"clip\\",\\"value\\":{\\"_startTime\\":91.9226704438,\\"_duration\\":0.23333333,\\"_easeInDuration\\":0,\\"_easeOutDuration\\":0,\\"_blendInDuration\\":-1,\\"_blendOutDuration\\":-1,\\"_mixInEaseType\\":1,\\"_mixOutEaseType\\":1,\\"_timeScale\\":1}}]}",
+  },
+  {
+    "_t": "Unknown",
+    "raw": "{\\"command\\":\\"actoreyeblink\\",\\"args\\":[{\\"key\\":\\"id\\",\\"value\\":\\"ai\\"},{\\"key\\":\\"clip\\",\\"value\\":{\\"_startTime\\":95.3580516179,\\"_duration\\":0.23333333,\\"_easeInDuration\\":0,\\"_easeOutDuration\\":0,\\"_blendInDuration\\":-1,\\"_blendOutDuration\\":-1,\\"_mixInEaseType\\":1,\\"_mixOutEaseType\\":1,\\"_timeScale\\":1}}]}",
+  },
+  {
+    "_t": "Unknown",
+    "raw": "{\\"command\\":\\"actoreyeblink\\",\\"args\\":[{\\"key\\":\\"id\\",\\"value\\":\\"ai\\"},{\\"key\\":\\"clip\\",\\"value\\":{\\"_startTime\\":100.8594201406,\\"_duration\\":0.23333333,\\"_easeInDuration\\":0,\\"_easeOutDuration\\":0,\\"_blendInDuration\\":-1,\\"_blendOutDuration\\":-1,\\"_mixInEaseType\\":1,\\"_mixOutEaseType\\":1,\\"_timeScale\\":1}}]}",
+  },
+  {
+    "_t": "Unknown",
+    "raw": "{\\"command\\":\\"actoreyeblink\\",\\"args\\":[{\\"key\\":\\"id\\",\\"value\\":\\"ai\\"},{\\"key\\":\\"clip\\",\\"value\\":{\\"_startTime\\":104.2511812051,\\"_duration\\":0.23333333,\\"_easeInDuration\\":0,\\"_easeOutDuration\\":0,\\"_blendInDuration\\":-1,\\"_blendOutDuration\\":-1,\\"_mixInEaseType\\":1,\\"_mixOutEaseType\\":1,\\"_timeScale\\":1}}]}",
+  },
+  {
+    "_t": "Unknown",
+    "raw": "{\\"command\\":\\"actoreyeblink\\",\\"args\\":[{\\"key\\":\\"id\\",\\"value\\":\\"ai\\"},{\\"key\\":\\"clip\\",\\"value\\":{\\"_startTime\\":108.4951072534,\\"_duration\\":0.23333333,\\"_easeInDuration\\":0,\\"_easeOutDuration\\":0,\\"_blendInDuration\\":-1,\\"_blendOutDuration\\":-1,\\"_mixInEaseType\\":1,\\"_mixOutEaseType\\":1,\\"_timeScale\\":1}}]}",
+  },
+  {
+    "_t": "Unknown",
+    "raw": "{\\"command\\":\\"actoreyeblink\\",\\"args\\":[{\\"key\\":\\"id\\",\\"value\\":\\"ai\\"},{\\"key\\":\\"clip\\",\\"value\\":{\\"_startTime\\":112.1668098767,\\"_duration\\":0.23333333,\\"_easeInDuration\\":0,\\"_easeOutDuration\\":0,\\"_blendInDuration\\":-1,\\"_blendOutDuration\\":-1,\\"_mixInEaseType\\":1,\\"_mixOutEaseType\\":1,\\"_timeScale\\":1}}]}",
+  },
+  {
+    "_t": "Unknown",
+    "raw": "{\\"command\\":\\"actoreyeblink\\",\\"args\\":[{\\"key\\":\\"id\\",\\"value\\":\\"ai\\"},{\\"key\\":\\"clip\\",\\"value\\":{\\"_startTime\\":116.6848429044,\\"_duration\\":0.23333333,\\"_easeInDuration\\":0,\\"_easeOutDuration\\":0,\\"_blendInDuration\\":-1,\\"_blendOutDuration\\":-1,\\"_mixInEaseType\\":1,\\"_mixOutEaseType\\":1,\\"_timeScale\\":1}}]}",
+  },
+  {
+    "_t": "Unknown",
+    "raw": "{\\"command\\":\\"actoreyeblink\\",\\"args\\":[{\\"key\\":\\"id\\",\\"value\\":\\"ai\\"},{\\"key\\":\\"clip\\",\\"value\\":{\\"_startTime\\":121.62717851,\\"_duration\\":0.23333333,\\"_easeInDuration\\":0,\\"_easeOutDuration\\":0,\\"_blendInDuration\\":-1,\\"_blendOutDuration\\":-1,\\"_mixInEaseType\\":1,\\"_mixOutEaseType\\":1,\\"_timeScale\\":1}}]}",
+  },
+  {
+    "_t": "Unknown",
+    "raw": "{\\"command\\":\\"actoreyeblink\\",\\"args\\":[{\\"key\\":\\"id\\",\\"value\\":\\"ai\\"},{\\"key\\":\\"clip\\",\\"value\\":{\\"_startTime\\":125.3797882398,\\"_duration\\":0.23333333,\\"_easeInDuration\\":0,\\"_easeOutDuration\\":0,\\"_blendInDuration\\":-1,\\"_blendOutDuration\\":-1,\\"_mixInEaseType\\":1,\\"_mixOutEaseType\\":1,\\"_timeScale\\":1}}]}",
+  },
+  {
+    "_t": "Unknown",
+    "raw": "{\\"command\\":\\"actoreyeblink\\",\\"args\\":[{\\"key\\":\\"id\\",\\"value\\":\\"ai\\"},{\\"key\\":\\"clip\\",\\"value\\":{\\"_startTime\\":129.8833854993,\\"_duration\\":0.23333333,\\"_easeInDuration\\":0,\\"_easeOutDuration\\":0,\\"_blendInDuration\\":-1,\\"_blendOutDuration\\":-1,\\"_mixInEaseType\\":1,\\"_mixOutEaseType\\":1,\\"_timeScale\\":1}}]}",
+  },
+  {
+    "_t": "Unknown",
+    "raw": "{\\"command\\":\\"actoreyeblink\\",\\"args\\":[{\\"key\\":\\"id\\",\\"value\\":\\"ai\\"},{\\"key\\":\\"clip\\",\\"value\\":{\\"_startTime\\":132.9963701566,\\"_duration\\":0.23333333,\\"_easeInDuration\\":0,\\"_easeOutDuration\\":0,\\"_blendInDuration\\":-1,\\"_blendOutDuration\\":-1,\\"_mixInEaseType\\":1,\\"_mixOutEaseType\\":1,\\"_timeScale\\":1}}]}",
+  },
+  {
+    "_t": "Unknown",
+    "raw": "{\\"command\\":\\"actoreyeblink\\",\\"args\\":[{\\"key\\":\\"id\\",\\"value\\":\\"ai\\"},{\\"key\\":\\"clip\\",\\"value\\":{\\"_startTime\\":136.8619740804,\\"_duration\\":0.23333333,\\"_easeInDuration\\":0,\\"_easeOutDuration\\":0,\\"_blendInDuration\\":-1,\\"_blendOutDuration\\":-1,\\"_mixInEaseType\\":1,\\"_mixOutEaseType\\":1,\\"_timeScale\\":1}}]}",
+  },
+  {
+    "_t": "Unknown",
+    "raw": "{\\"command\\":\\"actoreyeblink\\",\\"args\\":[{\\"key\\":\\"id\\",\\"value\\":\\"ai\\"},{\\"key\\":\\"clip\\",\\"value\\":{\\"_startTime\\":140.9691918691,\\"_duration\\":0.23333333,\\"_easeInDuration\\":0,\\"_easeOutDuration\\":0,\\"_blendInDuration\\":-1,\\"_blendOutDuration\\":-1,\\"_mixInEaseType\\":1,\\"_mixOutEaseType\\":1,\\"_timeScale\\":1}}]}",
+  },
+  {
+    "_t": "Unknown",
+    "raw": "{\\"command\\":\\"actoreyeblink\\",\\"args\\":[{\\"key\\":\\"id\\",\\"value\\":\\"ai\\"},{\\"key\\":\\"clip\\",\\"value\\":{\\"_startTime\\":144.7458294233,\\"_duration\\":0.23333333,\\"_easeInDuration\\":0,\\"_easeOutDuration\\":0,\\"_blendInDuration\\":-1,\\"_blendOutDuration\\":-1,\\"_mixInEaseType\\":1,\\"_mixOutEaseType\\":1,\\"_timeScale\\":1}}]}",
+  },
+  {
+    "_t": "Unknown",
+    "raw": "{\\"command\\":\\"actoreyeblink\\",\\"args\\":[{\\"key\\":\\"id\\",\\"value\\":\\"ai\\"},{\\"key\\":\\"clip\\",\\"value\\":{\\"_startTime\\":149.3674553235,\\"_duration\\":0.23333333,\\"_easeInDuration\\":0,\\"_easeOutDuration\\":0,\\"_blendInDuration\\":-1,\\"_blendOutDuration\\":-1,\\"_mixInEaseType\\":1,\\"_mixOutEaseType\\":1,\\"_timeScale\\":1}}]}",
+  },
+  {
+    "_t": "Unknown",
+    "raw": "{\\"command\\":\\"actoreyeblink\\",\\"args\\":[{\\"key\\":\\"id\\",\\"value\\":\\"kkr\\"},{\\"key\\":\\"clip\\",\\"value\\":{\\"_startTime\\":6.8866668017,\\"_duration\\":0.23333333,\\"_easeInDuration\\":0,\\"_easeOutDuration\\":0,\\"_blendInDuration\\":-1,\\"_blendOutDuration\\":-1,\\"_mixInEaseType\\":1,\\"_mixOutEaseType\\":1,\\"_timeScale\\":1}}]}",
+  },
+  {
+    "_t": "Unknown",
+    "raw": "{\\"command\\":\\"actoreyeblink\\",\\"args\\":[{\\"key\\":\\"id\\",\\"value\\":\\"kkr\\"},{\\"key\\":\\"clip\\",\\"value\\":{\\"_startTime\\":15.7333334208,\\"_duration\\":0.23333333,\\"_easeInDuration\\":0,\\"_easeOutDuration\\":0,\\"_blendInDuration\\":-1,\\"_blendOutDuration\\":-1,\\"_mixInEaseType\\":1,\\"_mixOutEaseType\\":1,\\"_timeScale\\":1}}]}",
+  },
+  {
+    "_t": "Unknown",
+    "raw": "{\\"command\\":\\"actoreyeblink\\",\\"args\\":[{\\"key\\":\\"id\\",\\"value\\":\\"kkr\\"},{\\"key\\":\\"clip\\",\\"value\\":{\\"_startTime\\":21.0883453608,\\"_duration\\":0.23333333,\\"_easeInDuration\\":0,\\"_easeOutDuration\\":0,\\"_blendInDuration\\":-1,\\"_blendOutDuration\\":-1,\\"_mixInEaseType\\":1,\\"_mixOutEaseType\\":1,\\"_timeScale\\":1}}]}",
+  },
+  {
+    "_t": "Unknown",
+    "raw": "{\\"command\\":\\"actoreyeblink\\",\\"args\\":[{\\"key\\":\\"id\\",\\"value\\":\\"kkr\\"},{\\"key\\":\\"clip\\",\\"value\\":{\\"_startTime\\":26.6533802272,\\"_duration\\":0.23333333,\\"_easeInDuration\\":0,\\"_easeOutDuration\\":0,\\"_blendInDuration\\":-1,\\"_blendOutDuration\\":-1,\\"_mixInEaseType\\":1,\\"_mixOutEaseType\\":1,\\"_timeScale\\":1}}]}",
+  },
+  {
+    "_t": "Unknown",
+    "raw": "{\\"command\\":\\"actoreyeblink\\",\\"args\\":[{\\"key\\":\\"id\\",\\"value\\":\\"kkr\\"},{\\"key\\":\\"clip\\",\\"value\\":{\\"_startTime\\":32.1327460528,\\"_duration\\":0.23333333,\\"_easeInDuration\\":0,\\"_easeOutDuration\\":0,\\"_blendInDuration\\":-1,\\"_blendOutDuration\\":-1,\\"_mixInEaseType\\":1,\\"_mixOutEaseType\\":1,\\"_timeScale\\":1}}]}",
+  },
+  {
+    "_t": "Unknown",
+    "raw": "{\\"command\\":\\"actoreyeblink\\",\\"args\\":[{\\"key\\":\\"id\\",\\"value\\":\\"kkr\\"},{\\"key\\":\\"clip\\",\\"value\\":{\\"_startTime\\":35.8986042262,\\"_duration\\":0.23333333,\\"_easeInDuration\\":0,\\"_easeOutDuration\\":0,\\"_blendInDuration\\":-1,\\"_blendOutDuration\\":-1,\\"_mixInEaseType\\":1,\\"_mixOutEaseType\\":1,\\"_timeScale\\":1}}]}",
+  },
+  {
+    "_t": "Unknown",
+    "raw": "{\\"command\\":\\"actoreyeblink\\",\\"args\\":[{\\"key\\":\\"id\\",\\"value\\":\\"kkr\\"},{\\"key\\":\\"clip\\",\\"value\\":{\\"_startTime\\":41.4063585521,\\"_duration\\":0.23333333,\\"_easeInDuration\\":0,\\"_easeOutDuration\\":0,\\"_blendInDuration\\":-1,\\"_blendOutDuration\\":-1,\\"_mixInEaseType\\":1,\\"_mixOutEaseType\\":1,\\"_timeScale\\":1}}]}",
+  },
+  {
+    "_t": "Unknown",
+    "raw": "{\\"command\\":\\"actoreyeblink\\",\\"args\\":[{\\"key\\":\\"id\\",\\"value\\":\\"kkr\\"},{\\"key\\":\\"clip\\",\\"value\\":{\\"_startTime\\":45.8551643611,\\"_duration\\":0.23333333,\\"_easeInDuration\\":0,\\"_easeOutDuration\\":0,\\"_blendInDuration\\":-1,\\"_blendOutDuration\\":-1,\\"_mixInEaseType\\":1,\\"_mixOutEaseType\\":1,\\"_timeScale\\":1}}]}",
+  },
+  {
+    "_t": "Unknown",
+    "raw": "{\\"command\\":\\"actoreyeblink\\",\\"args\\":[{\\"key\\":\\"id\\",\\"value\\":\\"kkr\\"},{\\"key\\":\\"clip\\",\\"value\\":{\\"_startTime\\":49.8607347728,\\"_duration\\":0.23333333,\\"_easeInDuration\\":0,\\"_easeOutDuration\\":0,\\"_blendInDuration\\":-1,\\"_blendOutDuration\\":-1,\\"_mixInEaseType\\":1,\\"_mixOutEaseType\\":1,\\"_timeScale\\":1}}]}",
+  },
+  {
+    "_t": "Unknown",
+    "raw": "{\\"command\\":\\"actoreyeblink\\",\\"args\\":[{\\"key\\":\\"id\\",\\"value\\":\\"kkr\\"},{\\"key\\":\\"clip\\",\\"value\\":{\\"_startTime\\":53.2057724715,\\"_duration\\":0.23333333,\\"_easeInDuration\\":0,\\"_easeOutDuration\\":0,\\"_blendInDuration\\":-1,\\"_blendOutDuration\\":-1,\\"_mixInEaseType\\":1,\\"_mixOutEaseType\\":1,\\"_timeScale\\":1}}]}",
+  },
+  {
+    "_t": "Unknown",
+    "raw": "{\\"command\\":\\"actoreyeblink\\",\\"args\\":[{\\"key\\":\\"id\\",\\"value\\":\\"kkr\\"},{\\"key\\":\\"clip\\",\\"value\\":{\\"_startTime\\":58.2596088172,\\"_duration\\":0.23333333,\\"_easeInDuration\\":0,\\"_easeOutDuration\\":0,\\"_blendInDuration\\":-1,\\"_blendOutDuration\\":-1,\\"_mixInEaseType\\":1,\\"_mixOutEaseType\\":1,\\"_timeScale\\":1}}]}",
+  },
+  {
+    "_t": "Unknown",
+    "raw": "{\\"command\\":\\"actoreyeblink\\",\\"args\\":[{\\"key\\":\\"id\\",\\"value\\":\\"kkr\\"},{\\"key\\":\\"clip\\",\\"value\\":{\\"_startTime\\":62.3565278769,\\"_duration\\":0.23333333,\\"_easeInDuration\\":0,\\"_easeOutDuration\\":0,\\"_blendInDuration\\":-1,\\"_blendOutDuration\\":-1,\\"_mixInEaseType\\":1,\\"_mixOutEaseType\\":1,\\"_timeScale\\":1}}]}",
+  },
+  {
+    "_t": "Unknown",
+    "raw": "{\\"command\\":\\"actoreyeblink\\",\\"args\\":[{\\"key\\":\\"id\\",\\"value\\":\\"kkr\\"},{\\"key\\":\\"clip\\",\\"value\\":{\\"_startTime\\":68.1613317252,\\"_duration\\":0.23333333,\\"_easeInDuration\\":0,\\"_easeOutDuration\\":0,\\"_blendInDuration\\":-1,\\"_blendOutDuration\\":-1,\\"_mixInEaseType\\":1,\\"_mixOutEaseType\\":1,\\"_timeScale\\":1}}]}",
+  },
+  {
+    "_t": "Unknown",
+    "raw": "{\\"command\\":\\"actoreyeblink\\",\\"args\\":[{\\"key\\":\\"id\\",\\"value\\":\\"kkr\\"},{\\"key\\":\\"clip\\",\\"value\\":{\\"_startTime\\":72.5703330756,\\"_duration\\":0.23333333,\\"_easeInDuration\\":0,\\"_easeOutDuration\\":0,\\"_blendInDuration\\":-1,\\"_blendOutDuration\\":-1,\\"_mixInEaseType\\":1,\\"_mixOutEaseType\\":1,\\"_timeScale\\":1}}]}",
+  },
+  {
+    "_t": "Unknown",
+    "raw": "{\\"command\\":\\"actoreyeblink\\",\\"args\\":[{\\"key\\":\\"id\\",\\"value\\":\\"kkr\\"},{\\"key\\":\\"clip\\",\\"value\\":{\\"_startTime\\":77.8214441062,\\"_duration\\":0.23333333,\\"_easeInDuration\\":0,\\"_easeOutDuration\\":0,\\"_blendInDuration\\":-1,\\"_blendOutDuration\\":-1,\\"_mixInEaseType\\":1,\\"_mixOutEaseType\\":1,\\"_timeScale\\":1}}]}",
+  },
+  {
+    "_t": "Unknown",
+    "raw": "{\\"command\\":\\"actoreyeblink\\",\\"args\\":[{\\"key\\":\\"id\\",\\"value\\":\\"kkr\\"},{\\"key\\":\\"clip\\",\\"value\\":{\\"_startTime\\":81.8596511603,\\"_duration\\":0.23333333,\\"_easeInDuration\\":0,\\"_easeOutDuration\\":0,\\"_blendInDuration\\":-1,\\"_blendOutDuration\\":-1,\\"_mixInEaseType\\":1,\\"_mixOutEaseType\\":1,\\"_timeScale\\":1}}]}",
+  },
+  {
+    "_t": "Unknown",
+    "raw": "{\\"command\\":\\"actoreyeblink\\",\\"args\\":[{\\"key\\":\\"id\\",\\"value\\":\\"kkr\\"},{\\"key\\":\\"clip\\",\\"value\\":{\\"_startTime\\":85.0515292407,\\"_duration\\":0.23333333,\\"_easeInDuration\\":0,\\"_easeOutDuration\\":0,\\"_blendInDuration\\":-1,\\"_blendOutDuration\\":-1,\\"_mixInEaseType\\":1,\\"_mixOutEaseType\\":1,\\"_timeScale\\":1}}]}",
+  },
+  {
+    "_t": "Unknown",
+    "raw": "{\\"command\\":\\"actoreyeblink\\",\\"args\\":[{\\"key\\":\\"id\\",\\"value\\":\\"kkr\\"},{\\"key\\":\\"clip\\",\\"value\\":{\\"_startTime\\":88.5579300643,\\"_duration\\":0.23333333,\\"_easeInDuration\\":0,\\"_easeOutDuration\\":0,\\"_blendInDuration\\":-1,\\"_blendOutDuration\\":-1,\\"_mixInEaseType\\":1,\\"_mixOutEaseType\\":1,\\"_timeScale\\":1}}]}",
+  },
+  {
+    "_t": "Unknown",
+    "raw": "{\\"command\\":\\"actoreyeblink\\",\\"args\\":[{\\"key\\":\\"id\\",\\"value\\":\\"kkr\\"},{\\"key\\":\\"clip\\",\\"value\\":{\\"_startTime\\":92.4033923865,\\"_duration\\":0.23333333,\\"_easeInDuration\\":0,\\"_easeOutDuration\\":0,\\"_blendInDuration\\":-1,\\"_blendOutDuration\\":-1,\\"_mixInEaseType\\":1,\\"_mixOutEaseType\\":1,\\"_timeScale\\":1}}]}",
+  },
+  {
+    "_t": "Unknown",
+    "raw": "{\\"command\\":\\"actoreyeblink\\",\\"args\\":[{\\"key\\":\\"id\\",\\"value\\":\\"kkr\\"},{\\"key\\":\\"clip\\",\\"value\\":{\\"_startTime\\":95.7147002936,\\"_duration\\":0.23333333,\\"_easeInDuration\\":0,\\"_easeOutDuration\\":0,\\"_blendInDuration\\":-1,\\"_blendOutDuration\\":-1,\\"_mixInEaseType\\":1,\\"_mixOutEaseType\\":1,\\"_timeScale\\":1}}]}",
+  },
+  {
+    "_t": "Unknown",
+    "raw": "{\\"command\\":\\"actoreyeblink\\",\\"args\\":[{\\"key\\":\\"id\\",\\"value\\":\\"kkr\\"},{\\"key\\":\\"clip\\",\\"value\\":{\\"_startTime\\":99.0436361552,\\"_duration\\":0.23333333,\\"_easeInDuration\\":0,\\"_easeOutDuration\\":0,\\"_blendInDuration\\":-1,\\"_blendOutDuration\\":-1,\\"_mixInEaseType\\":1,\\"_mixOutEaseType\\":1,\\"_timeScale\\":1}}]}",
+  },
+  {
+    "_t": "Unknown",
+    "raw": "{\\"command\\":\\"actoreyeblink\\",\\"args\\":[{\\"key\\":\\"id\\",\\"value\\":\\"kkr\\"},{\\"key\\":\\"clip\\",\\"value\\":{\\"_startTime\\":102.3059120894,\\"_duration\\":0.23333333,\\"_easeInDuration\\":0,\\"_easeOutDuration\\":0,\\"_blendInDuration\\":-1,\\"_blendOutDuration\\":-1,\\"_mixInEaseType\\":1,\\"_mixOutEaseType\\":1,\\"_timeScale\\":1}}]}",
+  },
+  {
+    "_t": "Unknown",
+    "raw": "{\\"command\\":\\"actoreyeblink\\",\\"args\\":[{\\"key\\":\\"id\\",\\"value\\":\\"kkr\\"},{\\"key\\":\\"clip\\",\\"value\\":{\\"_startTime\\":107.1748414756,\\"_duration\\":0.23333333,\\"_easeInDuration\\":0,\\"_easeOutDuration\\":0,\\"_blendInDuration\\":-1,\\"_blendOutDuration\\":-1,\\"_mixInEaseType\\":1,\\"_mixOutEaseType\\":1,\\"_timeScale\\":1}}]}",
+  },
+  {
+    "_t": "Unknown",
+    "raw": "{\\"command\\":\\"actoreyeblink\\",\\"args\\":[{\\"key\\":\\"id\\",\\"value\\":\\"kkr\\"},{\\"key\\":\\"clip\\",\\"value\\":{\\"_startTime\\":112.5459571601,\\"_duration\\":0.23333333,\\"_easeInDuration\\":0,\\"_easeOutDuration\\":0,\\"_blendInDuration\\":-1,\\"_blendOutDuration\\":-1,\\"_mixInEaseType\\":1,\\"_mixOutEaseType\\":1,\\"_timeScale\\":1}}]}",
+  },
+  {
+    "_t": "Unknown",
+    "raw": "{\\"command\\":\\"actoreyeblink\\",\\"args\\":[{\\"key\\":\\"id\\",\\"value\\":\\"kkr\\"},{\\"key\\":\\"clip\\",\\"value\\":{\\"_startTime\\":116.477469039,\\"_duration\\":0.23333333,\\"_easeInDuration\\":0,\\"_easeOutDuration\\":0,\\"_blendInDuration\\":-1,\\"_blendOutDuration\\":-1,\\"_mixInEaseType\\":1,\\"_mixOutEaseType\\":1,\\"_timeScale\\":1}}]}",
+  },
+  {
+    "_t": "Unknown",
+    "raw": "{\\"command\\":\\"actoreyeblink\\",\\"args\\":[{\\"key\\":\\"id\\",\\"value\\":\\"kkr\\"},{\\"key\\":\\"clip\\",\\"value\\":{\\"_startTime\\":120.9897704841,\\"_duration\\":0.23333333,\\"_easeInDuration\\":0,\\"_easeOutDuration\\":0,\\"_blendInDuration\\":-1,\\"_blendOutDuration\\":-1,\\"_mixInEaseType\\":1,\\"_mixOutEaseType\\":1,\\"_timeScale\\":1}}]}",
+  },
+  {
+    "_t": "Unknown",
+    "raw": "{\\"command\\":\\"actoreyeblink\\",\\"args\\":[{\\"key\\":\\"id\\",\\"value\\":\\"kkr\\"},{\\"key\\":\\"clip\\",\\"value\\":{\\"_startTime\\":126.0758648635,\\"_duration\\":0.23333333,\\"_easeInDuration\\":0,\\"_easeOutDuration\\":0,\\"_blendInDuration\\":-1,\\"_blendOutDuration\\":-1,\\"_mixInEaseType\\":1,\\"_mixOutEaseType\\":1,\\"_timeScale\\":1}}]}",
+  },
+  {
+    "_t": "Unknown",
+    "raw": "{\\"command\\":\\"actoreyeblink\\",\\"args\\":[{\\"key\\":\\"id\\",\\"value\\":\\"kkr\\"},{\\"key\\":\\"clip\\",\\"value\\":{\\"_startTime\\":131.3659992934,\\"_duration\\":0.23333333,\\"_easeInDuration\\":0,\\"_easeOutDuration\\":0,\\"_blendInDuration\\":-1,\\"_blendOutDuration\\":-1,\\"_mixInEaseType\\":1,\\"_mixOutEaseType\\":1,\\"_timeScale\\":1}}]}",
+  },
+  {
+    "_t": "Unknown",
+    "raw": "{\\"command\\":\\"actoreyeblink\\",\\"args\\":[{\\"key\\":\\"id\\",\\"value\\":\\"kkr\\"},{\\"key\\":\\"clip\\",\\"value\\":{\\"_startTime\\":135.2776432753,\\"_duration\\":0.23333333,\\"_easeInDuration\\":0,\\"_easeOutDuration\\":0,\\"_blendInDuration\\":-1,\\"_blendOutDuration\\":-1,\\"_mixInEaseType\\":1,\\"_mixOutEaseType\\":1,\\"_timeScale\\":1}}]}",
+  },
+  {
+    "_t": "Unknown",
+    "raw": "{\\"command\\":\\"actoreyeblink\\",\\"args\\":[{\\"key\\":\\"id\\",\\"value\\":\\"kkr\\"},{\\"key\\":\\"clip\\",\\"value\\":{\\"_startTime\\":138.7446897746,\\"_duration\\":0.23333333,\\"_easeInDuration\\":0,\\"_easeOutDuration\\":0,\\"_blendInDuration\\":-1,\\"_blendOutDuration\\":-1,\\"_mixInEaseType\\":1,\\"_mixOutEaseType\\":1,\\"_timeScale\\":1}}]}",
+  },
+  {
+    "_t": "Unknown",
+    "raw": "{\\"command\\":\\"actoreyeblink\\",\\"args\\":[{\\"key\\":\\"id\\",\\"value\\":\\"kkr\\"},{\\"key\\":\\"clip\\",\\"value\\":{\\"_startTime\\":144.5473278285,\\"_duration\\":0.23333333,\\"_easeInDuration\\":0,\\"_easeOutDuration\\":0,\\"_blendInDuration\\":-1,\\"_blendOutDuration\\":-1,\\"_mixInEaseType\\":1,\\"_mixOutEaseType\\":1,\\"_timeScale\\":1}}]}",
+  },
+  {
+    "_t": "Unknown",
+    "raw": "{\\"command\\":\\"actoreyeblink\\",\\"args\\":[{\\"key\\":\\"id\\",\\"value\\":\\"kkr\\"},{\\"key\\":\\"clip\\",\\"value\\":{\\"_startTime\\":149.6921795131,\\"_duration\\":0.23333333,\\"_easeInDuration\\":0,\\"_easeOutDuration\\":0,\\"_blendInDuration\\":-1,\\"_blendOutDuration\\":-1,\\"_mixInEaseType\\":1,\\"_mixOutEaseType\\":1,\\"_timeScale\\":1}}]}",
+  },
+  {
+    "_t": "Unknown",
+    "raw": "{\\"command\\":\\"actoreyeblink\\",\\"args\\":[{\\"key\\":\\"id\\",\\"value\\":\\"ktn\\"},{\\"key\\":\\"clip\\",\\"value\\":{\\"_startTime\\":4.6511697769,\\"_duration\\":0.23333333,\\"_easeInDuration\\":0,\\"_easeOutDuration\\":0,\\"_blendInDuration\\":-1,\\"_blendOutDuration\\":-1,\\"_mixInEaseType\\":1,\\"_mixOutEaseType\\":1,\\"_timeScale\\":1}}]}",
+  },
+  {
+    "_t": "Unknown",
+    "raw": "{\\"command\\":\\"actoreyeblink\\",\\"args\\":[{\\"key\\":\\"id\\",\\"value\\":\\"ktn\\"},{\\"key\\":\\"clip\\",\\"value\\":{\\"_startTime\\":9.1045608521,\\"_duration\\":0.23333333,\\"_easeInDuration\\":0,\\"_easeOutDuration\\":0,\\"_blendInDuration\\":-1,\\"_blendOutDuration\\":-1,\\"_mixInEaseType\\":1,\\"_mixOutEaseType\\":1,\\"_timeScale\\":1}}]}",
+  },
+  {
+    "_t": "Unknown",
+    "raw": "{\\"command\\":\\"actoreyeblink\\",\\"args\\":[{\\"key\\":\\"id\\",\\"value\\":\\"ktn\\"},{\\"key\\":\\"clip\\",\\"value\\":{\\"_startTime\\":13.9023351669,\\"_duration\\":0.23333333,\\"_easeInDuration\\":0,\\"_easeOutDuration\\":0,\\"_blendInDuration\\":-1,\\"_blendOutDuration\\":-1,\\"_mixInEaseType\\":1,\\"_mixOutEaseType\\":1,\\"_timeScale\\":1}}]}",
+  },
+  {
+    "_t": "Unknown",
+    "raw": "{\\"command\\":\\"actoreyeblink\\",\\"args\\":[{\\"key\\":\\"id\\",\\"value\\":\\"ktn\\"},{\\"key\\":\\"clip\\",\\"value\\":{\\"_startTime\\":19.8713736534,\\"_duration\\":0.23333333,\\"_easeInDuration\\":0,\\"_easeOutDuration\\":0,\\"_blendInDuration\\":-1,\\"_blendOutDuration\\":-1,\\"_mixInEaseType\\":1,\\"_mixOutEaseType\\":1,\\"_timeScale\\":1}}]}",
+  },
+  {
+    "_t": "Unknown",
+    "raw": "{\\"command\\":\\"actoreyeblink\\",\\"args\\":[{\\"key\\":\\"id\\",\\"value\\":\\"ktn\\"},{\\"key\\":\\"clip\\",\\"value\\":{\\"_startTime\\":23.3281385899,\\"_duration\\":0.23333333,\\"_easeInDuration\\":0,\\"_easeOutDuration\\":0,\\"_blendInDuration\\":-1,\\"_blendOutDuration\\":-1,\\"_mixInEaseType\\":1,\\"_mixOutEaseType\\":1,\\"_timeScale\\":1}}]}",
+  },
+  {
+    "_t": "Unknown",
+    "raw": "{\\"command\\":\\"actoreyeblink\\",\\"args\\":[{\\"key\\":\\"id\\",\\"value\\":\\"ktn\\"},{\\"key\\":\\"clip\\",\\"value\\":{\\"_startTime\\":28.7330496311,\\"_duration\\":0.23333333,\\"_easeInDuration\\":0,\\"_easeOutDuration\\":0,\\"_blendInDuration\\":-1,\\"_blendOutDuration\\":-1,\\"_mixInEaseType\\":1,\\"_mixOutEaseType\\":1,\\"_timeScale\\":1}}]}",
+  },
+  {
+    "_t": "Unknown",
+    "raw": "{\\"command\\":\\"actoreyeblink\\",\\"args\\":[{\\"key\\":\\"id\\",\\"value\\":\\"ktn\\"},{\\"key\\":\\"clip\\",\\"value\\":{\\"_startTime\\":34.4201266766,\\"_duration\\":0.23333333,\\"_easeInDuration\\":0,\\"_easeOutDuration\\":0,\\"_blendInDuration\\":-1,\\"_blendOutDuration\\":-1,\\"_mixInEaseType\\":1,\\"_mixOutEaseType\\":1,\\"_timeScale\\":1}}]}",
+  },
+  {
+    "_t": "Unknown",
+    "raw": "{\\"command\\":\\"actoreyeblink\\",\\"args\\":[{\\"key\\":\\"id\\",\\"value\\":\\"ktn\\"},{\\"key\\":\\"clip\\",\\"value\\":{\\"_startTime\\":38.5471179485,\\"_duration\\":0.23333333,\\"_easeInDuration\\":0,\\"_easeOutDuration\\":0,\\"_blendInDuration\\":-1,\\"_blendOutDuration\\":-1,\\"_mixInEaseType\\":1,\\"_mixOutEaseType\\":1,\\"_timeScale\\":1}}]}",
+  },
+  {
+    "_t": "Unknown",
+    "raw": "{\\"command\\":\\"actoreyeblink\\",\\"args\\":[{\\"key\\":\\"id\\",\\"value\\":\\"ktn\\"},{\\"key\\":\\"clip\\",\\"value\\":{\\"_startTime\\":43.1818311214,\\"_duration\\":0.23333333,\\"_easeInDuration\\":0,\\"_easeOutDuration\\":0,\\"_blendInDuration\\":-1,\\"_blendOutDuration\\":-1,\\"_mixInEaseType\\":1,\\"_mixOutEaseType\\":1,\\"_timeScale\\":1}}]}",
+  },
+  {
+    "_t": "Unknown",
+    "raw": "{\\"command\\":\\"actoreyeblink\\",\\"args\\":[{\\"key\\":\\"id\\",\\"value\\":\\"ktn\\"},{\\"key\\":\\"clip\\",\\"value\\":{\\"_startTime\\":47.656971693,\\"_duration\\":0.23333333,\\"_easeInDuration\\":0,\\"_easeOutDuration\\":0,\\"_blendInDuration\\":-1,\\"_blendOutDuration\\":-1,\\"_mixInEaseType\\":1,\\"_mixOutEaseType\\":1,\\"_timeScale\\":1}}]}",
+  },
+  {
+    "_t": "Unknown",
+    "raw": "{\\"command\\":\\"actoreyeblink\\",\\"args\\":[{\\"key\\":\\"id\\",\\"value\\":\\"ktn\\"},{\\"key\\":\\"clip\\",\\"value\\":{\\"_startTime\\":52.7962739468,\\"_duration\\":0.23333333,\\"_easeInDuration\\":0,\\"_easeOutDuration\\":0,\\"_blendInDuration\\":-1,\\"_blendOutDuration\\":-1,\\"_mixInEaseType\\":1,\\"_mixOutEaseType\\":1,\\"_timeScale\\":1}}]}",
+  },
+  {
+    "_t": "Unknown",
+    "raw": "{\\"command\\":\\"actoreyeblink\\",\\"args\\":[{\\"key\\":\\"id\\",\\"value\\":\\"ktn\\"},{\\"key\\":\\"clip\\",\\"value\\":{\\"_startTime\\":56.6920473576,\\"_duration\\":0.23333333,\\"_easeInDuration\\":0,\\"_easeOutDuration\\":0,\\"_blendInDuration\\":-1,\\"_blendOutDuration\\":-1,\\"_mixInEaseType\\":1,\\"_mixOutEaseType\\":1,\\"_timeScale\\":1}}]}",
+  },
+  {
+    "_t": "Unknown",
+    "raw": "{\\"command\\":\\"actoreyeblink\\",\\"args\\":[{\\"key\\":\\"id\\",\\"value\\":\\"ktn\\"},{\\"key\\":\\"clip\\",\\"value\\":{\\"_startTime\\":61.831731081,\\"_duration\\":0.23333333,\\"_easeInDuration\\":0,\\"_easeOutDuration\\":0,\\"_blendInDuration\\":-1,\\"_blendOutDuration\\":-1,\\"_mixInEaseType\\":1,\\"_mixOutEaseType\\":1,\\"_timeScale\\":1}}]}",
+  },
+  {
+    "_t": "Unknown",
+    "raw": "{\\"command\\":\\"actoreyeblink\\",\\"args\\":[{\\"key\\":\\"id\\",\\"value\\":\\"ktn\\"},{\\"key\\":\\"clip\\",\\"value\\":{\\"_startTime\\":64.8936948776,\\"_duration\\":0.23333333,\\"_easeInDuration\\":0,\\"_easeOutDuration\\":0,\\"_blendInDuration\\":-1,\\"_blendOutDuration\\":-1,\\"_mixInEaseType\\":1,\\"_mixOutEaseType\\":1,\\"_timeScale\\":1}}]}",
+  },
+  {
+    "_t": "Unknown",
+    "raw": "{\\"command\\":\\"actoreyeblink\\",\\"args\\":[{\\"key\\":\\"id\\",\\"value\\":\\"ktn\\"},{\\"key\\":\\"clip\\",\\"value\\":{\\"_startTime\\":67.9061560631,\\"_duration\\":0.23333333,\\"_easeInDuration\\":0,\\"_easeOutDuration\\":0,\\"_blendInDuration\\":-1,\\"_blendOutDuration\\":-1,\\"_mixInEaseType\\":1,\\"_mixOutEaseType\\":1,\\"_timeScale\\":1}}]}",
+  },
+  {
+    "_t": "Unknown",
+    "raw": "{\\"command\\":\\"actoreyeblink\\",\\"args\\":[{\\"key\\":\\"id\\",\\"value\\":\\"ktn\\"},{\\"key\\":\\"clip\\",\\"value\\":{\\"_startTime\\":70.9688122272,\\"_duration\\":0.23333333,\\"_easeInDuration\\":0,\\"_easeOutDuration\\":0,\\"_blendInDuration\\":-1,\\"_blendOutDuration\\":-1,\\"_mixInEaseType\\":1,\\"_mixOutEaseType\\":1,\\"_timeScale\\":1}}]}",
+  },
+  {
+    "_t": "Unknown",
+    "raw": "{\\"command\\":\\"actoreyeblink\\",\\"args\\":[{\\"key\\":\\"id\\",\\"value\\":\\"ktn\\"},{\\"key\\":\\"clip\\",\\"value\\":{\\"_startTime\\":78.9333334048,\\"_duration\\":0.23333333,\\"_easeInDuration\\":0,\\"_easeOutDuration\\":0,\\"_blendInDuration\\":-1,\\"_blendOutDuration\\":-1,\\"_mixInEaseType\\":1,\\"_mixOutEaseType\\":1,\\"_timeScale\\":1}}]}",
+  },
+  {
+    "_t": "Unknown",
+    "raw": "{\\"command\\":\\"actoreyeblink\\",\\"args\\":[{\\"key\\":\\"id\\",\\"value\\":\\"ktn\\"},{\\"key\\":\\"clip\\",\\"value\\":{\\"_startTime\\":82.2824933608,\\"_duration\\":0.23333333,\\"_easeInDuration\\":0,\\"_easeOutDuration\\":0,\\"_blendInDuration\\":-1,\\"_blendOutDuration\\":-1,\\"_mixInEaseType\\":1,\\"_mixOutEaseType\\":1,\\"_timeScale\\":1}}]}",
+  },
+  {
+    "_t": "Unknown",
+    "raw": "{\\"command\\":\\"actoreyeblink\\",\\"args\\":[{\\"key\\":\\"id\\",\\"value\\":\\"ktn\\"},{\\"key\\":\\"clip\\",\\"value\\":{\\"_startTime\\":87.4000000635,\\"_duration\\":0.23333333,\\"_easeInDuration\\":0,\\"_easeOutDuration\\":0,\\"_blendInDuration\\":-1,\\"_blendOutDuration\\":-1,\\"_mixInEaseType\\":1,\\"_mixOutEaseType\\":1,\\"_timeScale\\":1}}]}",
+  },
+  {
+    "_t": "Unknown",
+    "raw": "{\\"command\\":\\"actoreyeblink\\",\\"args\\":[{\\"key\\":\\"id\\",\\"value\\":\\"ktn\\"},{\\"key\\":\\"clip\\",\\"value\\":{\\"_startTime\\":92.5666667381,\\"_duration\\":0.23333333,\\"_easeInDuration\\":0,\\"_easeOutDuration\\":0,\\"_blendInDuration\\":-1,\\"_blendOutDuration\\":-1,\\"_mixInEaseType\\":1,\\"_mixOutEaseType\\":1,\\"_timeScale\\":1}}]}",
+  },
+  {
+    "_t": "Unknown",
+    "raw": "{\\"command\\":\\"actoreyeblink\\",\\"args\\":[{\\"key\\":\\"id\\",\\"value\\":\\"ktn\\"},{\\"key\\":\\"clip\\",\\"value\\":{\\"_startTime\\":97.9333333731,\\"_duration\\":0.23333333,\\"_easeInDuration\\":0,\\"_easeOutDuration\\":0,\\"_blendInDuration\\":-1,\\"_blendOutDuration\\":-1,\\"_mixInEaseType\\":1,\\"_mixOutEaseType\\":1,\\"_timeScale\\":1}}]}",
+  },
+  {
+    "_t": "Unknown",
+    "raw": "{\\"command\\":\\"actoreyeblink\\",\\"args\\":[{\\"key\\":\\"id\\",\\"value\\":\\"ktn\\"},{\\"key\\":\\"clip\\",\\"value\\":{\\"_startTime\\":104.8666667541,\\"_duration\\":0.23333333,\\"_easeInDuration\\":0,\\"_easeOutDuration\\":0,\\"_blendInDuration\\":-1,\\"_blendOutDuration\\":-1,\\"_mixInEaseType\\":1,\\"_mixOutEaseType\\":1,\\"_timeScale\\":1}}]}",
+  },
+  {
+    "_t": "Unknown",
+    "raw": "{\\"command\\":\\"actoreyeblink\\",\\"args\\":[{\\"key\\":\\"id\\",\\"value\\":\\"ktn\\"},{\\"key\\":\\"clip\\",\\"value\\":{\\"_startTime\\":109.9000001431,\\"_duration\\":0.23333333,\\"_easeInDuration\\":0,\\"_easeOutDuration\\":0,\\"_blendInDuration\\":-1,\\"_blendOutDuration\\":-1,\\"_mixInEaseType\\":1,\\"_mixOutEaseType\\":1,\\"_timeScale\\":1}}]}",
+  },
+  {
+    "_t": "Unknown",
+    "raw": "{\\"command\\":\\"actoreyeblink\\",\\"args\\":[{\\"key\\":\\"id\\",\\"value\\":\\"ktn\\"},{\\"key\\":\\"clip\\",\\"value\\":{\\"_startTime\\":117.5666666666,\\"_duration\\":0.23333333,\\"_easeInDuration\\":0,\\"_easeOutDuration\\":0,\\"_blendInDuration\\":-1,\\"_blendOutDuration\\":-1,\\"_mixInEaseType\\":1,\\"_mixOutEaseType\\":1,\\"_timeScale\\":1}}]}",
+  },
+  {
+    "_t": "Unknown",
+    "raw": "{\\"command\\":\\"actoreyeblink\\",\\"args\\":[{\\"key\\":\\"id\\",\\"value\\":\\"ktn\\"},{\\"key\\":\\"clip\\",\\"value\\":{\\"_startTime\\":122.0687499682,\\"_duration\\":0.23333333,\\"_easeInDuration\\":0,\\"_easeOutDuration\\":0,\\"_blendInDuration\\":-1,\\"_blendOutDuration\\":-1,\\"_mixInEaseType\\":1,\\"_mixOutEaseType\\":1,\\"_timeScale\\":1}}]}",
+  },
+  {
+    "_t": "Unknown",
+    "raw": "{\\"command\\":\\"actoreyeblink\\",\\"args\\":[{\\"key\\":\\"id\\",\\"value\\":\\"ktn\\"},{\\"key\\":\\"clip\\",\\"value\\":{\\"_startTime\\":128.6666666666,\\"_duration\\":0.23333333,\\"_easeInDuration\\":0,\\"_easeOutDuration\\":0,\\"_blendInDuration\\":-1,\\"_blendOutDuration\\":-1,\\"_mixInEaseType\\":1,\\"_mixOutEaseType\\":1,\\"_timeScale\\":1}}]}",
+  },
+  {
+    "_t": "Unknown",
+    "raw": "{\\"command\\":\\"actoreyeblink\\",\\"args\\":[{\\"key\\":\\"id\\",\\"value\\":\\"ktn\\"},{\\"key\\":\\"clip\\",\\"value\\":{\\"_startTime\\":132.5125433604,\\"_duration\\":0.23333333,\\"_easeInDuration\\":0,\\"_easeOutDuration\\":0,\\"_blendInDuration\\":-1,\\"_blendOutDuration\\":-1,\\"_mixInEaseType\\":1,\\"_mixOutEaseType\\":1,\\"_timeScale\\":1}}]}",
+  },
+  {
+    "_t": "Unknown",
+    "raw": "{\\"command\\":\\"actoreyeblink\\",\\"args\\":[{\\"key\\":\\"id\\",\\"value\\":\\"ktn\\"},{\\"key\\":\\"clip\\",\\"value\\":{\\"_startTime\\":140.2141442673,\\"_duration\\":0.23333333,\\"_easeInDuration\\":0,\\"_easeOutDuration\\":0,\\"_blendInDuration\\":-1,\\"_blendOutDuration\\":-1,\\"_mixInEaseType\\":1,\\"_mixOutEaseType\\":1,\\"_timeScale\\":1}}]}",
+  },
+  {
+    "_t": "Unknown",
+    "raw": "{\\"command\\":\\"actoreyeblink\\",\\"args\\":[{\\"key\\":\\"id\\",\\"value\\":\\"ktn\\"},{\\"key\\":\\"clip\\",\\"value\\":{\\"_startTime\\":145.8016128914,\\"_duration\\":0.23333333,\\"_easeInDuration\\":0,\\"_easeOutDuration\\":0,\\"_blendInDuration\\":-1,\\"_blendOutDuration\\":-1,\\"_mixInEaseType\\":1,\\"_mixOutEaseType\\":1,\\"_timeScale\\":1}}]}",
+  },
+  {
+    "_t": "Unknown",
+    "raw": "{\\"command\\":\\"timeline\\",\\"args\\":[]}",
+  },
+]
+`;
