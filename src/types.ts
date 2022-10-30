@@ -4,8 +4,9 @@ export type CommandName =
   | 'BackgroundSetting'
   | 'Bgm'
   | 'Message'
-  | 'Title'
+  | 'Se'
   | 'Voice'
+  | 'Title'
   | 'Unknown'
 
 export type NonCommandName = never
@@ -23,6 +24,7 @@ export type Line = LineBase &
     | BackgroundSetting
     | Bgm
     | Message
+    | Se
     | Voice
     | Title
     | Unknown
@@ -36,6 +38,8 @@ type Xy = {
 type Xyz = Xy & {
   z: number
 }
+
+type MediaCommon = { startTime: number; duration: number }
 
 // ------
 
@@ -73,8 +77,6 @@ export type Title = {
 export type Bgm = {
   _t: 'Bgm'
   bgm: string
-  startTime: number
-  duration: number
 }
 
 export type Message = {
@@ -84,13 +86,16 @@ export type Message = {
   thumbnail: string
 }
 
-export type Voice = {
+export type Voice = MediaCommon & {
   _t: 'Voice'
   voice: string
   actorId: string
   channel: number
-  startTime: number
-  duration: number
+}
+
+export type Se = MediaCommon & {
+  _t: 'Se'
+  se: string
 }
 
 export type Unknown = {
