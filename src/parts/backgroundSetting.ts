@@ -4,7 +4,7 @@ import { tryPickFirst, pickFirst, pickObject } from '../utils/pick'
 
 export default function read(t: RawCommand): BackgroundSetting {
   const settings = tryPickFirst(t, 'setting', 'object')
-  const clip = pickFirst(t, 'clip', 'object')
+  const clip = tryPickFirst(t, 'clip', 'object') || { _startTime: 0 }
   return {
     _t: 'BackgroundSetting',
     id: pickFirst(t, 'id', 'string'),

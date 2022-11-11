@@ -83,3 +83,21 @@ test('with setting', () => {
     scale: { x: 3, y: 4 },
   })
 })
+
+test('without clip', () => {
+  expect(
+    backgroundSetting({
+      args: [
+        {
+          key: 'id',
+          value: 'livestage-00-noon',
+        },
+      ],
+      command: 'backgroundsetting',
+    })
+  ).toStrictEqual({
+    _t: 'BackgroundSetting',
+    id: 'livestage-00-noon',
+    startTime: 0,
+  })
+})
