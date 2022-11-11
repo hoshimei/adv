@@ -18,6 +18,9 @@ export function tryPickFirst<T extends keyof ArgValueTypeMap>(
   if (v === undefined) {
     return undefined
   }
+  if (typeof v === 'number' && assertType === 'string') {
+    return String(v) as ArgValueTypeMap[T]
+  }
   if (!checkType(v, assertType)) {
     throw Error(`Invalid type on key "${key}"`)
   }
@@ -30,6 +33,9 @@ export function pickFirst<T extends keyof ArgValueTypeMap>(
   assertType: T
 ): ArgValueTypeMap[T] {
   const v = c.args.filter((x) => x.key === key)[0].value
+  if (typeof v === 'number' && assertType === 'string') {
+    return String(v) as ArgValueTypeMap[T]
+  }
   if (!checkType(v, assertType)) {
     throw Error(`Invalid type on key "${key}"`)
   }
