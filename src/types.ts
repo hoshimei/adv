@@ -89,7 +89,7 @@ export type Message = {
 export type Voice = MediaCommon & {
   _t: 'Voice'
   voice: string
-  channel: number
+  channel?: number
   actorId?: string
 }
 
