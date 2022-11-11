@@ -8,7 +8,7 @@ export function parse(text: string): RawCommand[] {
   return lines.map(parseCommand)
 }
 
-export function parseRawCommand(c: RawCommand): Line {
+export function parseRawCommand(c: RawCommand): Line | null {
   try {
     switch (c.command) {
       case 'backgroundgroup':
@@ -39,7 +39,9 @@ export function parseRawCommand(c: RawCommand): Line {
 
 export function read(text: string): Line[] {
   const rawCommands = parse(text.replace(/\n\n/g, '\n').trim())
-  return rawCommands.map(parseRawCommand)
+  return rawCommands
+    .map(parseRawCommand)
+    .filter((x: Line | null): x is NonNullable<Line | null> => x !== null)
 }
 
 export default read

@@ -41,3 +41,27 @@ test('title', () => {
     thumbnail: 'img_chr_adv_kkr-00',
   })
 })
+
+test('null text', () => {
+  expect(
+    message({
+      command: 'message',
+      args: [
+        {
+          key: 'clip',
+          value: {
+            _startTime: 278.4,
+            _duration: 1,
+            _easeInDuration: 0,
+            _easeOutDuration: 0,
+            _blendInDuration: -1,
+            _blendOutDuration: -1,
+            _mixInEaseType: 1,
+            _mixOutEaseType: 1,
+            _timeScale: 1,
+          },
+        },
+      ],
+    })
+  ).toStrictEqual(null)
+})
