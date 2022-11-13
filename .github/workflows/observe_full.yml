@@ -1,0 +1,36 @@
+# Refresh ALL scripts on adv update
+name: Observation (Full)
+
+on:
+  release:
+    types:
+      # Only catch released versions
+      - released
+  workflow_dispatch: {}
+
+jobs:
+  observe_full:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+        with:
+          ref: ${{ github.ref }}
+      - name: Use Node.js 19
+        uses: actions/setup-node@v3
+        with:
+          node-version: 19 # cuz we need Fetch API
+      - name: Build package
+        run: |
+          npx pnpm install
+          npx pnpm install @aws-sdk/client-s3@3.209.0
+          npm run build
+      - name: Update all items
+        run: node observer/full.mjs
+        env:
+          ACCESS_KEY_ID: ${{ secrets.ACCESS_KEY_ID }}
+          ASSETS_BUCKET_NAME: ${{ secrets.ASSETS_BUCKET_NAME }}
+          BACKEND_MANAGE_READ_KEY: ${{ secrets.BACKEND_MANAGE_READ_KEY }}
+          S3_ENDPOINT: ${{ secrets.S3_ENDPOINT }}
+          S3_REGION: ${{ secrets.S3_REGION }}
+          SECRET_ACCESS_KEY: ${{ secrets.SECRET_ACCESS_KEY }}
+          UPSTREAM_BASE: ${{ secrets.UPSTREAM_BASE }}
