@@ -28,3 +28,14 @@ export function putFile(savePath, body) {
     ContentType: 'application/json;charset=utf-8',
   })
 }
+
+export function getFile(savePath) {
+  return s3
+    .getObject({
+      Bucket: bucketName,
+      Key: savePath,
+    })
+    .then((x) => x.Body.transformToString())
+    .then(JSON.parse)
+    .catch((e) => null)
+}
