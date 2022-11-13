@@ -7,6 +7,7 @@ export type CommandName =
   | 'Se'
   | 'Voice'
   | 'Title'
+  | 'Narration'
   | 'Unknown'
 
 export type NonCommandName = never
@@ -27,6 +28,7 @@ export type Line = LineBase &
     | Se
     | Voice
     | Title
+    | Narration
     | Unknown
   )
 
@@ -96,6 +98,12 @@ export type Voice = MediaCommon & {
 export type Se = MediaCommon & {
   _t: 'Se'
   se: string
+}
+
+export type Narration = {
+  _t: 'Narration'
+  text: string
+  startTime: number
 }
 
 export type Unknown = {

@@ -25,6 +25,8 @@ export function parseRawCommand(c: RawCommand): Line | null {
         return p.readSe(c)
       case 'voice':
         return p.readVoice(c)
+      case 'narration':
+        return p.readNarration(c)
       default:
         return {
           _t: 'Unknown',

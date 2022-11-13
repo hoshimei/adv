@@ -5,6 +5,7 @@ import readMessage from './message'
 import readSe from './se'
 import readTitle from './title'
 import readVoice from './voice'
+import readNarration from './narration'
 
 export default {
   readBackgroundGroup,
@@ -14,4 +15,5 @@ export default {
   readSe,
   readTitle,
   readVoice,
+  readNarration,
 }
