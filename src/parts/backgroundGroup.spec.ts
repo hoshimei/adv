@@ -58,10 +58,10 @@ test('title', () => {
     })
   ).toStrictEqual({
     _t: 'BackgroundGroup',
-    backgrounds: [
-      'env_adv_2d_livestage-00-noon',
-      'env_adv_2d_stagesleeves-00-noon',
-      'env_adv_2d_cemetery-00-noon',
-    ],
+    backgrounds: {
+      'cemetery-00-noon': 'env_adv_2d_cemetery-00-noon',
+      'livestage-00-noon': 'env_adv_2d_livestage-00-noon',
+      'stagesleeves-00-noon': 'env_adv_2d_stagesleeves-00-noon',
+    },
   })
 })

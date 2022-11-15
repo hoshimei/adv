@@ -47,7 +47,7 @@ type MediaCommon = { startTime: number; duration: number }
 
 export type BackgroundGroup = {
   _t: 'BackgroundGroup'
-  backgrounds: string[]
+  backgrounds: Record<string, string>
 }
 
 export type BackgroundSetting = {
