@@ -8,19 +8,27 @@ import { getAllStoriesOcto, putFile, getFile } from './utils.mjs'
   ).default.version
   const stories = await getAllStoriesOcto()
   await Promise.all(
-    stories.map(({ name, objectName, generation }) => {
+    stories.map(({ name, objectName, generation, md5 }) => {
       const savePath = `processed/adv/${name}.json`
       return (async () => {
         const existingFile = await getFile(savePath)
-        if (existingFile?.v === version) {
+        if (existingFile?.v === version && existingFile?.m === md5) {
           console.log(`Skipped: ${savePath}`)
           return
+        }
+        if (existingFile === null) {
+          console.log(`Creating: ${savePath}`)
+        } else {
+          console.log(`Updating: ${savePath}`)
         }
         const storyText = await fetch(
           `https://${process.env.UPSTREAM_BASE}/${objectName}?generation=${generation}&alt=media`
         ).then((x) => x.text())
         const parsed = adv.read(storyText)
-        await putFile(savePath, JSON.stringify({ v: version, l: parsed }))
+        await putFile(
+          savePath,
+          JSON.stringify({ v: version, l: parsed, m: md5 })
+        )
       })()
         .then(() => console.log(`Finished: ${savePath}`))
         .catch((e) => {
