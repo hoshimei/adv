@@ -10,6 +10,7 @@ import { getAllStoriesOcto, putFile, getFile } from './utils.mjs'
     await import('../package.json', { assert: { type: 'json' } })
   ).default.version
   const stories = await getAllStoriesOcto()
+  let err = 0
   await Promise.all(
     stories.map(({ name, objectName, generation, md5 }) => {
       const savePath = `processed/adv/${name}.json`
@@ -35,7 +36,12 @@ import { getAllStoriesOcto, putFile, getFile } from './utils.mjs'
         console.log(`Finished: ${savePath}`)
       })().catch((e) => {
         console.warn(`Error: ${savePath} [${e}]`)
+        err++
       })
     })
   )
+  if (err > 0) {
+    console.error('Something is wrong')
+    process.exit(err)
+  }
 })()
