@@ -32,11 +32,10 @@ import { getAllStoriesOcto, putFile, getFile } from './utils.mjs'
           savePath,
           JSON.stringify({ v: version, l: parsed, m: md5 })
         )
-      })()
-        .then(() => console.log(`Finished: ${savePath}`))
-        .catch((e) => {
-          console.warn(`Error: ${savePath} [${e}]`)
-        })
+        console.log(`Finished: ${savePath}`)
+      })().catch((e) => {
+        console.warn(`Error: ${savePath} [${e}]`)
+      })
     })
   )
 })()
