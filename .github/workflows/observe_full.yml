@@ -6,7 +6,13 @@ on:
     types:
       # Only catch released versions
       - released
-  workflow_dispatch: {}
+  workflow_dispatch:
+    inputs:
+      revision:
+        description: "Octo revision"
+        required: false
+        default: "none"
+        type: string
 
 jobs:
   observe_full:
@@ -34,3 +40,4 @@ jobs:
           S3_REGION: ${{ secrets.S3_REGION }}
           SECRET_ACCESS_KEY: ${{ secrets.SECRET_ACCESS_KEY }}
           UPSTREAM_BASE: ${{ secrets.UPSTREAM_BASE }}
+          OCTO_REVISION: ${{ inputs.revision }}

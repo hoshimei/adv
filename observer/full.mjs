@@ -3,6 +3,9 @@ import { getAllStoriesOcto, putFile, getFile } from './utils.mjs'
 
 // Main routine
 ;(async () => {
+  console.log(
+    `Requesting full observation for octo v${process.env.OCTO_REVISION}`
+  )
   const version = (
     await import('../package.json', { assert: { type: 'json' } })
   ).default.version
