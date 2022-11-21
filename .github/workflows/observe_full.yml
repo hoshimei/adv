@@ -13,6 +13,11 @@ on:
         required: false
         default: "none"
         type: string
+      forced:
+        description: "Forced regenerate"
+        required: false
+        default: false
+        type: boolean
 
 jobs:
   observe_full:
@@ -41,3 +46,4 @@ jobs:
           SECRET_ACCESS_KEY: ${{ secrets.SECRET_ACCESS_KEY }}
           UPSTREAM_BASE: ${{ secrets.UPSTREAM_BASE }}
           OCTO_REVISION: ${{ inputs.revision }}
+          FORCED: ${{ inputs.forced }}

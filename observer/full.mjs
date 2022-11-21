@@ -6,6 +6,7 @@ import { getAllStoriesOcto, putFile, getFile } from './utils.mjs'
   console.log(
     `Requesting full observation for octo v${process.env.OCTO_REVISION}`
   )
+  const forcedRegenerate = process.env.FORCED === 'true'
   const version = (
     await import('../package.json', { assert: { type: 'json' } })
   ).default.version
@@ -15,10 +16,12 @@ import { getAllStoriesOcto, putFile, getFile } from './utils.mjs'
     stories.map(({ name, objectName, generation, md5 }) => {
       const savePath = `processed/adv/${name}.json`
       return (async () => {
-        const existingFile = await getFile(savePath)
-        if (existingFile?.v === version && existingFile?.m === md5) {
-          console.log(`Skipped: ${savePath}`)
-          return
+        if (!forcedRegenerate) {
+          const existingFile = await getFile(savePath)
+          if (existingFile?.v === version && existingFile?.m === md5) {
+            console.log(`Skipped: ${savePath}`)
+            return
+          }
         }
         if (existingFile === null) {
           console.log(`Creating: ${savePath}`)
