@@ -12,6 +12,9 @@ import { getAllStoriesOcto, putFile, getFile } from './utils.mjs'
   ).default.version
   const stories = await getAllStoriesOcto()
   let err = 0
+  if (forcedRegenerate) {
+    console.log('Forced re-generating all advs.')
+  }
   await Promise.all(
     stories.map(({ name, objectName, generation, md5 }) => {
       const savePath = `processed/adv/${name}.json`
@@ -22,12 +25,13 @@ import { getAllStoriesOcto, putFile, getFile } from './utils.mjs'
             console.log(`Skipped: ${savePath}`)
             return
           }
+          if (existingFile === null) {
+            console.log(`Creating: ${savePath}`)
+          } else {
+            console.log(`Updating: ${savePath}`)
+          }
         }
-        if (existingFile === null) {
-          console.log(`Creating: ${savePath}`)
-        } else {
-          console.log(`Updating: ${savePath}`)
-        }
+
         const storyText = await fetch(
           `https://${process.env.UPSTREAM_BASE}/${objectName}?generation=${generation}&alt=media`
         ).then((x) => x.text())
