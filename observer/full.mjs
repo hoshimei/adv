@@ -1,5 +1,5 @@
 import * as adv from '../dist/index.js'
-import { getAllStoriesOcto, putFile, getFile } from './utils.mjs'
+import { getAllStoriesOcto, putFile, getFile, updateCommuX } from './utils.mjs'
 
 // Main routine
 ;(async () => {
