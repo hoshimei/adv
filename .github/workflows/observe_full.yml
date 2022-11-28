@@ -41,6 +41,7 @@ jobs:
           ACCESS_KEY_ID: ${{ secrets.ACCESS_KEY_ID }}
           ASSETS_BUCKET_NAME: ${{ secrets.ASSETS_BUCKET_NAME }}
           BACKEND_MANAGE_READ_KEY: ${{ secrets.BACKEND_MANAGE_READ_KEY }}
+          BACKEND_MANAGE_WRITE_KEY: ${{ secrets.BACKEND_MANAGE_WRITE_KEY }}
           S3_ENDPOINT: ${{ secrets.S3_ENDPOINT }}
           S3_REGION: ${{ secrets.S3_REGION }}
           SECRET_ACCESS_KEY: ${{ secrets.SECRET_ACCESS_KEY }}
