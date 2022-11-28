@@ -51,6 +51,7 @@ import { getAllStoriesOcto, putFile, getFile, updateCommuX } from './utils.mjs'
         console.log(`Finished: ${savePath}`)
       })().catch((e) => {
         console.warn(`Error: ${savePath} [${e}]`)
+        console.warn(e)
         err++
       })
     })
