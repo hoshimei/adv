@@ -1,5 +1,5 @@
 import * as adv from '../dist/index.js'
-import { getAllStoriesOcto, putFile, getFile, updateCommuX } from './utils.mjs'
+import { getAllStoriesOcto, putFile, getFile } from './utils.mjs'
 
 // Main routine
 ;(async () => {
@@ -36,22 +36,13 @@ import { getAllStoriesOcto, putFile, getFile, updateCommuX } from './utils.mjs'
           `https://${process.env.UPSTREAM_BASE}/${objectName}?generation=${generation}&alt=media`
         ).then((x) => x.text())
         const parsed = adv.read(storyText).filter((x) => x._t !== 'Unknown')
-        await Promise.all([
-          putFile(savePath, JSON.stringify({ v: version, l: parsed, m: md5 })),
-          updateCommuX(
-            parsed.find((x) => x._t === 'Title')?.title ?? `r-${name}`,
-            parsed
-              .filter((x) => x._t === 'Message')
-              .map(({ text, name }) => ({
-                text: text.replaceAll('{user}', 'マネージャー'),
-                name: name.replaceAll('{user}', 'マネージャー'),
-              }))
-          ),
-        ])
+        await putFile(
+          savePath,
+          JSON.stringify({ v: version, l: parsed, m: md5 })
+        )
         console.log(`Finished: ${savePath}`)
       })().catch((e) => {
         console.warn(`Error: ${savePath} [${e}]`)
-        console.warn(e)
         err++
       })
     })
