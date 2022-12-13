@@ -39,6 +39,7 @@ test('title', () => {
     name: '赤崎こころ',
     text: '星見市のみなさん、新生LizNoirの',
     thumbnail: 'img_chr_adv_kkr-00',
+    startTime: 0.8,
   })
 })
 

@@ -13819,12 +13819,14 @@ exports[`read the full env 1`] = `
   {
     "_t": "Message",
     "name": "赤崎こころ",
+    "startTime": 0.8,
     "text": "星見市のみなさん、新生LizNoirの",
     "thumbnail": "img_chr_adv_kkr-00",
   },
   {
     "_t": "Message",
     "name": "赤崎こころ",
+    "startTime": 4.4666666667,
     "text": "ライブ楽しんでますかーっ！　元気ですかーっ！",
     "thumbnail": "img_chr_adv_kkr-00",
   },
@@ -13892,12 +13894,14 @@ exports[`read the full env 1`] = `
   {
     "_t": "Message",
     "name": "赤崎こころ",
+    "startTime": 10.1333333333,
     "text": "みんな、もうこころの魅力に夢中ですね！",
     "thumbnail": "img_chr_adv_kkr-00",
   },
   {
     "_t": "Message",
     "name": "赤崎こころ",
+    "startTime": 14.1666666667,
     "text": "では、ダメ押しに莉央さんのモノマネを――",
     "thumbnail": "img_chr_adv_kkr-00",
   },
@@ -13937,6 +13941,7 @@ exports[`read the full env 1`] = `
   {
     "_t": "Message",
     "name": "赤崎こころ",
+    "startTime": 17.9,
     "text": "LizNoirに笑顔はいらな……",
     "thumbnail": "img_chr_adv_kkr-00",
   },
@@ -14002,12 +14007,14 @@ exports[`read the full env 1`] = `
   {
     "_t": "Message",
     "name": "小美山愛",
+    "startTime": 20.6333333333,
     "text": "ちょっ、こころ、脱線しないの！",
     "thumbnail": "img_chr_adv_ai-00",
   },
   {
     "_t": "Message",
     "name": "小美山愛",
+    "startTime": 23.8,
     "text": "もー、すみませーん",
     "thumbnail": "img_chr_adv_ai-00",
   },
@@ -14063,12 +14070,14 @@ exports[`read the full env 1`] = `
   {
     "_t": "Message",
     "name": "井川葵",
+    "startTime": 27.2,
     "text": "みんな、リーダーの莉央からお願いがあるんだ",
     "thumbnail": "img_chr_adv_aoi-00",
   },
   {
     "_t": "Message",
     "name": "井川葵",
+    "startTime": 30.8333333333,
     "text": "聞いてほしい。……莉央",
     "thumbnail": "img_chr_adv_aoi-00",
   },
@@ -14178,6 +14187,7 @@ exports[`read the full env 1`] = `
   {
     "_t": "Message",
     "name": "神崎莉央",
+    "startTime": 38.8,
     "text": "ありがとう、葵",
     "thumbnail": "img_chr_adv_rio-00",
   },
@@ -14239,12 +14249,14 @@ exports[`read the full env 1`] = `
   {
     "_t": "Message",
     "name": "神崎莉央",
+    "startTime": 42.2333333333,
     "text": "……みなさん、今から一つ",
     "thumbnail": "img_chr_adv_rio-00",
   },
   {
     "_t": "Message",
     "name": "神崎莉央",
+    "startTime": 45.3,
     "text": "私のお願いを聞いてほしいんです",
     "thumbnail": "img_chr_adv_rio-00",
   },
@@ -14296,12 +14308,14 @@ exports[`read the full env 1`] = `
   {
     "_t": "Message",
     "name": "神崎莉央",
+    "startTime": 48.6,
     "text": "今から特別に聴いてもらいたい歌があります",
     "thumbnail": "img_chr_adv_rio-00",
   },
   {
     "_t": "Message",
     "name": "神崎莉央",
+    "startTime": 53.3666666667,
     "text": "……LizNoirではない、あるアイドルの曲です",
     "thumbnail": "img_chr_adv_rio-00",
   },
@@ -14338,12 +14352,14 @@ exports[`read the full env 1`] = `
   {
     "_t": "Message",
     "name": "神崎莉央",
+    "startTime": 57.9333333333,
     "text": "三年前の曲だけど……私の大好きな歌",
     "thumbnail": "img_chr_adv_rio-00",
   },
   {
     "_t": "Message",
     "name": "神崎莉央",
+    "startTime": 62.8333333333,
     "text": "聴いてくれますか？",
     "thumbnail": "img_chr_adv_rio-00",
   },
@@ -14407,12 +14423,14 @@ exports[`read the full env 1`] = `
   {
     "_t": "Message",
     "name": "神崎莉央",
+    "startTime": 67.3666666667,
     "text": "ありがとう。では、彼女と一緒に歌いたいと思います",
     "thumbnail": "img_chr_adv_rio-00",
   },
   {
     "_t": "Message",
     "name": "神崎莉央",
+    "startTime": 73.1333333333,
     "text": "どうぞ――",
     "thumbnail": "img_chr_adv_rio-00",
   },
@@ -14491,12 +14509,14 @@ exports[`read the full env 1`] = `
   {
     "_t": "Message",
     "name": "長瀬琴乃",
+    "startTime": 79.5333333333,
     "text": "みなさん、こんばんは",
     "thumbnail": "img_chr_adv_ktn-00",
   },
   {
     "_t": "Message",
     "name": "長瀬琴乃",
+    "startTime": 81.4666666667,
     "text": "月のテンペストの長瀬琴乃です",
     "thumbnail": "img_chr_adv_ktn-00",
   },
@@ -14564,12 +14584,14 @@ exports[`read the full env 1`] = `
   {
     "_t": "Message",
     "name": "長瀬琴乃",
+    "startTime": 85.4333333333,
     "text": "みなさんもご存じの通りLizNoirは",
     "thumbnail": "img_chr_adv_ktn-00",
   },
   {
     "_t": "Message",
     "name": "長瀬琴乃",
+    "startTime": 88.8333333333,
     "text": "今私達と同じ星見プロダクションに所属しています",
     "thumbnail": "img_chr_adv_ktn-00",
   },
@@ -14633,12 +14655,14 @@ exports[`read the full env 1`] = `
   {
     "_t": "Message",
     "name": "長瀬琴乃",
+    "startTime": 93.4333333333,
     "text": "LizNoirはかつて私達とNEXT VENUS",
     "thumbnail": "img_chr_adv_ktn-00",
   },
   {
     "_t": "Message",
     "name": "長瀬琴乃",
+    "startTime": 96.9333333333,
     "text": "グランプリで戦った、ライバルです",
     "thumbnail": "img_chr_adv_ktn-00",
   },
@@ -14661,6 +14685,7 @@ exports[`read the full env 1`] = `
   {
     "_t": "Message",
     "name": "長瀬琴乃",
+    "startTime": 99.9333333333,
     "text": "でも、同時に大切な仲間です",
     "thumbnail": "img_chr_adv_ktn-00",
   },
@@ -14720,12 +14745,14 @@ exports[`read the full env 1`] = `
   {
     "_t": "Message",
     "name": "長瀬琴乃",
+    "startTime": 103.3,
     "text": "私だけじゃありません、私の姉――",
     "thumbnail": "img_chr_adv_ktn-00",
   },
   {
     "_t": "Message",
     "name": "長瀬琴乃",
+    "startTime": 107.7666666667,
     "text": "長瀬麻奈にとってもLizNoirは特別な存在でした",
     "thumbnail": "img_chr_adv_ktn-00",
   },
@@ -14781,12 +14808,14 @@ exports[`read the full env 1`] = `
   {
     "_t": "Message",
     "name": "長瀬琴乃",
+    "startTime": 113.1333333333,
     "text": "姉がアイドルを目指したきっかけは",
     "thumbnail": "img_chr_adv_ktn-00",
   },
   {
     "_t": "Message",
     "name": "長瀬琴乃",
+    "startTime": 115.5333333333,
     "text": "このライブハウスでLizNoirの――",
     "thumbnail": "img_chr_adv_ktn-00",
   },
@@ -14855,6 +14884,7 @@ exports[`read the full env 1`] = `
   {
     "_t": "Message",
     "name": "長瀬琴乃",
+    "startTime": 119.0666666667,
     "text": "莉央さんと葵さんの歌を聴いたから――",
     "thumbnail": "img_chr_adv_ktn-00",
   },
@@ -14906,12 +14936,14 @@ exports[`read the full env 1`] = `
   {
     "_t": "Message",
     "name": "長瀬琴乃",
+    "startTime": 122.5,
     "text": "今日、私は、そんなLizNoirと",
     "thumbnail": "img_chr_adv_ktn-00",
   },
   {
     "_t": "Message",
     "name": "長瀬琴乃",
+    "startTime": 124.9333333333,
     "text": "このステージに立てて……とても嬉しいです……",
     "thumbnail": "img_chr_adv_ktn-00",
   },
@@ -14955,6 +14987,7 @@ exports[`read the full env 1`] = `
   {
     "_t": "Message",
     "name": "神崎莉央",
+    "startTime": 128.7,
     "text": "琴乃……",
     "thumbnail": "img_chr_adv_rio-00",
   },
@@ -15006,6 +15039,7 @@ exports[`read the full env 1`] = `
   {
     "_t": "Message",
     "name": "井川葵",
+    "startTime": 131.8,
     "text": "……こちらこそ光栄だね",
     "thumbnail": "img_chr_adv_aoi-00",
   },
@@ -15085,12 +15119,14 @@ exports[`read the full env 1`] = `
   {
     "_t": "Message",
     "name": "長瀬琴乃",
+    "startTime": 134.4,
     "text": "今から歌う曲は、姉に届くように、心をこめて歌います",
     "thumbnail": "img_chr_adv_ktn-00",
   },
   {
     "_t": "Message",
     "name": "長瀬琴乃",
+    "startTime": 141.8666666667,
     "text": "莉央さん",
     "thumbnail": "img_chr_adv_ktn-00",
   },
@@ -15142,6 +15178,7 @@ exports[`read the full env 1`] = `
   {
     "_t": "Message",
     "name": "神崎莉央",
+    "startTime": 143.7333333333,
     "text": "ええ、では、聴いて下さい",
     "thumbnail": "img_chr_adv_rio-00",
   },
@@ -15210,6 +15247,7 @@ exports[`read the full env 1`] = `
   {
     "_t": "Message",
     "name": "一同",
+    "startTime": 148.0666666667,
     "text": "『星の海の記憶』",
     "thumbnail": undefined,
   },

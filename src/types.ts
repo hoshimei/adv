@@ -85,6 +85,7 @@ export type Message = {
   _t: 'Message'
   text: string
   name: string
+  startTime: number
   thumbnail?: string
 }
 
