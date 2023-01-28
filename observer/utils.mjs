@@ -45,7 +45,7 @@ export function writeCommu(advAssetId, title, lines) {
     headers: {
       Authorization: `Bearer ${process.env.BACKEND_MANAGE_WRITE_KEY}`,
     },
-    method: 'POST',
+    method: 'PUT',
     body: JSON.stringify({
       title,
       advAssetId,
