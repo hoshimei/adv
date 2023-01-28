@@ -39,3 +39,17 @@ export function getFile(savePath) {
     .then(JSON.parse)
     .catch((e) => null)
 }
+
+export function writeCommu(advAssetId, title, lines) {
+  return fetch('https://idoly-backend.outv.im/manage/writeCommu', {
+    headers: {
+      Authorization: `Bearer ${process.env.BACKEND_MANAGE_WRITE_KEY}`,
+    },
+    method: 'POST',
+    body: JSON.stringify({
+      title,
+      advAssetId,
+      lines,
+    }),
+  })
+}

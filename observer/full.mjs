@@ -1,5 +1,5 @@
 import * as adv from '../dist/index.js'
-import { getAllStoriesOcto, putFile, getFile } from './utils.mjs'
+import { getAllStoriesOcto, putFile, getFile, writeCommu } from './utils.mjs'
 
 // Main routine
 ;(async () => {
@@ -36,10 +36,16 @@ import { getAllStoriesOcto, putFile, getFile } from './utils.mjs'
           `https://${process.env.UPSTREAM_BASE}/${objectName}?generation=${generation}&alt=media`
         ).then((x) => x.text())
         const parsed = adv.read(storyText).filter((x) => x._t !== 'Unknown')
-        await putFile(
-          savePath,
-          JSON.stringify({ v: version, l: parsed, m: md5 })
-        )
+        await Promise.all([
+          putFile(savePath, JSON.stringify({ v: version, l: parsed, m: md5 })),
+          writeCommu(
+            name.replace(/^adv_/, '').replace(/\.txt$/, ''),
+            parsed.find((x) => x._t === 'Title')?.title ?? 'Untitled',
+            parsed
+              .filter((x) => x._t === 'Message')
+              .map(({ text, name }) => ({ text, name }))
+          ),
+        ])
         console.log(`Finished: ${savePath}`)
       })().catch((e) => {
         console.warn(`Error: ${savePath} [${e}]`)
