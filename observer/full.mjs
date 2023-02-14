@@ -43,7 +43,10 @@ import { getAllStoriesOcto, putFile, getFile, writeCommu } from './utils.mjs'
             parsed.find((x) => x._t === 'Title')?.title ?? 'Untitled',
             parsed
               .filter((x) => x._t === 'Message')
-              .map(({ text, name }) => ({ text, name }))
+              .map(({ text, name }) => ({
+                text: text.replaceAll('{user}', 'マネジャー'),
+                name,
+              }))
           ),
         ])
         console.log(`Finished: ${savePath}`)
