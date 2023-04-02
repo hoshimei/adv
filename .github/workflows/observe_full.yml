@@ -32,8 +32,8 @@ jobs:
           node-version: 19 # cuz we need Fetch API
       - name: Build package
         run: |
-          npx pnpm install
-          npx pnpm install @aws-sdk/client-s3@3.209.0
+          npx pnpm@8 install
+          npx pnpm@8 install @aws-sdk/client-s3@3.209.0
           npm run build
       - name: Update all items
         run: node observer/full.mjs
