@@ -35,7 +35,7 @@ import { getAllStoriesOcto, putFile, getFile, writeCommu } from './utils.mjs'
         const storyText = await fetch(
           `https://${process.env.UPSTREAM_BASE}/${objectName}?generation=${generation}&alt=media`
         ).then((x) => x.text())
-        const parsed = adv.read(storyText).filter((x) => x._t !== 'Unknown')
+        const parsed = adv.read(storyText, true)
         await Promise.all([
           putFile(savePath, JSON.stringify({ v: version, l: parsed, m: md5 })),
           writeCommu(
