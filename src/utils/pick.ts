@@ -28,7 +28,7 @@ export function tryPickFirst<T extends keyof ArgValueTypeMap>(
 }
 
 export function pickFirst<T extends keyof ArgValueTypeMap>(
-  c: RawCommand,
+  c: RawCommand | Record<string, any>,
   key: string,
   assertType: T
 ): ArgValueTypeMap[T] {
@@ -43,7 +43,7 @@ export function pickFirst<T extends keyof ArgValueTypeMap>(
 }
 
 export function pickMany<T extends keyof ArgValueTypeMap>(
-  c: RawCommand,
+  c: RawCommand | Record<string, any>,
   key: string,
   assertType: T
 ): ArgValueTypeMap[T][] {

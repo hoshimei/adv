@@ -6,6 +6,9 @@ import readSe from './se'
 import readTitle from './title'
 import readVoice from './voice'
 import readNarration from './narration'
+import readBranchGroup from './branchGroup'
+import readChoiceGroup from './choiceGroup'
+import readBranch from './branch'
 
 export default {
   readBackgroundGroup,
@@ -16,4 +19,7 @@ export default {
   readTitle,
   readVoice,
   readNarration,
+  readBranchGroup,
+  readChoiceGroup,
+  readBranch,
 }

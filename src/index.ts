@@ -27,6 +27,12 @@ export function parseRawCommand(c: RawCommand): Line | null {
         return p.readVoice(c)
       case 'narration':
         return p.readNarration(c)
+      case 'choicegroup':
+        return p.readChoiceGroup(c)
+      case 'branchgroup':
+        return p.readBranchGroup(c)
+      case 'branch':
+        return p.readBranch(c)
       default:
         return {
           _t: 'Unknown',

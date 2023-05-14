@@ -8,6 +8,9 @@ export type CommandName =
   | 'Voice'
   | 'Title'
   | 'Narration'
+  | 'BranchGroup'
+  | 'ChoiceGroup'
+  | 'Branch'
   | 'Unknown'
 
 export type NonCommandName = never
@@ -30,6 +33,9 @@ export type Line = LineBase &
     | Title
     | Narration
     | Unknown
+    | BranchGroup
+    | ChoiceGroup
+    | Branch
   )
 
 type Xy = {
@@ -105,6 +111,22 @@ export type Narration = {
   _t: 'Narration'
   text: string
   startTime: number
+}
+
+export type BranchGroup = {
+  _t: 'BranchGroup'
+  type: 'Choice'
+  groupLength: number
+}
+
+export type ChoiceGroup = MediaCommon & {
+  _t: 'ChoiceGroup'
+  choices: string[]
+}
+
+export type Branch = {
+  _t: 'Branch'
+  groupLength: number
 }
 
 export type Unknown = {
