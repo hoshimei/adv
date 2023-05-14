@@ -1,4 +1,4 @@
-import type { ArgValueType, ArgValueTypeMap, RawCommand } from '../types'
+import type { Arg, ArgValueType, ArgValueTypeMap, RawCommand } from '../types'
 
 function checkType(
   value: ArgValueType,
@@ -28,7 +28,11 @@ export function tryPickFirst<T extends keyof ArgValueTypeMap>(
 }
 
 export function pickFirst<T extends keyof ArgValueTypeMap>(
-  c: RawCommand | Record<string, any>,
+  c:
+    | RawCommand
+    | {
+        args: Arg[]
+      },
   key: string,
   assertType: T
 ): ArgValueTypeMap[T] {
@@ -43,7 +47,11 @@ export function pickFirst<T extends keyof ArgValueTypeMap>(
 }
 
 export function pickMany<T extends keyof ArgValueTypeMap>(
-  c: RawCommand | Record<string, any>,
+  c:
+    | RawCommand
+    | {
+        args: Arg[]
+      },
   key: string,
   assertType: T
 ): ArgValueTypeMap[T][] {

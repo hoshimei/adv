@@ -1,6 +1,6 @@
 {
   "name": "@hoshimei/adv",
-  "version": "0.7.0",
+  "version": "0.7.1",
   "description": "Aipura adv reader.",
   "scripts": {
     "bundle": "bash scripts/build.sh",
