@@ -2,6 +2,7 @@ import type { Line, RawCommand } from './types'
 
 import p from './parts'
 import parseCommand from './utils/parseCommand'
+import cleanUnknown from './utils/cleanUnknown'
 
 export function parse(text: string): RawCommand[] {
   const lines = text.split('\n')
@@ -45,11 +46,13 @@ export function parseRawCommand(c: RawCommand): Line | null {
   }
 }
 
-export function read(text: string): Line[] {
+export function read(text: string, filterUnknown: boolean = false): Line[] {
   const rawCommands = parse(text.replace(/\n\n/g, '\n').trim())
-  return rawCommands
+  const ret = rawCommands
     .map(parseRawCommand)
     .filter((x: Line | null): x is NonNullable<Line | null> => x !== null)
+  if (!filterUnknown) return ret
+  return cleanUnknown(ret)
 }
 
 export default read
