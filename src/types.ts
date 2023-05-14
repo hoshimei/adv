@@ -115,7 +115,7 @@ export type Narration = {
 
 export type BranchGroup = {
   _t: 'BranchGroup'
-  type: 'Choice'
+  type: string
   groupLength: number
 }
 

@@ -16,4 +16,14 @@ test('branch', () => {
     _t: 'Branch',
     groupLength: 67,
   })
+
+  expect(
+    branch({
+      args: [],
+      command: 'branch',
+    })
+  ).toStrictEqual({
+    _t: 'Branch',
+    groupLength: 0,
+  })
 })

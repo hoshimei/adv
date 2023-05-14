@@ -5,7 +5,7 @@ import { pickFirst } from '../utils/pick'
 export default function read(t: RawCommand): BranchGroup {
   return {
     _t: 'BranchGroup',
-    type: 'Choice',
+    type: pickFirst(t, 'type', 'string'),
     groupLength: pickFirst(t, 'groupLength', 'number'),
   }
 }

@@ -21,4 +21,24 @@ test('branchGroup', () => {
     type: 'Choice',
     groupLength: 2,
   })
+
+  expect(
+    branchGroup({
+      args: [
+        {
+          key: 'type',
+          value: 'Condition',
+        },
+        {
+          key: 'groupLength',
+          value: 3,
+        },
+      ],
+      command: 'branchgroup',
+    })
+  ).toStrictEqual({
+    _t: 'BranchGroup',
+    type: 'Condition',
+    groupLength: 3,
+  })
 })

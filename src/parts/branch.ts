@@ -1,10 +1,10 @@
 import type { Branch, RawCommand } from '../types'
 
-import { pickFirst } from '../utils/pick'
+import { tryPickFirst } from '../utils/pick'
 
 export default function read(t: RawCommand): Branch {
   return {
     _t: 'Branch',
-    groupLength: pickFirst(t, 'groupLength', 'number'),
+    groupLength: tryPickFirst(t, 'groupLength', 'number') ?? 0,
   }
 }
