@@ -1,8 +1,11 @@
 import * as adv from '../dist/index.js'
 import { getAllStoriesOcto, putFile, getFile, writeCommu } from './utils.mjs'
 
+const ADV_METAFILE_PATH = 'processed/adv/meta.json'
+
 // Main routine
 ;(async () => {
+  const metadataTable = (await getFile(ADV_METAFILE_PATH)) ?? {}
   console.log(
     `Requesting full observation for octo v${process.env.OCTO_REVISION}`
   )
@@ -20,7 +23,7 @@ import { getAllStoriesOcto, putFile, getFile, writeCommu } from './utils.mjs'
       const savePath = `processed/adv/${name}.json`
       return (async () => {
         if (!forcedRegenerate) {
-          const existingFile = await getFile(savePath)
+          const existingFile = metadataTable[name]
           if (existingFile?.v === version && existingFile?.m === md5) {
             console.log(`Skipped: ${savePath}`)
             return
@@ -49,7 +52,9 @@ import { getAllStoriesOcto, putFile, getFile, writeCommu } from './utils.mjs'
               }))
           ),
         ])
+        metadataTable[name] = [version, md5]
         console.log(`Finished: ${savePath}`)
+        await putFile(ADV_METAFILE_PATH, JSON.stringify(metadataTable))
       })().catch((e) => {
         console.warn(`Error: ${savePath} [${e}]`)
         err++
