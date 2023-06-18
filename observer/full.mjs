@@ -54,13 +54,13 @@ const ADV_METAFILE_PATH = 'processed/adv/meta.json'
         ])
         metadataTable[name] = [version, md5]
         console.log(`Finished: ${savePath}`)
-        await putFile(ADV_METAFILE_PATH, JSON.stringify(metadataTable))
       })().catch((e) => {
         console.warn(`Error: ${savePath} [${e}]`)
         err++
       })
     })
   )
+  await putFile(ADV_METAFILE_PATH, JSON.stringify(metadataTable))
   if (err > 0) {
     console.error('Something is wrong')
     process.exit(err)
