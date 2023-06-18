@@ -20,7 +20,7 @@ on:
         type: boolean
 
 jobs:
-  observe_full:
+  adv_observe_full:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v3
@@ -45,6 +45,6 @@ jobs:
           S3_ENDPOINT: ${{ secrets.S3_ENDPOINT }}
           S3_REGION: ${{ secrets.S3_REGION }}
           SECRET_ACCESS_KEY: ${{ secrets.SECRET_ACCESS_KEY }}
-          UPSTREAM_BASE: ${{ secrets.UPSTREAM_BASE }}
+          UPSTREAM_BASE_DOMAIN: ${{ secrets.UPSTREAM_BASE_DOMAIN }}
           OCTO_REVISION: ${{ inputs.revision }}
           FORCED: ${{ inputs.forced }}

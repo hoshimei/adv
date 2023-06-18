@@ -19,7 +19,7 @@ const ADV_METAFILE_PATH = 'processed/adv/meta.json'
     console.log('Forced re-generating all advs.')
   }
   await Promise.all(
-    stories.map(({ name, objectName, generation, md5 }) => {
+    stories.map(({ name, objectName, generation, md5, uploadVersionId }) => {
       const savePath = `processed/adv/${name}.json`
       return (async () => {
         if (!forcedRegenerate) {
@@ -36,7 +36,7 @@ const ADV_METAFILE_PATH = 'processed/adv/meta.json'
         }
 
         const storyText = await fetch(
-          `https://${process.env.UPSTREAM_BASE}/${objectName}?generation=${generation}&alt=media`
+          `https://${process.env.UPSTREAM_BASE_DOMAIN}/solis-${uploadVersionId}-resources/${objectName}?generation=${generation}&alt=media`
         ).then((x) => x.text())
         const parsed = adv.read(storyText, true)
         await Promise.all([
