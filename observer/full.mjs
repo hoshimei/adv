@@ -62,7 +62,7 @@ const ADV_METAFILE_PATH = 'processed/adv/meta.json'
   )
   await putFile(ADV_METAFILE_PATH, JSON.stringify(metadataTable))
   if (err > 0) {
-    console.error('Something is wrong')
-    process.exit(err)
+    console.error(`Something is wrong - ${err} operations failed.`)
+    process.exit(1)
   }
 })()
