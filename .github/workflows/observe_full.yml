@@ -33,7 +33,7 @@ jobs:
       - name: Build package
         run: |
           npx pnpm@8 install
-          npx pnpm@8 install @aws-sdk/client-s3@3.209.0
+          npx pnpm@8 install @aws-sdk/client-s3@3.354.0
           npm run build
       - name: Update all items
         run: node observer/full.mjs
