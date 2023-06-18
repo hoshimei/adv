@@ -23,12 +23,12 @@ const ADV_METAFILE_PATH = 'processed/adv/meta.json'
       const savePath = `processed/adv/${name}.json`
       return (async () => {
         if (!forcedRegenerate) {
-          const [advScriptVersion, sourceMd5] = metadataTable[name]
+          const [advScriptVersion, sourceMd5] = metadataTable[name] ?? []
           if (advScriptVersion === version && sourceMd5 === md5) {
             console.log(`Skipped: ${savePath}`)
             return
           }
-          if (existingFile === null) {
+          if (advScriptVersion === undefined) {
             console.log(`Creating: ${savePath}`)
           } else {
             console.log(`Updating: ${savePath}`)
