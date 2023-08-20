@@ -109,7 +109,6 @@ jobs:
       - name: Install dependencies
         run: |
           curl https://raw.githubusercontent.com/pypa/pipenv/master/get-pipenv.py | python
-          bash install.sh
           pipenv install
       - run: pipenv run python observe_spi.py
         env:
