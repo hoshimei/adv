@@ -28,6 +28,11 @@ on:
         required: false
         default: false
         type: boolean
+      skipSpi:
+        description: "Skip spi update"
+        required: false
+        default: false
+        type: boolean
 
 jobs:
   adv_observe_full:
@@ -59,6 +64,7 @@ jobs:
           UPSTREAM_BASE_DOMAIN: ${{ secrets.UPSTREAM_BASE_DOMAIN }}
           OCTO_REVISION: ${{ inputs.revision }}
           FORCED: ${{ inputs.forced }}
+
   sud_observe_full:
     if: inputs.skipSud != true
     runs-on: ubuntu-latest
@@ -76,7 +82,36 @@ jobs:
           curl https://raw.githubusercontent.com/pypa/pipenv/master/get-pipenv.py | python
           bash install.sh
           pipenv install
-      - run: pipenv run python observe.py
+      - run: pipenv run python observe_sud.py
+        env:
+          B2_KEY_ID: ${{ secrets.ACCESS_KEY_ID }}
+          B2_APP_KEY: ${{ secrets.SECRET_ACCESS_KEY }}
+          B2_BUCKET_NAME: ${{ secrets.ASSETS_BUCKET_NAME }}
+          B2_ENDPOINT_URL: ${{ secrets.S3_ENDPOINT }}
+          B2_REGION: ${{ secrets.S3_REGION }}
+          API_SECRET: ${{ secrets.BACKEND_MANAGE_READ_KEY }}
+          UPSTREAM_BASE_DOMAIN: ${{ secrets.UPSTREAM_BASE_DOMAIN }}
+          OCTO_REVISION: ${{ inputs.revision }}
+          FORCED: ${{ inputs.forced }}
+
+  spi_observe_full:
+    if: inputs.skipSpi != true
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+        with:
+          repository: "outloudvi/idoly-assets-curator"
+          ref: "observer"
+      - uses: actions/setup-python@v4
+        with:
+          python-version: "3.11"
+          cache: "pipenv"
+      - name: Install dependencies
+        run: |
+          curl https://raw.githubusercontent.com/pypa/pipenv/master/get-pipenv.py | python
+          bash install.sh
+          pipenv install
+      - run: pipenv run python observe_spi.py
         env:
           B2_KEY_ID: ${{ secrets.ACCESS_KEY_ID }}
           B2_APP_KEY: ${{ secrets.SECRET_ACCESS_KEY }}
