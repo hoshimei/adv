@@ -34,13 +34,12 @@ const ADV_METAFILE_PATH = 'processed/adv/meta.json'
             console.log(`Updating: ${savePath}`)
           }
         }
-
         const storyText = await fetch(
           `https://${process.env.UPSTREAM_BASE_DOMAIN}/solis-${uploadVersionId}-resources/${objectName}?generation=${generation}&alt=media`
         ).then((x) => x.text())
         const parsed = adv.read(storyText, true)
         await Promise.all([
-          putFile(savePath, JSON.stringify({ v: version, l: parsed, m: md5 })),
+          // putFile(savePath, JSON.stringify({ v: version, l: parsed, m: md5 })),
           writeCommu(
             name.replace(/^adv_/, '').replace(/\.txt$/, ''),
             parsed.find((x) => x._t === 'Title')?.title ?? 'Untitled',
