@@ -1,5 +1,6 @@
 import * as adv from '../dist/index.js'
 import { getAllStoriesOcto, putFile, getFile, writeCommu } from './utils.mjs'
+import retryItems from './retry.json' assert { type: 'json' }
 
 const ADV_METAFILE_PATH = 'processed/adv/meta.json'
 
@@ -19,45 +20,48 @@ const ADV_METAFILE_PATH = 'processed/adv/meta.json'
     console.log('Forced re-generating all advs.')
   }
   await Promise.all(
-    stories.map(({ name, objectName, generation, md5, uploadVersionId }) => {
-      const savePath = `processed/adv/${name}.json`
-      return (async () => {
-        if (!forcedRegenerate) {
-          const [advScriptVersion, sourceMd5] = metadataTable[name] ?? []
-          if (advScriptVersion === version && sourceMd5 === md5) {
-            console.log(`Skipped: ${savePath}`)
-            return
+    stories
+      .filter((x) => retryItems.includes(x.name))
+      .map(({ name, objectName, generation, md5, uploadVersionId }) => {
+        const savePath = `processed/adv/${name}.json`
+
+        return (async () => {
+          if (!forcedRegenerate) {
+            const [advScriptVersion, sourceMd5] = metadataTable[name] ?? []
+            if (advScriptVersion === version && sourceMd5 === md5) {
+              console.log(`Skipped: ${savePath}`)
+              return
+            }
+            if (advScriptVersion === undefined) {
+              console.log(`Creating: ${savePath}`)
+            } else {
+              console.log(`Updating: ${savePath}`)
+            }
           }
-          if (advScriptVersion === undefined) {
-            console.log(`Creating: ${savePath}`)
-          } else {
-            console.log(`Updating: ${savePath}`)
-          }
-        }
-        const storyText = await fetch(
-          `https://${process.env.UPSTREAM_BASE_DOMAIN}/solis-${uploadVersionId}-resources/${objectName}?generation=${generation}&alt=media`
-        ).then((x) => x.text())
-        const parsed = adv.read(storyText, true)
-        await Promise.all([
-          // putFile(savePath, JSON.stringify({ v: version, l: parsed, m: md5 })),
-          writeCommu(
-            name.replace(/^adv_/, '').replace(/\.txt$/, ''),
-            parsed.find((x) => x._t === 'Title')?.title ?? 'Untitled',
-            parsed
-              .filter((x) => x._t === 'Message')
-              .map(({ text, name }) => ({
-                text: text.replaceAll('{user}', 'マネジャー'),
-                name,
-              }))
-          ),
-        ])
-        metadataTable[name] = [version, md5]
-        console.log(`Finished: ${savePath}`)
-      })().catch((e) => {
-        console.warn(`Error: ${savePath} [${e}]`)
-        err++
+          const storyText = await fetch(
+            `https://${process.env.UPSTREAM_BASE_DOMAIN}/solis-${uploadVersionId}-resources/${objectName}?generation=${generation}&alt=media`
+          ).then((x) => x.text())
+          const parsed = adv.read(storyText, true)
+          await Promise.all([
+            // putFile(savePath, JSON.stringify({ v: version, l: parsed, m: md5 })),
+            writeCommu(
+              name.replace(/^adv_/, '').replace(/\.txt$/, ''),
+              parsed.find((x) => x._t === 'Title')?.title ?? 'Untitled',
+              parsed
+                .filter((x) => x._t === 'Message')
+                .map(({ text, name }) => ({
+                  text: text.replaceAll('{user}', 'マネジャー'),
+                  name,
+                }))
+            ),
+          ])
+          metadataTable[name] = [version, md5]
+          console.log(`Finished: ${savePath}`)
+        })().catch((e) => {
+          console.warn(`Error: ${savePath} [${e.message}]`)
+          err++
+        })
       })
-    })
   )
   await putFile(ADV_METAFILE_PATH, JSON.stringify(metadataTable))
   if (err > 0) {
