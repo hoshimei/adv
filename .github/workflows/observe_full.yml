@@ -75,12 +75,13 @@ jobs:
           ref: 'observer'
       - uses: actions/setup-python@v4
         with:
-          python-version: '3.11'
+          python-version: '3.12'
           cache: 'pipenv'
       - name: Install dependencies
         run: |
           curl https://raw.githubusercontent.com/pypa/pipenv/master/get-pipenv.py | python
           bash install.sh
+          pip install pyenv
           pipenv install
       - run: pipenv run python observe_sud.py
         env:
@@ -109,6 +110,7 @@ jobs:
       - name: Install dependencies
         run: |
           curl https://raw.githubusercontent.com/pypa/pipenv/master/get-pipenv.py | python
+          pip install pyenv
           pipenv install
       - run: pipenv run python observe_spi.py
         env:
