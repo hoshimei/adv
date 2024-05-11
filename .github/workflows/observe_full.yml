@@ -9,27 +9,27 @@ on:
   workflow_dispatch:
     inputs:
       revision:
-        description: "Octo revision"
+        description: 'Octo revision'
         required: false
-        default: "none"
+        default: 'none'
         type: string
       forced:
-        description: "Forced regenerate"
+        description: 'Forced regenerate'
         required: false
         default: false
         type: boolean
       skipAdv:
-        description: "Skip adv update"
+        description: 'Skip adv update'
         required: false
         default: false
         type: boolean
       skipSud:
-        description: "Skip sud update"
+        description: 'Skip sud update'
         required: false
         default: false
         type: boolean
       skipSpi:
-        description: "Skip spi update"
+        description: 'Skip spi update'
         required: false
         default: false
         type: boolean
@@ -39,17 +39,17 @@ jobs:
     if: inputs.skipAdv != true
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v3
+      - uses: actions/checkout@v4
         with:
           ref: ${{ github.ref }}
-      - name: Use Node.js 19
-        uses: actions/setup-node@v3
+      - name: Use Node.js 20
+        uses: actions/setup-node@v4
         with:
-          node-version: 19 # cuz we need Fetch API
+          node-version: 20
       - name: Build package
         run: |
-          npx pnpm@8 install
-          npx pnpm@8 install @aws-sdk/client-s3@3.354.0
+          npx pnpm install
+          npx pnpm install @aws-sdk/client-s3@3.574.0
           npm run build
       - name: Update all items
         run: node observer/full.mjs
@@ -69,14 +69,14 @@ jobs:
     if: inputs.skipSud != true
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v3
+      - uses: actions/checkout@v4
         with:
-          repository: "outloudvi/idoly-assets-curator"
-          ref: "observer"
+          repository: 'outloudvi/idoly-assets-curator'
+          ref: 'observer'
       - uses: actions/setup-python@v4
         with:
-          python-version: "3.11"
-          cache: "pipenv"
+          python-version: '3.11'
+          cache: 'pipenv'
       - name: Install dependencies
         run: |
           curl https://raw.githubusercontent.com/pypa/pipenv/master/get-pipenv.py | python
@@ -98,14 +98,14 @@ jobs:
     if: inputs.skipSpi != true
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v3
+      - uses: actions/checkout@v4
         with:
-          repository: "outloudvi/idoly-assets-curator"
-          ref: "observer"
+          repository: 'outloudvi/idoly-assets-curator'
+          ref: 'observer'
       - uses: actions/setup-python@v4
         with:
-          python-version: "3.11"
-          cache: "pipenv"
+          python-version: '3.12'
+          cache: 'pipenv'
       - name: Install dependencies
         run: |
           curl https://raw.githubusercontent.com/pypa/pipenv/master/get-pipenv.py | python
