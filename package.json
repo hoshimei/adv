@@ -10,8 +10,8 @@
     "test": "vitest run"
   },
   "devDependencies": {
-    "typescript": "^4.8.4",
-    "vitest": "^0.24.3"
+    "typescript": "^5.4.5",
+    "vitest": "^1.6.0"
   },
   "keywords": [
     "idoly-pride",
