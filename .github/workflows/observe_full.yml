@@ -79,7 +79,6 @@ jobs:
           cache: 'pipenv'
       - name: Install dependencies
         run: |
-          curl https://raw.githubusercontent.com/pypa/pipenv/master/get-pipenv.py | python
           bash install.sh
           pip install pyenv
           pipenv install
@@ -109,7 +108,6 @@ jobs:
           cache: 'pipenv'
       - name: Install dependencies
         run: |
-          curl https://raw.githubusercontent.com/pypa/pipenv/master/get-pipenv.py | python
           pip install pyenv
           pipenv install
       - run: pipenv run python observe_spi.py
