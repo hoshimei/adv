@@ -11,13 +11,13 @@ const s3 = new S3({
 })
 
 export function getAllStoriesOcto() {
-  return fetch('https://idoly-backend.outv.im/manage/raw?key=Octo', {
+  return fetch('https://idoly-backend.outv.im/manage/raw?key=Octo_resourceList', {
     headers: {
       Authorization: `Bearer ${process.env.BACKEND_MANAGE_READ_KEY}`,
     },
   })
     .then((x) => x.json())
-    .then((x) => x.resourceList.filter((y) => y.name.endsWith('txt')))
+    .then((x) => x.filter((y) => y.name.endsWith('txt')))
 }
 
 export function putFile(savePath, body) {
