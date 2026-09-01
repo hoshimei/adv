@@ -11,7 +11,7 @@ const ADV_METAFILE_PATH = 'processed/adv/meta.json'
   )
   const forcedRegenerate = process.env.FORCED === 'true'
   const version = (
-    await import('../package.json', { assert: { type: 'json' } })
+    await import('../package.json', { with: { type: 'json' } })
   ).default.version
   const stories = await getAllStoriesOcto()
   let err = 0
