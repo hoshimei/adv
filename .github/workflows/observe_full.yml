@@ -9,27 +9,27 @@ on:
   workflow_dispatch:
     inputs:
       revision:
-        description: 'Octo revision'
+        description: "Octo revision"
         required: false
-        default: 'none'
+        default: "none"
         type: string
       forced:
-        description: 'Forced regenerate'
+        description: "Forced regenerate"
         required: false
         default: false
         type: boolean
       skipAdv:
-        description: 'Skip adv update'
+        description: "Skip adv update"
         required: false
         default: false
         type: boolean
       skipSud:
-        description: 'Skip sud update'
+        description: "Skip sud update"
         required: false
         default: false
         type: boolean
       skipSpi:
-        description: 'Skip spi update'
+        description: "Skip spi update"
         required: false
         default: false
         type: boolean
@@ -39,13 +39,13 @@ jobs:
     if: inputs.skipAdv != true
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v4
+      - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
         with:
           ref: ${{ github.ref }}
       - name: Use Node.js 24
-        uses: actions/setup-node@v4
+        uses: pnpm/setup@703c52620218391530e48b9e8870d5c0082e1b9b # v2.1.0
         with:
-          node-version: 24
+          runtime: node@lts
       - name: Build package
         run: |
           npx pnpm install
@@ -69,14 +69,14 @@ jobs:
     if: inputs.skipSud != true
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v4
+      - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
         with:
-          repository: 'outloudvi/idoly-assets-curator'
-          ref: 'observer'
-      - uses: actions/setup-python@v4
+          repository: "outloudvi/idoly-assets-curator"
+          ref: "observer"
+      - uses: actions/setup-python@5fda3b95a4ea91299a34e894583c3862153e4b97 # v7.0.0
         with:
-          python-version: '3.12'
-          cache: 'pipenv'
+          python-version: "3.12"
+          cache: "pipenv"
       - name: Install dependencies
         run: |
           bash install.sh
@@ -98,14 +98,14 @@ jobs:
     if: inputs.skipSpi != true
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v4
+      - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
         with:
-          repository: 'outloudvi/idoly-assets-curator'
-          ref: 'observer'
-      - uses: actions/setup-python@v4
+          repository: "outloudvi/idoly-assets-curator"
+          ref: "observer"
+      - uses: actions/setup-python@5fda3b95a4ea91299a34e894583c3862153e4b97 # v7.0.0
         with:
-          python-version: '3.12'
-          cache: 'pipenv'
+          python-version: "3.12"
+          cache: "pipenv"
       - name: Install dependencies
         run: |
           pip install pipenv --user
