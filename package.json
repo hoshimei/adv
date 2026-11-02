@@ -1,17 +1,18 @@
 {
   "name": "@hoshimei/adv",
-  "version": "0.8.1",
+  "version": "0.9.0",
   "description": "Aipura adv reader.",
   "scripts": {
     "bundle": "bash scripts/build.sh",
     "build": "tsc",
-    "test:dev": "vitest",
-    "test:ui": "vitest --ui",
-    "test": "vitest run"
+    "test:dev": "vitest src tests",
+    "test:ui": "vitest --ui src tests",
+    "test": "vitest run src tests"
   },
   "devDependencies": {
-    "typescript": "^5.4.5",
-    "vitest": "^1.6.0"
+    "@types/node": "^26.6.6",
+    "typescript": "^7.0.2",
+    "vitest": "^5.0.5"
   },
   "keywords": [
     "idoly-pride",
