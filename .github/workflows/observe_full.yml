@@ -43,7 +43,7 @@ jobs:
         with:
           ref: ${{ github.ref }}
       - name: Use Node.js 24
-        uses: pnpm/setup@703c52620218391530e48b9e8870d5c0082e1b9b # v2.1.0
+        uses: pnpm/setup@fa36a5ef7dcdefc3a7cb25655c122e00cf6e636e # v3.1.2
         with:
           runtime: node@lts
       - name: Build package
@@ -73,9 +73,9 @@ jobs:
         with:
           repository: "outloudvi/idoly-assets-curator"
           ref: "observer"
-      - uses: actions/setup-python@5fda3b95a4ea91299a34e894583c3862153e4b97 # v7.0.0
+      - uses: actions/setup-python@6d4fd22b20465ccc0f7354476588e8df7c9ca0e0 # v7.1.0
         with:
-          python-version: "3.12"
+          python-version: "3.14"
           cache: "pipenv"
       - name: Install dependencies
         run: |
@@ -102,9 +102,9 @@ jobs:
         with:
           repository: "outloudvi/idoly-assets-curator"
           ref: "observer"
-      - uses: actions/setup-python@5fda3b95a4ea91299a34e894583c3862153e4b97 # v7.0.0
+      - uses: actions/setup-python@6d4fd22b20465ccc0f7354476588e8df7c9ca0e0 # v7.1.0
         with:
-          python-version: "3.12"
+          python-version: "3.14"
           cache: "pipenv"
       - name: Install dependencies
         run: |
