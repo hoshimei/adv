@@ -81,3 +81,20 @@ test('voice without channel', () => {
     voice: 'sud_vo_adv_event_2210_01_05-kkr001 actor',
   })
 })
+
+test('ignores voice with zero duration even when voice is missing', () => {
+  expect(
+    voice({
+      args: [
+        {
+          key: 'clip',
+          value: {
+            _duration: 0,
+            _startTime: 211.1281140348,
+          },
+        },
+      ],
+      command: 'voice',
+    })
+  ).toBeNull()
+})
